@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name furnace_controller-rescue)(type Legacy)(uri ${KIPRJMOD}/furnace_controller-rescue.lib)(options "")(descr ""))
+  (lib (name rata)(type Legacy)(uri ${KIPRJMOD}/rata.lib)(options "")(descr ""))
 )

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCF2129T_2,518
+D Realtime Clock/Calendar I2C Interface, SOIC-8
+K I2C RTC Clock Calendar
+$ENDCMP
+#
+#End Doc Library

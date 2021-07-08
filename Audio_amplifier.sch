@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 11
+Sheet 8 15
 Title ""
 Date ""
 Rev ""
@@ -24,6 +24,7 @@ AR Path="/60DF07DE/60DF1215" Ref="U?"  Part="1"
 AR Path="/60DF0860/60DF1215" Ref="U?"  Part="1" 
 AR Path="/60DF1072/60DF1215" Ref="U?"  Part="1" 
 AR Path="/60DF1160/60DF1215" Ref="U?"  Part="1" 
+AR Path="/60E72FD7/60DF1215" Ref="U?"  Part="1" 
 F 0 "U?" H 6800 3742 50  0000 C CNN
 F 1 "AMS1117-3.3" H 6800 3651 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6800 3700 50  0001 C CNN
@@ -48,6 +49,7 @@ AR Path="/60DF07DE/60DF1216" Ref="C?"  Part="1"
 AR Path="/60DF0860/60DF1216" Ref="C?"  Part="1" 
 AR Path="/60DF1072/60DF1216" Ref="C?"  Part="1" 
 AR Path="/60DF1160/60DF1216" Ref="C?"  Part="1" 
+AR Path="/60E72FD7/60DF1216" Ref="C?"  Part="1" 
 F 0 "C?" H 7515 3696 50  0000 L CNN
 F 1 "10u" H 7515 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7438 3500 50  0001 C CNN
@@ -57,21 +59,22 @@ F 3 "~" H 7400 3650 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60DF1217
+U 1 1 60EE8A0C
 P 6200 3650
-AR Path="/60DF1217" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF1217" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF1217" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF1217" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF1217" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF1217" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF1217" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF1217" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF1217" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF1217" Ref="C?"  Part="1" 
-AR Path="/60DF0860/60DF1217" Ref="C?"  Part="1" 
-AR Path="/60DF1072/60DF1217" Ref="C?"  Part="1" 
-AR Path="/60DF1160/60DF1217" Ref="C?"  Part="1" 
+AR Path="/60EE8A0C" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/609D24C0/60EE8A0C" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A08E0B/60EE8A0C" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A46E/60EE8A0C" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A500/60EE8A0C" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A922/60EE8A0C" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60EE8A0C" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60AE5653/60EE8A0C" Ref="C?"  Part="1" 
+AR Path="/609FED99/60EE8A0C" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60EE8A0C" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60EE8A0C" Ref="C?"  Part="1" 
+AR Path="/60DF1072/60EE8A0C" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60EE8A0C" Ref="C?"  Part="1" 
+AR Path="/60E72FD7/60EE8A0C" Ref="C?"  Part="1" 
 F 0 "C?" H 6315 3696 50  0000 L CNN
 F 1 "0,1" H 6315 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6238 3500 50  0001 C CNN
@@ -81,21 +84,22 @@ F 3 "~" H 6200 3650 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60DF1218
+U 1 1 60EE8A0D
 P 7800 3650
-AR Path="/60DF1218" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF1218" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF1218" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF1218" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF1218" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF1218" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF1218" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF1218" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF1218" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF1218" Ref="C?"  Part="1" 
-AR Path="/60DF0860/60DF1218" Ref="C?"  Part="1" 
-AR Path="/60DF1072/60DF1218" Ref="C?"  Part="1" 
-AR Path="/60DF1160/60DF1218" Ref="C?"  Part="1" 
+AR Path="/60EE8A0D" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/609D24C0/60EE8A0D" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A08E0B/60EE8A0D" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A46E/60EE8A0D" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A500/60EE8A0D" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A922/60EE8A0D" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60EE8A0D" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60AE5653/60EE8A0D" Ref="C?"  Part="1" 
+AR Path="/609FED99/60EE8A0D" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60EE8A0D" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60EE8A0D" Ref="C?"  Part="1" 
+AR Path="/60DF1072/60EE8A0D" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60EE8A0D" Ref="C?"  Part="1" 
+AR Path="/60E72FD7/60EE8A0D" Ref="C?"  Part="1" 
 F 0 "C?" H 7915 3696 50  0000 L CNN
 F 1 "10u" H 7915 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7838 3500 50  0001 C CNN
@@ -115,14 +119,15 @@ Wire Wire Line
 Connection ~ 7400 3800
 $Comp
 L Connector:TestPoint TP?
-U 1 1 60DF1219
+U 1 1 60EE8A0E
 P 7550 3500
-AR Path="/60DF1219" Ref="TP?"  Part="1" 
-AR Path="/609FED99/60DF1219" Ref="TP?"  Part="1" 
-AR Path="/60DF07DE/60DF1219" Ref="TP?"  Part="1" 
-AR Path="/60DF0860/60DF1219" Ref="TP?"  Part="1" 
-AR Path="/60DF1072/60DF1219" Ref="TP?"  Part="1" 
-AR Path="/60DF1160/60DF1219" Ref="TP?"  Part="1" 
+AR Path="/60EE8A0E" Ref="TP?"  Part="1" 
+AR Path="/609FED99/60EE8A0E" Ref="TP?"  Part="1" 
+AR Path="/60DF07DE/60EE8A0E" Ref="TP?"  Part="1" 
+AR Path="/60DF0860/60EE8A0E" Ref="TP?"  Part="1" 
+AR Path="/60DF1072/60EE8A0E" Ref="TP?"  Part="1" 
+AR Path="/60DF1160/60EE8A0E" Ref="TP?"  Part="1" 
+AR Path="/60E72FD7/60EE8A0E" Ref="TP?"  Part="1" 
 F 0 "TP?" H 7608 3618 50  0000 L CNN
 F 1 "TestPoint" H 7608 3527 50  0001 L CNN
 F 2 "" H 7750 3500 50  0001 C CNN
@@ -140,6 +145,7 @@ AR Path="/60DF07DE/60DF1213" Ref="TP?"  Part="1"
 AR Path="/60DF0860/60DF1213" Ref="TP?"  Part="1" 
 AR Path="/60DF1072/60DF1213" Ref="TP?"  Part="1" 
 AR Path="/60DF1160/60DF1213" Ref="TP?"  Part="1" 
+AR Path="/60E72FD7/60DF1213" Ref="TP?"  Part="1" 
 F 0 "TP?" H 5458 3618 50  0000 L CNN
 F 1 "TestPoint" H 5458 3527 50  0001 L CNN
 F 2 "" H 5600 3500 50  0001 C CNN
@@ -164,6 +170,7 @@ AR Path="/60DF07DE/60ACD247" Ref="C?"  Part="1"
 AR Path="/60DF0860/60ACD247" Ref="C?"  Part="1" 
 AR Path="/60DF1072/60ACD247" Ref="C?"  Part="1" 
 AR Path="/60DF1160/60ACD247" Ref="C?"  Part="1" 
+AR Path="/60E72FD7/60ACD247" Ref="C?"  Part="1" 
 F 0 "C?" H 4465 3696 50  0000 L CNN
 F 1 "1u" H 4465 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4388 3500 50  0001 C CNN
@@ -181,6 +188,7 @@ AR Path="/60DF07DE/60DF19BB" Ref="D?"  Part="1"
 AR Path="/60DF0860/60DF19BB" Ref="D?"  Part="1" 
 AR Path="/60DF1072/60DF19BB" Ref="D?"  Part="1" 
 AR Path="/60DF1160/60DF19BB" Ref="D?"  Part="1" 
+AR Path="/60E72FD7/60DF19BB" Ref="D?"  Part="1" 
 F 0 "D?" V 4896 3570 50  0000 R CNN
 F 1 "SMAJ5.0CA" V 4805 3570 50  0000 R CNN
 F 2 "" H 4850 3650 50  0001 C CNN
@@ -197,6 +205,7 @@ AR Path="/60DF07DE/60DF121B" Ref="C?"  Part="1"
 AR Path="/60DF0860/60DF121B" Ref="C?"  Part="1" 
 AR Path="/60DF1072/60DF121B" Ref="C?"  Part="1" 
 AR Path="/60DF1160/60DF121B" Ref="C?"  Part="1" 
+AR Path="/60E72FD7/60DF121B" Ref="C?"  Part="1" 
 F 0 "C?" H 3918 3696 50  0000 L CNN
 F 1 "100u" H 3918 3605 50  0000 L CNN
 F 2 "" H 3838 3500 50  0001 C CNN
@@ -232,14 +241,15 @@ Wire Wire Line
 Connection ~ 3800 3800
 $Comp
 L Connector:TestPoint TP?
-U 1 1 60DF121C
+U 1 1 60EE8A10
 P 5400 3800
-AR Path="/60DF121C" Ref="TP?"  Part="1" 
-AR Path="/609FED99/60DF121C" Ref="TP?"  Part="1" 
-AR Path="/60DF07DE/60DF121C" Ref="TP?"  Part="1" 
-AR Path="/60DF0860/60DF121C" Ref="TP?"  Part="1" 
-AR Path="/60DF1072/60DF121C" Ref="TP?"  Part="1" 
-AR Path="/60DF1160/60DF121C" Ref="TP?"  Part="1" 
+AR Path="/60EE8A10" Ref="TP?"  Part="1" 
+AR Path="/609FED99/60EE8A10" Ref="TP?"  Part="1" 
+AR Path="/60DF07DE/60EE8A10" Ref="TP?"  Part="1" 
+AR Path="/60DF0860/60EE8A10" Ref="TP?"  Part="1" 
+AR Path="/60DF1072/60EE8A10" Ref="TP?"  Part="1" 
+AR Path="/60DF1160/60EE8A10" Ref="TP?"  Part="1" 
+AR Path="/60E72FD7/60EE8A10" Ref="TP?"  Part="1" 
 F 0 "TP?" H 5458 3918 50  0000 L CNN
 F 1 "TestPoint" H 5458 3827 50  0001 L CNN
 F 2 "" H 5600 3800 50  0001 C CNN

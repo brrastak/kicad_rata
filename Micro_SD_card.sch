@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 11
+Sheet 3 15
 Title ""
 Date ""
 Rev ""
@@ -42,20 +42,6 @@ F 3 "~" H 5000 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 60B1D1D7
-P 8000 5300
-AR Path="/60B1D1D7" Ref="#PWR?"  Part="1" 
-AR Path="/609C9D41/60B1D1D7" Ref="#PWR?"  Part="1" 
-AR Path="/60B1951B/60B1D1D7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8000 5050 50  0001 C CNN
-F 1 "GND" H 8005 5127 50  0000 C CNN
-F 2 "" H 8000 5300 50  0001 C CNN
-F 3 "" H 8000 5300 50  0001 C CNN
-	1    8000 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 60B1D1DD
 P 5800 3650
@@ -69,52 +55,6 @@ F 3 "~" H 5800 3650 50  0001 C CNN
 	1    5800 3650
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60B1D1E3
-P 5500 5250
-AR Path="/60B1D1E3" Ref="#PWR?"  Part="1" 
-AR Path="/609C9D41/60B1D1E3" Ref="#PWR?"  Part="1" 
-AR Path="/60B1951B/60B1D1E3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5500 5000 50  0001 C CNN
-F 1 "GND" H 5505 5077 50  0000 C CNN
-F 2 "" H 5500 5250 50  0001 C CNN
-F 3 "" H 5500 5250 50  0001 C CNN
-	1    5500 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60B1D1E9
-P 5500 3250
-AR Path="/609FED99/60B1D1E9" Ref="#PWR?"  Part="1" 
-AR Path="/609C9D41/60B1D1E9" Ref="#PWR?"  Part="1" 
-AR Path="/60B1951B/60B1D1E9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5500 3100 50  0001 C CNN
-F 1 "+3V3" H 5515 3423 50  0000 C CNN
-F 2 "" H 5500 3250 50  0001 C CNN
-F 3 "" H 5500 3250 50  0001 C CNN
-	1    5500 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60B1D1EF
-P 5800 3950
-AR Path="/60B1D1EF" Ref="#PWR?"  Part="1" 
-AR Path="/609C9D41/60B1D1EF" Ref="#PWR?"  Part="1" 
-AR Path="/60B1951B/60B1D1EF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5800 3700 50  0001 C CNN
-F 1 "GND" H 5805 3777 50  0000 C CNN
-F 2 "" H 5800 3950 50  0001 C CNN
-F 3 "" H 5800 3950 50  0001 C CNN
-	1    5800 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 5200 8000 5300
-Wire Wire Line
-	5500 4800 5500 5250
 Wire Wire Line
 	5500 4600 5500 3500
 Wire Wire Line
@@ -124,9 +64,6 @@ Wire Wire Line
 	5500 3500 5500 3400
 Wire Wire Line
 	5800 3800 5800 3950
-Connection ~ 5500 3400
-Wire Wire Line
-	5500 3400 5500 3250
 Wire Wire Line
 	5000 3750 5000 3400
 Wire Wire Line
@@ -214,7 +151,6 @@ Wire Wire Line
 	6200 3800 6200 3950
 Wire Wire Line
 	6200 3950 5800 3950
-Connection ~ 5800 3950
 Wire Wire Line
 	4100 4400 4900 4400
 Wire Wire Line
@@ -273,20 +209,33 @@ Wire Wire Line
 Connection ~ 4600 4900
 Wire Wire Line
 	4600 4900 5000 4900
+Text HLabel 4100 3400 0    50   Input ~ 0
++3V3
+Text HLabel 4100 6000 0    50   Input ~ 0
+GND
+Wire Wire Line
+	8000 5200 8000 6000
+Wire Wire Line
+	5500 4800 5500 6000
+Connection ~ 5500 6000
+Wire Wire Line
+	5500 6000 5800 6000
 Wire Wire Line
 	5000 5900 4900 5900
-$Comp
-L power:GND #PWR?
-U 1 1 60B38C7E
-P 4900 5900
-AR Path="/60B38C7E" Ref="#PWR?"  Part="1" 
-AR Path="/609C9D41/60B38C7E" Ref="#PWR?"  Part="1" 
-AR Path="/60B1951B/60B38C7E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4900 5650 50  0001 C CNN
-F 1 "GND" H 4905 5727 50  0000 C CNN
-F 2 "" H 4900 5900 50  0001 C CNN
-F 3 "" H 4900 5900 50  0001 C CNN
-	1    4900 5900
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	4900 5900 4900 6000
+Wire Wire Line
+	4900 6000 5500 6000
+Wire Wire Line
+	5800 3950 5800 6000
+Connection ~ 5800 3950
+Connection ~ 5800 6000
+Wire Wire Line
+	5800 6000 8000 6000
+Wire Wire Line
+	4100 3400 4400 3400
+Connection ~ 4400 3400
+Wire Wire Line
+	4100 6000 4900 6000
+Connection ~ 4900 6000
 $EndSCHEMATC

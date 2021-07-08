@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 11
+Sheet 6 15
 Title ""
 Date ""
 Rev ""
@@ -13,738 +13,445 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 8200 1750 2    197  ~ 0
-Power sources 3V3 and 10V
+Text Notes 6950 1750 2    197  ~ 0
+Power source +10V
 $Comp
-L Regulator_Linear:AMS1117-3.3 U?
-U 1 1 60A07426
-P 6700 2550
-AR Path="/60A07426" Ref="U?"  Part="1" 
-AR Path="/609C9D41/60A07426" Ref="U?"  Part="1" 
-AR Path="/609FED99/60A07426" Ref="U?"  Part="1" 
-AR Path="/60DF07DE/60A07426" Ref="U?"  Part="1" 
-F 0 "U?" H 6700 2792 50  0000 C CNN
-F 1 "AMS1117-3.3" H 6700 2701 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6700 2750 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 6800 2300 50  0001 C CNN
-	1    6700 2550
+L Device:C C?
+U 1 1 60ED6AC7
+P 3000 3650
+AR Path="/60ED6AC7" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/609D24C0/60ED6AC7" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A08E0B/60ED6AC7" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A46E/60ED6AC7" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A500/60ED6AC7" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A922/60ED6AC7" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60ED6AC7" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60AE5653/60ED6AC7" Ref="C?"  Part="1" 
+AR Path="/609FED99/60ED6AC7" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60ED6AC7" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60ED6AC7" Ref="C?"  Part="1" 
+F 0 "C?" H 3115 3696 50  0000 L CNN
+F 1 "0,1" H 3115 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3038 3500 50  0001 C CNN
+F 3 "~" H 3000 3650 50  0001 C CNN
+	1    3000 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+10V #PWR?
-U 1 1 60A08E60
-P 8900 3800
-F 0 "#PWR?" H 8900 3650 50  0001 C CNN
-F 1 "+10V" H 8915 3973 50  0000 C CNN
-F 2 "" H 8900 3800 50  0001 C CNN
-F 3 "" H 8900 3800 50  0001 C CNN
-	1    8900 3800
+L Device:R R?
+U 1 1 60ED6ACD
+P 4300 3000
+AR Path="/60ED6ACD" Ref="R?"  Part="1" 
+AR Path="/609FED99/60ED6ACD" Ref="R?"  Part="1" 
+AR Path="/60DF0860/60ED6ACD" Ref="R?"  Part="1" 
+AR Path="/60DF07DE/60ED6ACD" Ref="R?"  Part="1" 
+F 0 "R?" V 4200 2950 50  0000 L CNN
+F 1 "0,47 2010" V 4400 2800 50  0000 L CNN
+F 2 "" V 4230 3000 50  0001 C CNN
+F 3 "~" H 4300 3000 50  0001 C CNN
+	1    4300 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60ED6AD3
+P 5250 3150
+AR Path="/60ED6AD3" Ref="R?"  Part="1" 
+AR Path="/609FED99/60ED6AD3" Ref="R?"  Part="1" 
+AR Path="/60DF0860/60ED6AD3" Ref="R?"  Part="1" 
+AR Path="/60DF07DE/60ED6AD3" Ref="R?"  Part="1" 
+F 0 "R?" H 5320 3196 50  0000 L CNN
+F 1 "200" H 5320 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5180 3150 50  0001 C CNN
+F 3 "~" H 5250 3150 50  0001 C CNN
+	1    5250 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 60DF11AA
-P 7700 2450
-F 0 "#PWR?" H 7700 2300 50  0001 C CNN
-F 1 "+3V3" H 7715 2623 50  0000 C CNN
-F 2 "" H 7700 2450 50  0001 C CNN
-F 3 "" H 7700 2450 50  0001 C CNN
-	1    7700 2450
+L Connector:TestPoint TP?
+U 1 1 60ED6AD9
+P 7250 3500
+AR Path="/60ED6AD9" Ref="TP?"  Part="1" 
+AR Path="/609FED99/60ED6AD9" Ref="TP?"  Part="1" 
+AR Path="/60DF0860/60ED6AD9" Ref="TP?"  Part="1" 
+AR Path="/60DF07DE/60ED6AD9" Ref="TP?"  Part="1" 
+F 0 "TP?" H 7308 3618 50  0000 L CNN
+F 1 "TestPoint" H 7308 3527 50  0001 L CNN
+F 2 "" H 7450 3500 50  0001 C CNN
+F 3 "~" H 7450 3500 50  0001 C CNN
+	1    7250 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 60DF11AB
-P 5850 2950
-F 0 "#PWR?" H 5850 2700 50  0001 C CNN
-F 1 "GND" H 5855 2777 50  0000 C CNN
-F 2 "" H 5850 2950 50  0001 C CNN
-F 3 "" H 5850 2950 50  0001 C CNN
-	1    5850 2950
+L Connector:TestPoint TP?
+U 1 1 60ED6ADF
+P 4600 3000
+AR Path="/60ED6ADF" Ref="TP?"  Part="1" 
+AR Path="/609FED99/60ED6ADF" Ref="TP?"  Part="1" 
+AR Path="/60DF0860/60ED6ADF" Ref="TP?"  Part="1" 
+AR Path="/60DF07DE/60ED6ADF" Ref="TP?"  Part="1" 
+F 0 "TP?" H 4658 3118 50  0000 L CNN
+F 1 "TestPoint" H 4658 3027 50  0001 L CNN
+F 2 "" H 4800 3000 50  0001 C CNN
+F 3 "~" H 4800 3000 50  0001 C CNN
+	1    4600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 60ED6AE5
+P 2500 3650
+AR Path="/60DF0860/60ED6AE5" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60ED6AE5" Ref="C?"  Part="1" 
+F 0 "C?" H 2618 3696 50  0000 L CNN
+F 1 "100u" H 2618 3605 50  0000 L CNN
+F 2 "" H 2538 3500 50  0001 C CNN
+F 3 "~" H 2500 3650 50  0001 C CNN
+	1    2500 3650
+	1    0    0    -1  
+$EndComp
+Text HLabel 1500 3500 0    50   Input ~ 0
++5V_IN
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60ED6AEC
+P 4000 3000
+AR Path="/60ED6AEC" Ref="TP?"  Part="1" 
+AR Path="/609FED99/60ED6AEC" Ref="TP?"  Part="1" 
+AR Path="/60DF0860/60ED6AEC" Ref="TP?"  Part="1" 
+AR Path="/60DF07DE/60ED6AEC" Ref="TP?"  Part="1" 
+F 0 "TP?" H 4058 3118 50  0000 L CNN
+F 1 "TestPoint" H 4058 3027 50  0001 L CNN
+F 2 "" H 4200 3000 50  0001 C CNN
+F 3 "~" H 4200 3000 50  0001 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+Text HLabel 1500 4500 0    50   Input ~ 0
+GND
+$Comp
+L Device:R R?
+U 1 1 60ED6AF3
+P 7000 4150
+AR Path="/60ED6AF3" Ref="R?"  Part="1" 
+AR Path="/60B39FE1/60ED6AF3" Ref="R?"  Part="1" 
+AR Path="/609FED99/60ED6AF3" Ref="R?"  Part="1" 
+AR Path="/60DF0860/60ED6AF3" Ref="R?"  Part="1" 
+AR Path="/60DF07DE/60ED6AF3" Ref="R?"  Part="1" 
+F 0 "R?" H 7070 4196 50  0000 L CNN
+F 1 "2,4k 1%" H 7070 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6930 4150 50  0001 C CNN
+F 3 "~" H 7000 4150 50  0001 C CNN
+	1    7000 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:MC34063AD U?
+U 1 1 60ED6AF9
+P 4300 3700
+AR Path="/60DF0860/60ED6AF9" Ref="U?"  Part="1" 
+AR Path="/60DF07DE/60ED6AF9" Ref="U?"  Part="1" 
+F 0 "U?" H 4300 4167 50  0000 C CNN
+F 1 "MC34063AD" H 4300 4076 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4350 3250 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF" H 4800 3600 50  0001 C CNN
+	1    4300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 60ED6AFF
+P 7500 3650
+AR Path="/60DF0860/60ED6AFF" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60ED6AFF" Ref="C?"  Part="1" 
+F 0 "C?" H 7618 3696 50  0000 L CNN
+F 1 "470u" H 7618 3605 50  0000 L CNN
+F 2 "" H 7538 3500 50  0001 C CNN
+F 3 "~" H 7500 3650 50  0001 C CNN
+	1    7500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60ED6B05
+P 7000 3650
+AR Path="/60ED6B05" Ref="R?"  Part="1" 
+AR Path="/60B39FE1/60ED6B05" Ref="R?"  Part="1" 
+AR Path="/609FED99/60ED6B05" Ref="R?"  Part="1" 
+AR Path="/60DF0860/60ED6B05" Ref="R?"  Part="1" 
+AR Path="/60DF07DE/60ED6B05" Ref="R?"  Part="1" 
+F 0 "R?" H 7070 3696 50  0000 L CNN
+F 1 "47k 1%" H 7070 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6930 3650 50  0001 C CNN
+F 3 "~" H 7000 3650 50  0001 C CNN
+	1    7000 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60DF11AC
-P 7300 2700
-AR Path="/60DF11AC" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF11AC" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF11AC" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF11AC" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF11AC" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF11AC" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF11AC" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF11AC" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF11AC" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF11AC" Ref="C?"  Part="1" 
-F 0 "C?" H 7415 2746 50  0000 L CNN
-F 1 "10u" H 7415 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7338 2550 50  0001 C CNN
-F 3 "~" H 7300 2700 50  0001 C CNN
-	1    7300 2700
+U 1 1 60ED6B0B
+P 3500 4050
+AR Path="/60ED6B0B" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/609D24C0/60ED6B0B" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A08E0B/60ED6B0B" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A46E/60ED6B0B" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A500/60ED6B0B" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A922/60ED6B0B" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60ED6B0B" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60AE5653/60ED6B0B" Ref="C?"  Part="1" 
+AR Path="/609FED99/60ED6B0B" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60ED6B0B" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60ED6B0B" Ref="C?"  Part="1" 
+F 0 "C?" H 3615 4096 50  0000 L CNN
+F 1 "1000" H 3615 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3538 3900 50  0001 C CNN
+F 3 "~" H 3500 4050 50  0001 C CNN
+	1    3500 4050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 60DF11AD
-P 6100 2700
-AR Path="/60DF11AD" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF11AD" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF11AD" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF11AD" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF11AD" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF11AD" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF11AD" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF11AD" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF11AD" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF11AD" Ref="C?"  Part="1" 
-F 0 "C?" H 6215 2746 50  0000 L CNN
-F 1 "0,1" H 6215 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6138 2550 50  0001 C CNN
-F 3 "~" H 6100 2700 50  0001 C CNN
-	1    6100 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 60DF11AE
-P 7700 2700
-AR Path="/60DF11AE" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF11AE" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF11AE" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF11AE" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF11AE" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF11AE" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF11AE" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF11AE" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF11AE" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF11AE" Ref="C?"  Part="1" 
-F 0 "C?" H 7815 2746 50  0000 L CNN
-F 1 "10u" H 7815 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7738 2550 50  0001 C CNN
-F 3 "~" H 7700 2700 50  0001 C CNN
-	1    7700 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 60DF11AF
-P 5850 2450
-F 0 "#PWR?" H 5850 2300 50  0001 C CNN
-F 1 "+5V" H 5865 2623 50  0000 C CNN
-F 2 "" H 5850 2450 50  0001 C CNN
-F 3 "" H 5850 2450 50  0001 C CNN
-	1    5850 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 2550 6400 2550
-Wire Wire Line
-	7000 2550 7300 2550
-Wire Wire Line
-	7700 2450 7700 2550
-Wire Wire Line
-	7700 2850 7300 2850
-Connection ~ 6700 2850
-Wire Wire Line
-	6700 2850 6100 2850
-Connection ~ 7300 2850
-$Comp
-L Transistor_FET:IRLML6402 Q?
-U 1 1 60DF11B0
-P 6400 4650
-F 0 "Q?" H 6604 4604 50  0000 L CNN
-F 1 "IRLML6402" H 6604 4695 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6600 4575 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6400 4650 50  0001 L CNN
-	1    6400 4650
-	1    0    0    1   
-$EndComp
-$Comp
-L Transistor_FET:IRLML2060 Q?
-U 1 1 60A1C2D8
-P 6400 5550
-F 0 "Q?" H 6604 5596 50  0000 L CNN
-F 1 "IRLML2402" H 6604 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6600 5475 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 6400 5550 50  0001 L CNN
-	1    6400 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAT54S D?
-U 1 1 60DF11B3
-P 5200 4350
-F 0 "D?" V 5300 4550 50  0000 C CNN
-F 1 "BAT54S" V 5200 4484 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5275 4475 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 5080 4350 50  0001 C CNN
-	1    5200 4350
+L Device:L L?
+U 1 1 60ED6B11
+P 5650 3000
+AR Path="/60DF0860/60ED6B11" Ref="L?"  Part="1" 
+AR Path="/60DF07DE/60ED6B11" Ref="L?"  Part="1" 
+F 0 "L?" V 5750 3000 50  0000 C CNN
+F 1 "330u" V 5600 3000 50  0000 C CNN
+F 2 "" H 5650 3000 50  0001 C CNN
+F 3 "~" H 5650 3000 50  0001 C CNN
+	1    5650 3000
 	0    -1   -1   0   
 $EndComp
+Text HLabel 10500 3500 2    50   Output ~ 0
++10V_OUT
+Wire Wire Line
+	1500 3500 2500 3500
+Connection ~ 2500 3500
+Wire Wire Line
+	2500 3500 3000 3500
+Connection ~ 3000 3500
+Wire Wire Line
+	3000 3500 3750 3500
+Wire Wire Line
+	4300 4200 4300 4500
+Wire Wire Line
+	4300 4500 3500 4500
+Wire Wire Line
+	3500 4200 3500 4500
+Connection ~ 3500 4500
+Wire Wire Line
+	3500 4500 3000 4500
+Wire Wire Line
+	3500 3900 3900 3900
+Wire Wire Line
+	3000 3800 3000 4500
+Connection ~ 3000 4500
+Wire Wire Line
+	3000 4500 2500 4500
+Wire Wire Line
+	2500 3800 2500 4500
+Connection ~ 2500 4500
+Wire Wire Line
+	2500 4500 1500 4500
+Wire Wire Line
+	7000 4300 7000 4500
+Connection ~ 4300 4500
+Wire Wire Line
+	4000 3000 3750 3000
+Wire Wire Line
+	3750 3000 3750 3500
+Connection ~ 3750 3500
+Wire Wire Line
+	3750 3500 3900 3500
+Wire Wire Line
+	4000 3000 4150 3000
+Connection ~ 4000 3000
+Wire Wire Line
+	4450 3000 4600 3000
+Wire Wire Line
+	5000 3000 5000 3500
+Wire Wire Line
+	5000 3500 4700 3500
+Connection ~ 4600 3000
+Wire Wire Line
+	4600 3000 5000 3000
+Wire Wire Line
+	5000 3000 5250 3000
+Connection ~ 5000 3000
+Wire Wire Line
+	5250 3300 5250 3600
+Wire Wire Line
+	5250 3600 4700 3600
+Wire Wire Line
+	5250 3000 5500 3000
+Connection ~ 5250 3000
+Wire Wire Line
+	5800 3000 6000 3000
+Wire Wire Line
+	4700 3700 6000 3700
+Wire Wire Line
+	4700 3900 5000 3900
+Wire Wire Line
+	5000 3900 5000 4500
+Wire Wire Line
+	5000 4500 4300 4500
+Wire Wire Line
+	7000 3800 7000 4000
+Connection ~ 7000 3500
+Wire Wire Line
+	7000 3500 7250 3500
+Connection ~ 7250 3500
+Wire Wire Line
+	7250 3500 7500 3500
+Wire Wire Line
+	7500 3800 7500 4500
+Wire Wire Line
+	7500 4500 7000 4500
 $Comp
-L Diode:BAT54S D?
-U 1 1 60A2A42D
-P 5200 5250
-F 0 "D?" H 5200 5475 50  0000 C CNN
-F 1 "BAT54S" H 5200 5384 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5275 5375 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 5080 5250 50  0001 C CNN
-	1    5200 5250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAT54S D?
-U 1 1 60DF11B5
-P 7400 3900
-F 0 "D?" H 7400 4125 50  0000 C CNN
-F 1 "BAT54S" H 7400 4034 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7475 4025 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 7280 3900 50  0001 C CNN
-	1    7400 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 60DF11B6
-P 7400 4550
-AR Path="/60DF11B6" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF11B6" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF11B6" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF11B6" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF11B6" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF11B6" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF11B6" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF11B6" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF11B6" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF11B6" Ref="C?"  Part="1" 
-F 0 "C?" H 7515 4596 50  0000 L CNN
-F 1 "10u" H 7515 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7438 4400 50  0001 C CNN
-F 3 "~" H 7400 4550 50  0001 C CNN
-	1    7400 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 60DF11B7
-P 7900 4550
-AR Path="/60DF11B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF11B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF11B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF11B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF11B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF11B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF11B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF11B7" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF11B7" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF11B7" Ref="C?"  Part="1" 
-F 0 "C?" H 8015 4596 50  0000 L CNN
-F 1 "10u" H 8015 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7938 4400 50  0001 C CNN
-F 3 "~" H 7900 4550 50  0001 C CNN
-	1    7900 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 60DF11B8
-P 8900 4550
-AR Path="/60DF11B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF11B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF11B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF11B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF11B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF11B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF11B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF11B8" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF11B8" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF11B8" Ref="C?"  Part="1" 
-F 0 "C?" H 9015 4596 50  0000 L CNN
-F 1 "10u" H 9015 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 8938 4400 50  0001 C CNN
-F 3 "~" H 8900 4550 50  0001 C CNN
-	1    8900 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 60DF11B9
-P 9400 4550
-AR Path="/60DF11B9" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF11B9" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF11B9" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF11B9" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF11B9" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF11B9" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF11B9" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF11B9" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF11B9" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF11B9" Ref="C?"  Part="1" 
-F 0 "C?" H 9515 4596 50  0000 L CNN
-F 1 "10u" H 9515 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 9438 4400 50  0001 C CNN
-F 3 "~" H 9400 4550 50  0001 C CNN
-	1    9400 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 60A3C3A2
-P 4500 3850
-F 0 "#PWR?" H 4500 3700 50  0001 C CNN
-F 1 "+5V" H 4515 4023 50  0000 C CNN
-F 2 "" H 4500 3850 50  0001 C CNN
-F 3 "" H 4500 3850 50  0001 C CNN
-	1    4500 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60DF11B2
-P 5750 4350
-AR Path="/60DF11B2" Ref="R?"  Part="1" 
-AR Path="/609FED99/60DF11B2" Ref="R?"  Part="1" 
-AR Path="/60DF07DE/60DF11B2" Ref="R?"  Part="1" 
-F 0 "R?" V 5650 4300 50  0000 L CNN
-F 1 "100" V 5850 4250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5680 4350 50  0001 C CNN
-F 3 "~" H 5750 4350 50  0001 C CNN
-	1    5750 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60DF11BB
-P 5750 4650
-AR Path="/60DF11BB" Ref="R?"  Part="1" 
-AR Path="/609FED99/60DF11BB" Ref="R?"  Part="1" 
-AR Path="/60DF07DE/60DF11BB" Ref="R?"  Part="1" 
-F 0 "R?" V 5650 4600 50  0000 L CNN
-F 1 "680" V 5850 4550 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5680 4650 50  0001 C CNN
-F 3 "~" H 5750 4650 50  0001 C CNN
-	1    5750 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60A443B1
-P 5750 5250
-AR Path="/60A443B1" Ref="R?"  Part="1" 
-AR Path="/609FED99/60A443B1" Ref="R?"  Part="1" 
-AR Path="/60DF07DE/60A443B1" Ref="R?"  Part="1" 
-F 0 "R?" V 5650 5200 50  0000 L CNN
-F 1 "1,2k" V 5850 5150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5680 5250 50  0001 C CNN
-F 3 "~" H 5750 5250 50  0001 C CNN
-	1    5750 5250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60DF11BD
-P 5750 5550
-AR Path="/60DF11BD" Ref="R?"  Part="1" 
-AR Path="/609FED99/60DF11BD" Ref="R?"  Part="1" 
-AR Path="/60DF07DE/60DF11BD" Ref="R?"  Part="1" 
-F 0 "R?" V 5650 5500 50  0000 L CNN
-F 1 "1,2k" V 5850 5450 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5680 5550 50  0001 C CNN
-F 3 "~" H 5750 5550 50  0001 C CNN
-	1    5750 5550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60A67B2D
-P 4500 4100
-AR Path="/60A67B2D" Ref="R?"  Part="1" 
-AR Path="/609FED99/60A67B2D" Ref="R?"  Part="1" 
-AR Path="/60DF07DE/60A67B2D" Ref="R?"  Part="1" 
-F 0 "R?" H 4570 4146 50  0000 L CNN
-F 1 "330" H 4570 4055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4430 4100 50  0001 C CNN
-F 3 "~" H 4500 4100 50  0001 C CNN
-	1    4500 4100
-	1    0    0    -1  
+L Device:D_Schottky D?
+U 1 1 60ED6B4A
+P 6350 3500
+AR Path="/60DF0860/60ED6B4A" Ref="D?"  Part="1" 
+AR Path="/60DF07DE/60ED6B4A" Ref="D?"  Part="1" 
+F 0 "D?" H 6350 3400 50  0000 C CNN
+F 1 "MBR0540" H 6300 3600 50  0000 C CNN
+F 2 "" H 6350 3500 50  0001 C CNN
+F 3 "~" H 6350 3500 50  0001 C CNN
+	1    6350 3500
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4500 3850 4500 3900
+	6000 3000 6000 3500
 Wire Wire Line
-	5600 5550 5200 5550
+	6200 3500 6000 3500
+Connection ~ 6000 3500
 Wire Wire Line
-	5200 5450 5200 5550
+	6000 3500 6000 3700
 Wire Wire Line
-	5500 5250 5600 5250
+	6500 3500 7000 3500
 Wire Wire Line
-	6500 4850 6500 5050
-Connection ~ 4500 3900
+	4700 4000 7000 4000
+Connection ~ 7000 4000
 Wire Wire Line
-	4500 3900 4500 3950
-NoConn ~ 4900 5250
-Text HLabel 3000 5750 0    50   Input ~ 0
-CHARGE_PUMP_CLK
-Wire Wire Line
-	7900 4400 7400 4400
-Wire Wire Line
-	7900 4700 7400 4700
-Wire Wire Line
-	7400 4700 7400 5050
-Wire Wire Line
-	7400 5050 6500 5050
-Connection ~ 7400 4700
-Connection ~ 6500 5050
-Wire Wire Line
-	8900 4700 9400 4700
-Wire Wire Line
-	8900 4400 9400 4400
-Wire Wire Line
-	8900 3900 8900 3800
-Wire Wire Line
-	8900 3900 8900 4400
-Connection ~ 8900 3900
-Connection ~ 8900 4400
-Connection ~ 8900 4700
+	5000 4500 7000 4500
+Connection ~ 5000 4500
+Connection ~ 7000 4500
 $Comp
-L Connector:TestPoint TP?
-U 1 1 60AC6F73
-P 7450 2550
-AR Path="/60AC6F73" Ref="TP?"  Part="1" 
-AR Path="/609FED99/60AC6F73" Ref="TP?"  Part="1" 
-AR Path="/60DF07DE/60AC6F73" Ref="TP?"  Part="1" 
-F 0 "TP?" H 7508 2668 50  0000 L CNN
-F 1 "TestPoint" H 7508 2577 50  0001 L CNN
-F 2 "" H 7650 2550 50  0001 C CNN
-F 3 "~" H 7650 2550 50  0001 C CNN
-	1    7450 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 60DF11C0
-P 8450 3900
-AR Path="/60DF11C0" Ref="TP?"  Part="1" 
-AR Path="/609FED99/60DF11C0" Ref="TP?"  Part="1" 
-AR Path="/60DF07DE/60DF11C0" Ref="TP?"  Part="1" 
-F 0 "TP?" H 8508 4018 50  0000 L CNN
-F 1 "TestPoint" H 8508 3927 50  0001 L CNN
-F 2 "" H 8650 3900 50  0001 C CNN
-F 3 "~" H 8650 3900 50  0001 C CNN
-	1    8450 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 60DF0A60
-P 5300 2550
-AR Path="/60DF0A60" Ref="TP?"  Part="1" 
-AR Path="/609FED99/60DF0A60" Ref="TP?"  Part="1" 
-AR Path="/60DF07DE/60DF0A60" Ref="TP?"  Part="1" 
-F 0 "TP?" H 5358 2668 50  0000 L CNN
-F 1 "TestPoint" H 5358 2577 50  0001 L CNN
-F 2 "" H 5500 2550 50  0001 C CNN
-F 3 "~" H 5500 2550 50  0001 C CNN
-	1    5300 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 60DF0A61
-P 4250 2700
-AR Path="/60DF0A61" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF0A61" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF0A61" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF0A61" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF0A61" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF0A61" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF0A61" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF0A61" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF0A61" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF0A61" Ref="C?"  Part="1" 
-F 0 "C?" H 4365 2746 50  0000 L CNN
-F 1 "1u" H 4365 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4288 2550 50  0001 C CNN
-F 3 "~" H 4250 2700 50  0001 C CNN
-	1    4250 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_TVS D?
-U 1 1 60DF11C3
-P 4750 2700
-AR Path="/60DF11C3" Ref="D?"  Part="1" 
-AR Path="/609FED99/60DF11C3" Ref="D?"  Part="1" 
-AR Path="/60DF07DE/60DF11C3" Ref="D?"  Part="1" 
-F 0 "D?" V 4796 2620 50  0000 R CNN
-F 1 "SMAJ5.0CA" V 4705 2620 50  0000 R CNN
-F 2 "" H 4750 2700 50  0001 C CNN
-F 3 "~" H 4750 2700 50  0001 C CNN
-	1    4750 2700
+L Device:L L?
+U 1 1 60EDAC90
+P 7950 3500
+AR Path="/60DF0860/60EDAC90" Ref="L?"  Part="1" 
+AR Path="/60DF07DE/60EDAC90" Ref="L?"  Part="1" 
+F 0 "L?" V 8050 3500 50  0000 C CNN
+F 1 "330u" V 7900 3500 50  0000 C CNN
+F 2 "" H 7950 3500 50  0001 C CNN
+F 3 "~" H 7950 3500 50  0001 C CNN
+	1    7950 3500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:CP C?
-U 1 1 60DF11C4
-P 3700 2700
-F 0 "C?" H 3818 2746 50  0000 L CNN
-F 1 "100u" H 3818 2655 50  0000 L CNN
-F 2 "" H 3738 2550 50  0001 C CNN
-F 3 "~" H 3700 2700 50  0001 C CNN
-	1    3700 2700
+U 1 1 60EDB29F
+P 9000 3650
+AR Path="/60DF0860/60EDB29F" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60EDB29F" Ref="C?"  Part="1" 
+F 0 "C?" H 9118 3696 50  0000 L CNN
+F 1 "470u" H 9118 3605 50  0000 L CNN
+F 2 "" H 9038 3500 50  0001 C CNN
+F 3 "~" H 9000 3650 50  0001 C CNN
+	1    9000 3650
 	1    0    0    -1  
 $EndComp
-Text HLabel 2900 2550 0    50   Input ~ 0
-+5V_IN
+$Comp
+L Device:C C?
+U 1 1 60EDB737
+P 8500 3650
+AR Path="/60EDB737" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/609D24C0/60EDB737" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A08E0B/60EDB737" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A46E/60EDB737" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A500/60EDB737" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A922/60EDB737" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60EDB737" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60AE5653/60EDB737" Ref="C?"  Part="1" 
+AR Path="/609FED99/60EDB737" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60EDB737" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60EDB737" Ref="C?"  Part="1" 
+F 0 "C?" H 8615 3696 50  0000 L CNN
+F 1 "0,1" H 8615 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8538 3500 50  0001 C CNN
+F 3 "~" H 8500 3650 50  0001 C CNN
+	1    8500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 60EDC632
+P 9650 3500
+F 0 "FB?" V 9376 3500 50  0000 C CNN
+F 1 "Ferrite_Bead" V 9467 3500 50  0000 C CNN
+F 2 "" V 9580 3500 50  0001 C CNN
+F 3 "~" H 9650 3500 50  0001 C CNN
+	1    9650 3500
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	2900 2550 3700 2550
-Connection ~ 6100 2550
-Connection ~ 3700 2550
+	7500 3500 7800 3500
+Connection ~ 7500 3500
 Wire Wire Line
-	3700 2550 4250 2550
-Connection ~ 4250 2550
+	8100 3500 8500 3500
+Connection ~ 8500 3500
 Wire Wire Line
-	4250 2550 4750 2550
-Connection ~ 4750 2550
+	8500 3500 9000 3500
+Connection ~ 9000 3500
 Wire Wire Line
-	4750 2550 5300 2550
-Connection ~ 5300 2550
+	9000 3500 9500 3500
 Wire Wire Line
-	5300 2550 5850 2550
+	9800 3500 10100 3500
 Wire Wire Line
-	5850 2450 5850 2550
-Connection ~ 5850 2550
+	9000 3800 9000 4500
 Wire Wire Line
-	5850 2550 6100 2550
+	9000 4500 8500 4500
+Connection ~ 7500 4500
 Wire Wire Line
-	3700 2850 4250 2850
-Connection ~ 6100 2850
-Connection ~ 4250 2850
+	8500 3800 8500 4500
+Connection ~ 8500 4500
 Wire Wire Line
-	4250 2850 4750 2850
-Wire Wire Line
-	6700 2850 7300 2850
-Wire Wire Line
-	5850 2950 5850 2850
-Wire Wire Line
-	5850 2850 6100 2850
-Wire Wire Line
-	2900 2850 3700 2850
-Connection ~ 3700 2850
+	8500 4500 8100 4500
 $Comp
 L Connector:TestPoint TP?
-U 1 1 60DF11C5
-P 5300 2850
-AR Path="/60DF11C5" Ref="TP?"  Part="1" 
-AR Path="/609FED99/60DF11C5" Ref="TP?"  Part="1" 
-AR Path="/60DF07DE/60DF11C5" Ref="TP?"  Part="1" 
-F 0 "TP?" H 5358 2968 50  0000 L CNN
-F 1 "TestPoint" H 5358 2877 50  0001 L CNN
-F 2 "" H 5500 2850 50  0001 C CNN
-F 3 "~" H 5500 2850 50  0001 C CNN
-	1    5300 2850
+U 1 1 60EE6962
+P 10100 3500
+AR Path="/60EE6962" Ref="TP?"  Part="1" 
+AR Path="/609FED99/60EE6962" Ref="TP?"  Part="1" 
+AR Path="/60DF0860/60EE6962" Ref="TP?"  Part="1" 
+AR Path="/60DF07DE/60EE6962" Ref="TP?"  Part="1" 
+F 0 "TP?" H 10158 3618 50  0000 L CNN
+F 1 "TestPoint" H 10158 3527 50  0001 L CNN
+F 2 "" H 10300 3500 50  0001 C CNN
+F 3 "~" H 10300 3500 50  0001 C CNN
+	1    10100 3500
 	1    0    0    -1  
 $EndComp
+Connection ~ 10100 3500
 Wire Wire Line
-	5200 4650 5600 4650
-Wire Wire Line
-	6500 5050 6500 5350
-Wire Wire Line
-	5400 4350 5600 4350
-NoConn ~ 5200 4050
-Wire Wire Line
-	6500 4450 6500 3900
-Connection ~ 6500 3900
-Wire Wire Line
-	6500 3900 7100 3900
-Wire Wire Line
-	7400 4100 7400 4400
-Connection ~ 7400 4400
-Wire Wire Line
-	8450 3900 8900 3900
-Wire Wire Line
-	4750 2850 5300 2850
-Connection ~ 4750 2850
-Wire Wire Line
-	5300 2850 5850 2850
-Connection ~ 5300 2850
-Connection ~ 5850 2850
-Wire Wire Line
-	7300 2550 7450 2550
-Connection ~ 7300 2550
-Wire Wire Line
-	7450 2550 7700 2550
-Connection ~ 7450 2550
-Connection ~ 7700 2550
-Wire Wire Line
-	8450 3900 7700 3900
-Connection ~ 8450 3900
-Text HLabel 2900 2850 0    50   Input ~ 0
-GND_IN
+	10100 3500 10500 3500
 $Comp
-L Transistor_BJT:BC847 Q?
-U 1 1 60B184A0
-P 4400 5750
-AR Path="/609C9D41/60B184A0" Ref="Q?"  Part="1" 
-AR Path="/60B39FE1/60B184A0" Ref="Q?"  Part="1" 
-AR Path="/609FED99/60B184A0" Ref="Q?"  Part="1" 
-AR Path="/60DF07DE/60B184A0" Ref="Q?"  Part="1" 
-F 0 "Q?" H 4591 5796 50  0000 L CNN
-F 1 "BC847" H 4591 5705 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4600 5675 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 4400 5750 50  0001 L CNN
-	1    4400 5750
+L Connector:TestPoint TP?
+U 1 1 60EE723F
+P 8100 4500
+AR Path="/60EE723F" Ref="TP?"  Part="1" 
+AR Path="/609FED99/60EE723F" Ref="TP?"  Part="1" 
+AR Path="/60DF0860/60EE723F" Ref="TP?"  Part="1" 
+AR Path="/60DF07DE/60EE723F" Ref="TP?"  Part="1" 
+F 0 "TP?" H 8158 4618 50  0000 L CNN
+F 1 "TestPoint" H 8158 4527 50  0001 L CNN
+F 2 "" H 8300 4500 50  0001 C CNN
+F 3 "~" H 8300 4500 50  0001 C CNN
+	1    8100 4500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 60B184A6
-P 4000 6000
-AR Path="/60B184A6" Ref="R?"  Part="1" 
-AR Path="/60B39FE1/60B184A6" Ref="R?"  Part="1" 
-AR Path="/609FED99/60B184A6" Ref="R?"  Part="1" 
-AR Path="/60DF07DE/60B184A6" Ref="R?"  Part="1" 
-F 0 "R?" H 4070 6046 50  0000 L CNN
-F 1 "56k" H 4070 5955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3930 6000 50  0001 C CNN
-F 3 "~" H 4000 6000 50  0001 C CNN
-	1    4000 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60B184AC
-P 3650 5750
-AR Path="/60B184AC" Ref="R?"  Part="1" 
-AR Path="/60B39FE1/60B184AC" Ref="R?"  Part="1" 
-AR Path="/609FED99/60B184AC" Ref="R?"  Part="1" 
-AR Path="/60DF07DE/60B184AC" Ref="R?"  Part="1" 
-F 0 "R?" V 3750 5700 50  0000 L CNN
-F 1 "3,3k" V 3550 5650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3580 5750 50  0001 C CNN
-F 3 "~" H 3650 5750 50  0001 C CNN
-	1    3650 5750
-	0    -1   -1   0   
-$EndComp
+Connection ~ 8100 4500
 Wire Wire Line
-	3800 5750 4000 5750
-Wire Wire Line
-	4000 5850 4000 5750
-Connection ~ 4000 5750
-Wire Wire Line
-	4000 5750 4200 5750
-Wire Wire Line
-	4000 6150 4000 6250
-$Comp
-L power:GND #PWR?
-U 1 1 60B1D9CB
-P 5400 6250
-F 0 "#PWR?" H 5400 6000 50  0001 C CNN
-F 1 "GND" H 5405 6077 50  0000 C CNN
-F 2 "" H 5400 6250 50  0001 C CNN
-F 3 "" H 5400 6250 50  0001 C CNN
-	1    5400 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 5750 3000 5750
-Wire Wire Line
-	4000 6250 4500 6250
-Wire Wire Line
-	4500 5950 4500 6250
-Connection ~ 4500 6250
-$Comp
-L Device:R R?
-U 1 1 60B13DFF
-P 6100 5900
-AR Path="/60B13DFF" Ref="R?"  Part="1" 
-AR Path="/60B39FE1/60B13DFF" Ref="R?"  Part="1" 
-AR Path="/609FED99/60B13DFF" Ref="R?"  Part="1" 
-AR Path="/60DF07DE/60B13DFF" Ref="R?"  Part="1" 
-F 0 "R?" H 6170 5946 50  0000 L CNN
-F 1 "56k" H 6170 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6030 5900 50  0001 C CNN
-F 3 "~" H 6100 5900 50  0001 C CNN
-	1    6100 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 4250 4500 4650
-$Comp
-L Device:R R?
-U 1 1 60B1B4E2
-P 6100 4150
-AR Path="/60B1B4E2" Ref="R?"  Part="1" 
-AR Path="/60B39FE1/60B1B4E2" Ref="R?"  Part="1" 
-AR Path="/609FED99/60B1B4E2" Ref="R?"  Part="1" 
-AR Path="/60DF07DE/60B1B4E2" Ref="R?"  Part="1" 
-F 0 "R?" H 6170 4196 50  0000 L CNN
-F 1 "56k" H 6170 4105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6030 4150 50  0001 C CNN
-F 3 "~" H 6100 4150 50  0001 C CNN
-	1    6100 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 3900 6100 3900
-Wire Wire Line
-	6100 4000 6100 3900
-Connection ~ 6100 3900
-Wire Wire Line
-	6100 3900 6500 3900
-Wire Wire Line
-	5900 4650 6000 4650
-Connection ~ 6100 4650
-Wire Wire Line
-	6100 4650 6200 4650
-Wire Wire Line
-	4500 6250 5400 6250
-Wire Wire Line
-	8900 4700 8900 6250
-Wire Wire Line
-	5900 5550 6000 5550
-Wire Wire Line
-	6100 5750 6100 5550
-Connection ~ 6100 5550
-Wire Wire Line
-	6100 5550 6200 5550
-Wire Wire Line
-	6100 6050 6100 6250
-Connection ~ 6100 6250
-Wire Wire Line
-	6100 6250 6500 6250
-Wire Wire Line
-	5900 5250 6000 5250
-Wire Wire Line
-	6000 5250 6000 5550
-Connection ~ 6000 5550
-Wire Wire Line
-	6000 5550 6100 5550
-Wire Wire Line
-	6100 4300 6100 4650
-Wire Wire Line
-	5900 4350 6000 4350
-Wire Wire Line
-	6000 4350 6000 4650
-Connection ~ 6000 4650
-Wire Wire Line
-	6000 4650 6100 4650
-Connection ~ 5400 6250
-Wire Wire Line
-	5400 6250 6100 6250
-Wire Wire Line
-	6500 5750 6500 6250
-Connection ~ 6500 6250
-Wire Wire Line
-	6500 6250 8900 6250
-Wire Wire Line
-	5200 4650 4500 4650
-Connection ~ 5200 4650
-Connection ~ 4500 4650
-Wire Wire Line
-	4500 4650 4500 5550
-Wire Wire Line
-	5200 5550 4500 5550
-Connection ~ 5200 5550
-Connection ~ 4500 5550
+	8100 4500 7500 4500
 $EndSCHEMATC

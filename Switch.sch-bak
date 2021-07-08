@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 11
+Sheet 11 15
 Title ""
 Date ""
 Rev ""
@@ -123,16 +123,16 @@ Wire Wire Line
 Connection ~ 7400 3800
 $Comp
 L Connector:TestPoint TP?
-U 1 1 60DF19BA
+U 1 1 60E73026
 P 7550 3500
-AR Path="/60DF19BA" Ref="TP?"  Part="1" 
-AR Path="/609FED99/60DF19BA" Ref="TP?"  Part="1" 
-AR Path="/60DF07DE/60DF19BA" Ref="TP?"  Part="1" 
-AR Path="/60DF0860/60DF19BA" Ref="TP?"  Part="1" 
-AR Path="/60DF1072/60DF19BA" Ref="TP?"  Part="1" 
-AR Path="/60DF1160/60DF19BA" Ref="TP?"  Part="1" 
-AR Path="/60DF196E/60DF19BA" Ref="TP?"  Part="1" 
-AR Path="/60DF212D/60DF19BA" Ref="TP?"  Part="1" 
+AR Path="/60E73026" Ref="TP?"  Part="1" 
+AR Path="/609FED99/60E73026" Ref="TP?"  Part="1" 
+AR Path="/60DF07DE/60E73026" Ref="TP?"  Part="1" 
+AR Path="/60DF0860/60E73026" Ref="TP?"  Part="1" 
+AR Path="/60DF1072/60E73026" Ref="TP?"  Part="1" 
+AR Path="/60DF1160/60E73026" Ref="TP?"  Part="1" 
+AR Path="/60DF196E/60E73026" Ref="TP?"  Part="1" 
+AR Path="/60DF212D/60E73026" Ref="TP?"  Part="1" 
 F 0 "TP?" H 7608 3618 50  0000 L CNN
 F 1 "TestPoint" H 7608 3527 50  0001 L CNN
 F 2 "" H 7750 3500 50  0001 C CNN
@@ -206,15 +206,15 @@ F 3 "~" H 4850 3650 50  0001 C CNN
 $EndComp
 $Comp
 L Device:CP C?
-U 1 1 60DF19BC
+U 1 1 60E73027
 P 3800 3650
-AR Path="/609FED99/60DF19BC" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF19BC" Ref="C?"  Part="1" 
-AR Path="/60DF0860/60DF19BC" Ref="C?"  Part="1" 
-AR Path="/60DF1072/60DF19BC" Ref="C?"  Part="1" 
-AR Path="/60DF1160/60DF19BC" Ref="C?"  Part="1" 
-AR Path="/60DF196E/60DF19BC" Ref="C?"  Part="1" 
-AR Path="/60DF212D/60DF19BC" Ref="C?"  Part="1" 
+AR Path="/609FED99/60E73027" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60E73027" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60E73027" Ref="C?"  Part="1" 
+AR Path="/60DF1072/60E73027" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60E73027" Ref="C?"  Part="1" 
+AR Path="/60DF196E/60E73027" Ref="C?"  Part="1" 
+AR Path="/60DF212D/60E73027" Ref="C?"  Part="1" 
 F 0 "C?" H 3918 3696 50  0000 L CNN
 F 1 "100u" H 3918 3605 50  0000 L CNN
 F 2 "" H 3838 3500 50  0001 C CNN
@@ -250,16 +250,16 @@ Wire Wire Line
 Connection ~ 3800 3800
 $Comp
 L Connector:TestPoint TP?
-U 1 1 60DF0A64
+U 1 1 60E73020
 P 5400 3800
-AR Path="/60DF0A64" Ref="TP?"  Part="1" 
-AR Path="/609FED99/60DF0A64" Ref="TP?"  Part="1" 
-AR Path="/60DF07DE/60DF0A64" Ref="TP?"  Part="1" 
-AR Path="/60DF0860/60DF0A64" Ref="TP?"  Part="1" 
-AR Path="/60DF1072/60DF0A64" Ref="TP?"  Part="1" 
-AR Path="/60DF1160/60DF0A64" Ref="TP?"  Part="1" 
-AR Path="/60DF196E/60DF0A64" Ref="TP?"  Part="1" 
-AR Path="/60DF212D/60DF0A64" Ref="TP?"  Part="1" 
+AR Path="/60E73020" Ref="TP?"  Part="1" 
+AR Path="/609FED99/60E73020" Ref="TP?"  Part="1" 
+AR Path="/60DF07DE/60E73020" Ref="TP?"  Part="1" 
+AR Path="/60DF0860/60E73020" Ref="TP?"  Part="1" 
+AR Path="/60DF1072/60E73020" Ref="TP?"  Part="1" 
+AR Path="/60DF1160/60E73020" Ref="TP?"  Part="1" 
+AR Path="/60DF196E/60E73020" Ref="TP?"  Part="1" 
+AR Path="/60DF212D/60E73020" Ref="TP?"  Part="1" 
 F 0 "TP?" H 5458 3918 50  0000 L CNN
 F 1 "TestPoint" H 5458 3827 50  0001 L CNN
 F 2 "" H 5600 3800 50  0001 C CNN
