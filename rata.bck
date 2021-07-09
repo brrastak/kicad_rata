@@ -5,4 +5,14 @@ D Realtime Clock/Calendar I2C Interface, SOIC-8
 K I2C RTC Clock Calendar
 $ENDCMP
 #
+$CMP TPA3110D2
+D 15W, Stereo, D class Audio Amplifier
+$ENDCMP
+#
+$CMP TPA6132A2RTE
+D 25mW, Stereo, DirectPath Audio Amplifier, WQFN-16
+K DirectPath audio amplifier Stereo
+F https://www.ti.com/lit/ds/symlink/tpa6132a2.pdf
+$ENDCMP
+#
 #End Doc Library

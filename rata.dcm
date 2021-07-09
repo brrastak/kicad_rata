@@ -5,4 +5,8 @@ D Realtime Clock/Calendar I2C Interface, SOIC-8
 K I2C RTC Clock Calendar
 $ENDCMP
 #
+$CMP TPA3110D2
+D 15W, Stereo, D class Audio Amplifier
+$ENDCMP
+#
 #End Doc Library

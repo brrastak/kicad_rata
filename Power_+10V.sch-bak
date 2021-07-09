@@ -203,7 +203,7 @@ AR Path="/609FED99/60ED6B0B" Ref="C?"  Part="1"
 AR Path="/60DF0860/60ED6B0B" Ref="C?"  Part="1" 
 AR Path="/60DF07DE/60ED6B0B" Ref="C?"  Part="1" 
 F 0 "C?" H 3615 4096 50  0000 L CNN
-F 1 "1000" H 3615 4005 50  0000 L CNN
+F 1 "500" H 3615 4005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3538 3900 50  0001 C CNN
 F 3 "~" H 3500 4050 50  0001 C CNN
 	1    3500 4050
@@ -384,17 +384,6 @@ F 3 "~" H 8500 3650 50  0001 C CNN
 	1    8500 3650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Ferrite_Bead FB?
-U 1 1 60EDC632
-P 9650 3500
-F 0 "FB?" V 9376 3500 50  0000 C CNN
-F 1 "Ferrite_Bead" V 9467 3500 50  0000 C CNN
-F 2 "" V 9580 3500 50  0001 C CNN
-F 3 "~" H 9650 3500 50  0001 C CNN
-	1    9650 3500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7500 3500 7800 3500
 Connection ~ 7500 3500
@@ -404,10 +393,6 @@ Connection ~ 8500 3500
 Wire Wire Line
 	8500 3500 9000 3500
 Connection ~ 9000 3500
-Wire Wire Line
-	9000 3500 9500 3500
-Wire Wire Line
-	9800 3500 10100 3500
 Wire Wire Line
 	9000 3800 9000 4500
 Wire Wire Line
@@ -454,4 +439,6 @@ $EndComp
 Connection ~ 8100 4500
 Wire Wire Line
 	8100 4500 7500 4500
+Wire Wire Line
+	9000 3500 10100 3500
 $EndSCHEMATC
