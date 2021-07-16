@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 15
+Sheet 4 20
 Title ""
 Date ""
 Rev ""
@@ -52,19 +52,6 @@ F 3 "~" H 6000 4750 50  0001 C CNN
 	1    6000 4750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60B3B924
-P 6500 5000
-AR Path="/60B3B924" Ref="#PWR?"  Part="1" 
-AR Path="/60B39FE1/60B3B924" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6500 4750 50  0001 C CNN
-F 1 "GND" H 6505 4827 50  0000 C CNN
-F 2 "" H 6500 5000 50  0001 C CNN
-F 3 "" H 6500 5000 50  0001 C CNN
-	1    6500 5000
-	1    0    0    -1  
-$EndComp
 Text Notes 6150 2700 2    197  ~ 0
 Buzzer
 Text HLabel 5000 4500 0    50   Input ~ 0
@@ -81,19 +68,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5580 4500 50  0
 F 3 "~" H 5650 4500 50  0001 C CNN
 	1    5650 4500
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 60B40656
-P 6500 3500
-AR Path="/609FED99/60B40656" Ref="#PWR?"  Part="1" 
-AR Path="/60B39FE1/60B40656" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6500 3350 50  0001 C CNN
-F 1 "+5V" H 6515 3673 50  0000 C CNN
-F 2 "" H 6500 3500 50  0001 C CNN
-F 3 "" H 6500 3500 50  0001 C CNN
-	1    6500 3500
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6500 3500 6500 3800
@@ -112,11 +86,17 @@ Wire Wire Line
 	6000 4900 6000 5000
 Wire Wire Line
 	6000 5000 6500 5000
-Connection ~ 6500 5000
 Wire Wire Line
 	5500 4500 5000 4500
 Text HLabel 5000 3500 0    50   Input ~ 0
 +5V
 Text HLabel 5000 5500 0    50   Input ~ 0
 GND
+Wire Wire Line
+	5000 3500 6500 3500
+Wire Wire Line
+	6500 5000 6500 5500
+Wire Wire Line
+	6500 5500 5000 5500
+Connection ~ 6500 5000
 $EndSCHEMATC

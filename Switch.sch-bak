@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 15
+Sheet 11 20
 Title ""
 Date ""
 Rev ""
@@ -15,17 +15,19 @@ Comment4 ""
 $EndDescr
 $Comp
 L Regulator_Linear:AMS1117-3.3 U?
-U 1 1 60DF19B6
+U 1 1 60F1A131
 P 6800 3500
-AR Path="/60DF19B6" Ref="U?"  Part="1" 
-AR Path="/609C9D41/60DF19B6" Ref="U?"  Part="1" 
-AR Path="/609FED99/60DF19B6" Ref="U?"  Part="1" 
-AR Path="/60DF07DE/60DF19B6" Ref="U?"  Part="1" 
-AR Path="/60DF0860/60DF19B6" Ref="U?"  Part="1" 
-AR Path="/60DF1072/60DF19B6" Ref="U?"  Part="1" 
-AR Path="/60DF1160/60DF19B6" Ref="U?"  Part="1" 
-AR Path="/60DF196E/60DF19B6" Ref="U?"  Part="1" 
-AR Path="/60DF212D/60DF19B6" Ref="U?"  Part="1" 
+AR Path="/60F1A131" Ref="U?"  Part="1" 
+AR Path="/609C9D41/60F1A131" Ref="U?"  Part="1" 
+AR Path="/609FED99/60F1A131" Ref="U?"  Part="1" 
+AR Path="/60DF07DE/60F1A131" Ref="U?"  Part="1" 
+AR Path="/60DF0860/60F1A131" Ref="U?"  Part="1" 
+AR Path="/60DF1072/60F1A131" Ref="U?"  Part="1" 
+AR Path="/60DF1160/60F1A131" Ref="U?"  Part="1" 
+AR Path="/60DF196E/60F1A131" Ref="U?"  Part="1" 
+AR Path="/60DF212D/60F1A131" Ref="U?"  Part="1" 
+AR Path="/60F197D4/60F1A131" Ref="U?"  Part="1" 
+AR Path="/60DF1160/60F2690B/60F1A131" Ref="U?"  Part="1" 
 F 0 "U?" H 6800 3742 50  0000 C CNN
 F 1 "AMS1117-3.3" H 6800 3651 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6800 3700 50  0001 C CNN
@@ -35,23 +37,25 @@ F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 6900 3250 50  0001 C C
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60DF19B7
+U 1 1 60F1A132
 P 7400 3650
-AR Path="/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/60DF0860/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/60DF1072/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/60DF1160/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/60DF196E/60DF19B7" Ref="C?"  Part="1" 
-AR Path="/60DF212D/60DF19B7" Ref="C?"  Part="1" 
+AR Path="/60F1A132" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/609D24C0/60F1A132" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A08E0B/60F1A132" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A46E/60F1A132" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A500/60F1A132" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A922/60F1A132" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60F1A132" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60AE5653/60F1A132" Ref="C?"  Part="1" 
+AR Path="/609FED99/60F1A132" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60F1A132" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60F1A132" Ref="C?"  Part="1" 
+AR Path="/60DF1072/60F1A132" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60F1A132" Ref="C?"  Part="1" 
+AR Path="/60DF196E/60F1A132" Ref="C?"  Part="1" 
+AR Path="/60DF212D/60F1A132" Ref="C?"  Part="1" 
+AR Path="/60F197D4/60F1A132" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60F2690B/60F1A132" Ref="C?"  Part="1" 
 F 0 "C?" H 7515 3696 50  0000 L CNN
 F 1 "10u" H 7515 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7438 3500 50  0001 C CNN
@@ -61,23 +65,25 @@ F 3 "~" H 7400 3650 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60DF19B8
+U 1 1 60F1A133
 P 6200 3650
-AR Path="/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/60DF0860/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/60DF1072/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/60DF1160/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/60DF196E/60DF19B8" Ref="C?"  Part="1" 
-AR Path="/60DF212D/60DF19B8" Ref="C?"  Part="1" 
+AR Path="/60F1A133" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/609D24C0/60F1A133" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A08E0B/60F1A133" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A46E/60F1A133" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A500/60F1A133" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A922/60F1A133" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60F1A133" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60AE5653/60F1A133" Ref="C?"  Part="1" 
+AR Path="/609FED99/60F1A133" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60F1A133" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60F1A133" Ref="C?"  Part="1" 
+AR Path="/60DF1072/60F1A133" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60F1A133" Ref="C?"  Part="1" 
+AR Path="/60DF196E/60F1A133" Ref="C?"  Part="1" 
+AR Path="/60DF212D/60F1A133" Ref="C?"  Part="1" 
+AR Path="/60F197D4/60F1A133" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60F2690B/60F1A133" Ref="C?"  Part="1" 
 F 0 "C?" H 6315 3696 50  0000 L CNN
 F 1 "0,1" H 6315 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6238 3500 50  0001 C CNN
@@ -87,23 +93,25 @@ F 3 "~" H 6200 3650 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60DF0A5E
+U 1 1 60F1AA68
 P 7800 3650
-AR Path="/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/60DF0860/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/60DF1072/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/60DF1160/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/60DF196E/60DF0A5E" Ref="C?"  Part="1" 
-AR Path="/60DF212D/60DF0A5E" Ref="C?"  Part="1" 
+AR Path="/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/609D24C0/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A08E0B/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A46E/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A500/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A922/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60AE5653/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/609FED99/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/60DF1072/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/60DF196E/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/60DF212D/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/60F197D4/60F1AA68" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60F2690B/60F1AA68" Ref="C?"  Part="1" 
 F 0 "C?" H 7915 3696 50  0000 L CNN
 F 1 "10u" H 7915 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7838 3500 50  0001 C CNN
@@ -133,6 +141,8 @@ AR Path="/60DF1072/60E73026" Ref="TP?"  Part="1"
 AR Path="/60DF1160/60E73026" Ref="TP?"  Part="1" 
 AR Path="/60DF196E/60E73026" Ref="TP?"  Part="1" 
 AR Path="/60DF212D/60E73026" Ref="TP?"  Part="1" 
+AR Path="/60F197D4/60E73026" Ref="TP?"  Part="1" 
+AR Path="/60DF1160/60F2690B/60E73026" Ref="TP?"  Part="1" 
 F 0 "TP?" H 7608 3618 50  0000 L CNN
 F 1 "TestPoint" H 7608 3527 50  0001 L CNN
 F 2 "" H 7750 3500 50  0001 C CNN
@@ -152,6 +162,8 @@ AR Path="/60DF1072/60DF11C1" Ref="TP?"  Part="1"
 AR Path="/60DF1160/60DF11C1" Ref="TP?"  Part="1" 
 AR Path="/60DF196E/60DF11C1" Ref="TP?"  Part="1" 
 AR Path="/60DF212D/60DF11C1" Ref="TP?"  Part="1" 
+AR Path="/60F197D4/60DF11C1" Ref="TP?"  Part="1" 
+AR Path="/60DF1160/60F2690B/60DF11C1" Ref="TP?"  Part="1" 
 F 0 "TP?" H 5458 3618 50  0000 L CNN
 F 1 "TestPoint" H 5458 3527 50  0001 L CNN
 F 2 "" H 5600 3500 50  0001 C CNN
@@ -161,23 +173,25 @@ F 3 "~" H 5600 3500 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60DF19BF
+U 1 1 60F1A134
 P 4350 3650
-AR Path="/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/609FED99/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/60DF0860/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/60DF1072/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/60DF1160/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/60DF196E/60DF19BF" Ref="C?"  Part="1" 
-AR Path="/60DF212D/60DF19BF" Ref="C?"  Part="1" 
+AR Path="/60F1A134" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/609D24C0/60F1A134" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A08E0B/60F1A134" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A46E/60F1A134" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A500/60F1A134" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A922/60F1A134" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60F1A134" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60AE5653/60F1A134" Ref="C?"  Part="1" 
+AR Path="/609FED99/60F1A134" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60F1A134" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60F1A134" Ref="C?"  Part="1" 
+AR Path="/60DF1072/60F1A134" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60F1A134" Ref="C?"  Part="1" 
+AR Path="/60DF196E/60F1A134" Ref="C?"  Part="1" 
+AR Path="/60DF212D/60F1A134" Ref="C?"  Part="1" 
+AR Path="/60F197D4/60F1A134" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60F2690B/60F1A134" Ref="C?"  Part="1" 
 F 0 "C?" H 4465 3696 50  0000 L CNN
 F 1 "1u" H 4465 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4388 3500 50  0001 C CNN
@@ -197,6 +211,8 @@ AR Path="/60DF1072/60DF121A" Ref="D?"  Part="1"
 AR Path="/60DF1160/60DF121A" Ref="D?"  Part="1" 
 AR Path="/60DF196E/60DF121A" Ref="D?"  Part="1" 
 AR Path="/60DF212D/60DF121A" Ref="D?"  Part="1" 
+AR Path="/60F197D4/60DF121A" Ref="D?"  Part="1" 
+AR Path="/60DF1160/60F2690B/60DF121A" Ref="D?"  Part="1" 
 F 0 "D?" V 4896 3570 50  0000 R CNN
 F 1 "SMAJ5.0CA" V 4805 3570 50  0000 R CNN
 F 2 "" H 4850 3650 50  0001 C CNN
@@ -215,6 +231,8 @@ AR Path="/60DF1072/60E73027" Ref="C?"  Part="1"
 AR Path="/60DF1160/60E73027" Ref="C?"  Part="1" 
 AR Path="/60DF196E/60E73027" Ref="C?"  Part="1" 
 AR Path="/60DF212D/60E73027" Ref="C?"  Part="1" 
+AR Path="/60F197D4/60E73027" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60F2690B/60E73027" Ref="C?"  Part="1" 
 F 0 "C?" H 3918 3696 50  0000 L CNN
 F 1 "100u" H 3918 3605 50  0000 L CNN
 F 2 "" H 3838 3500 50  0001 C CNN
@@ -250,16 +268,18 @@ Wire Wire Line
 Connection ~ 3800 3800
 $Comp
 L Connector:TestPoint TP?
-U 1 1 60E73020
+U 1 1 60F1A135
 P 5400 3800
-AR Path="/60E73020" Ref="TP?"  Part="1" 
-AR Path="/609FED99/60E73020" Ref="TP?"  Part="1" 
-AR Path="/60DF07DE/60E73020" Ref="TP?"  Part="1" 
-AR Path="/60DF0860/60E73020" Ref="TP?"  Part="1" 
-AR Path="/60DF1072/60E73020" Ref="TP?"  Part="1" 
-AR Path="/60DF1160/60E73020" Ref="TP?"  Part="1" 
-AR Path="/60DF196E/60E73020" Ref="TP?"  Part="1" 
-AR Path="/60DF212D/60E73020" Ref="TP?"  Part="1" 
+AR Path="/60F1A135" Ref="TP?"  Part="1" 
+AR Path="/609FED99/60F1A135" Ref="TP?"  Part="1" 
+AR Path="/60DF07DE/60F1A135" Ref="TP?"  Part="1" 
+AR Path="/60DF0860/60F1A135" Ref="TP?"  Part="1" 
+AR Path="/60DF1072/60F1A135" Ref="TP?"  Part="1" 
+AR Path="/60DF1160/60F1A135" Ref="TP?"  Part="1" 
+AR Path="/60DF196E/60F1A135" Ref="TP?"  Part="1" 
+AR Path="/60DF212D/60F1A135" Ref="TP?"  Part="1" 
+AR Path="/60F197D4/60F1A135" Ref="TP?"  Part="1" 
+AR Path="/60DF1160/60F2690B/60F1A135" Ref="TP?"  Part="1" 
 F 0 "TP?" H 5458 3918 50  0000 L CNN
 F 1 "TestPoint" H 5458 3827 50  0001 L CNN
 F 2 "" H 5600 3800 50  0001 C CNN

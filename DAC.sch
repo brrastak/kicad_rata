@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 15
+Sheet 14 20
 Title ""
 Date ""
 Rev ""
@@ -15,23 +15,23 @@ Comment4 ""
 $EndDescr
 $Comp
 L Device:C C?
-U 1 1 60EE8A0B
+U 1 1 60F186C4
 P 2500 3350
-AR Path="/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/609FED99/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/60DF0860/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/60DF1072/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/60DF1160/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/60E72FD7/60EE8A0B" Ref="C?"  Part="1" 
-AR Path="/60EF6B1B/60EE8A0B" Ref="C?"  Part="1" 
+AR Path="/60F186C4" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/609D24C0/60F186C4" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A08E0B/60F186C4" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A46E/60F186C4" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A500/60F186C4" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A922/60F186C4" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60F186C4" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60AE5653/60F186C4" Ref="C?"  Part="1" 
+AR Path="/609FED99/60F186C4" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60F186C4" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60F186C4" Ref="C?"  Part="1" 
+AR Path="/60DF1072/60F186C4" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60F186C4" Ref="C?"  Part="1" 
+AR Path="/60E72FD7/60F186C4" Ref="C?"  Part="1" 
+AR Path="/60EF6B1B/60F186C4" Ref="C?"  Part="1" 
 F 0 "C?" H 2615 3396 50  0000 L CNN
 F 1 "10u" H 2615 3305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2538 3200 50  0001 C CNN
