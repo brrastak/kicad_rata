@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 20
+Sheet 6 24
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 6950 1750 2    197  ~ 0
-Power source +10V
+Boost converter +10V
 $Comp
 L Device:C C?
 U 1 1 60ED6AC7

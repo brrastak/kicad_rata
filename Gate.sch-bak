@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 20
+Sheet 10 24
 Title ""
 Date ""
 Rev ""
@@ -187,6 +187,7 @@ P 4250 4000
 AR Path="/60F441F8" Ref="TP?"  Part="1" 
 AR Path="/609FED99/60F441F8" Ref="TP?"  Part="1" 
 AR Path="/60DF0860/60F441F8" Ref="TP?"  Part="1" 
+AR Path="/60DF1160/60F2690B/60F441F8" Ref="TP?"  Part="1" 
 F 0 "TP?" H 4308 4118 50  0000 L CNN
 F 1 "TestPoint" H 4308 4027 50  0001 L CNN
 F 2 "" H 4450 4000 50  0001 C CNN
@@ -201,6 +202,7 @@ P 7250 4000
 AR Path="/60F446D3" Ref="TP?"  Part="1" 
 AR Path="/609FED99/60F446D3" Ref="TP?"  Part="1" 
 AR Path="/60DF0860/60F446D3" Ref="TP?"  Part="1" 
+AR Path="/60DF1160/60F2690B/60F446D3" Ref="TP?"  Part="1" 
 F 0 "TP?" H 7308 4118 50  0000 L CNN
 F 1 "TestPoint" H 7308 4027 50  0001 L CNN
 F 2 "" H 7450 4000 50  0001 C CNN

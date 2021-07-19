@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 20
+Sheet 14 24
 Title ""
 Date ""
 Rev ""
@@ -378,7 +378,7 @@ F 3 "~" H 9750 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1000 5000 2500 5000
+	1000 5000 1500 5000
 Wire Wire Line
 	9250 5000 9250 4500
 Wire Wire Line
@@ -409,7 +409,7 @@ Connection ~ 2750 5000
 Wire Wire Line
 	2750 5000 3400 5000
 Wire Wire Line
-	1000 4500 2000 4500
+	1000 4500 1750 4500
 Wire Wire Line
 	2000 3900 2000 4100
 Wire Wire Line
@@ -418,7 +418,7 @@ Wire Wire Line
 	1500 3900 1500 4000
 Connection ~ 1500 4000
 Wire Wire Line
-	1500 4000 3000 4000
+	1500 4000 1850 4000
 Wire Wire Line
 	1000 3000 1500 3000
 Wire Wire Line
@@ -587,4 +587,38 @@ Wire Wire Line
 Connection ~ 9250 3800
 Wire Wire Line
 	9250 3800 9250 3250
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60FEAD39
+P 2200 5400
+AR Path="/60EF6B1B/60FEAD39" Ref="J?"  Part="1" 
+AR Path="/60E72FD7/60FEAD39" Ref="J?"  Part="1" 
+F 0 "J?" H 2172 5424 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 2172 5333 50  0000 R CNN
+F 2 "" H 2200 5400 50  0001 C CNN
+F 3 "~" H 2200 5400 50  0001 C CNN
+	1    2200 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5500 1500 5500
+Wire Wire Line
+	1500 5500 1500 5000
+Connection ~ 1500 5000
+Wire Wire Line
+	1500 5000 2500 5000
+Wire Wire Line
+	2000 5400 1750 5400
+Wire Wire Line
+	1750 5400 1750 4500
+Connection ~ 1750 4500
+Wire Wire Line
+	1750 4500 2000 4500
+Wire Wire Line
+	2000 5300 1850 5300
+Wire Wire Line
+	1850 5300 1850 4000
+Connection ~ 1850 4000
+Wire Wire Line
+	1850 4000 3000 4000
 $EndSCHEMATC

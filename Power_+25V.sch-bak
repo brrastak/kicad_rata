@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 20
+Sheet 7 24
 Title ""
 Date ""
 Rev ""
@@ -80,11 +80,11 @@ F 3 "~" H 8450 4000 50  0001 C CNN
 $EndComp
 $Comp
 L Connector:TestPoint TP?
-U 1 1 60ACAEBE
+U 1 1 60F5917B
 P 5600 3500
-AR Path="/60ACAEBE" Ref="TP?"  Part="1" 
-AR Path="/609FED99/60ACAEBE" Ref="TP?"  Part="1" 
-AR Path="/60DF0860/60ACAEBE" Ref="TP?"  Part="1" 
+AR Path="/60F5917B" Ref="TP?"  Part="1" 
+AR Path="/609FED99/60F5917B" Ref="TP?"  Part="1" 
+AR Path="/60DF0860/60F5917B" Ref="TP?"  Part="1" 
 F 0 "TP?" H 5658 3618 50  0000 L CNN
 F 1 "TestPoint" H 5658 3527 50  0001 L CNN
 F 2 "" H 5800 3500 50  0001 C CNN
@@ -94,7 +94,7 @@ F 3 "~" H 5800 3500 50  0001 C CNN
 $EndComp
 $Comp
 L Device:CP C?
-U 1 1 60ADA476
+U 1 1 60F5917D
 P 3500 4150
 F 0 "C?" H 3618 4196 50  0000 L CNN
 F 1 "100u" H 3618 4105 50  0000 L CNN
