@@ -5,6 +5,11 @@ D Realtime Clock/Calendar I2C Interface, SOIC-8
 K I2C RTC Clock Calendar
 $ENDCMP
 #
+$CMP TD62783
+D VLD driver, SOIC18/DIP18
+K VLD driver
+$ENDCMP
+#
 $CMP TPA3110D2
 D 15W, Stereo, D class Audio Amplifier
 $ENDCMP
