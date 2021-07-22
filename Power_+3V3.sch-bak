@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 23
+Sheet 11 23
 Title ""
 Date ""
 Rev ""
@@ -165,71 +165,12 @@ F 3 "~" H 5600 3500 50  0001 C CNN
 	1    5400 3500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 60E73028
-P 4350 3650
-AR Path="/60E73028" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/609D24C0/60E73028" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A08E0B/60E73028" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A46E/60E73028" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A500/60E73028" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60A0A922/60E73028" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60E73028" Ref="C?"  Part="1" 
-AR Path="/609CA6A8/60AE5653/60E73028" Ref="C?"  Part="1" 
-AR Path="/609FED99/60E73028" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60E73028" Ref="C?"  Part="1" 
-AR Path="/60DF0860/60E73028" Ref="C?"  Part="1" 
-AR Path="/60DF1072/60E73028" Ref="C?"  Part="1" 
-AR Path="/60DF1160/60E73028" Ref="C?"  Part="1" 
-AR Path="/60DF196E/60E73028" Ref="C?"  Part="1" 
-AR Path="/60DF212D/60E73028" Ref="C?"  Part="1" 
-AR Path="/60E6F2E9/60E73028" Ref="C?"  Part="1" 
-F 0 "C?" H 4465 3696 50  0000 L CNN
-F 1 "1u" H 4465 3605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4388 3500 50  0001 C CNN
-F 3 "~" H 4350 3650 50  0001 C CNN
-	1    4350 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C?
-U 1 1 60DF19BC
-P 3800 3650
-AR Path="/609FED99/60DF19BC" Ref="C?"  Part="1" 
-AR Path="/60DF07DE/60DF19BC" Ref="C?"  Part="1" 
-AR Path="/60DF0860/60DF19BC" Ref="C?"  Part="1" 
-AR Path="/60DF1072/60DF19BC" Ref="C?"  Part="1" 
-AR Path="/60DF1160/60DF19BC" Ref="C?"  Part="1" 
-AR Path="/60DF196E/60DF19BC" Ref="C?"  Part="1" 
-AR Path="/60DF212D/60DF19BC" Ref="C?"  Part="1" 
-AR Path="/60E6F2E9/60DF19BC" Ref="C?"  Part="1" 
-F 0 "C?" H 3918 3696 50  0000 L CNN
-F 1 "100u" H 3918 3605 50  0000 L CNN
-F 2 "" H 3838 3500 50  0001 C CNN
-F 3 "~" H 3800 3650 50  0001 C CNN
-	1    3800 3650
-	1    0    0    -1  
-$EndComp
-Text HLabel 3000 3500 0    50   Input ~ 0
+Text HLabel 2000 3500 0    50   Input ~ 0
 +5V_IN
-Wire Wire Line
-	3000 3500 3800 3500
 Connection ~ 6200 3500
-Connection ~ 3800 3500
-Wire Wire Line
-	3800 3500 4350 3500
-Connection ~ 4350 3500
-Connection ~ 5400 3500
-Wire Wire Line
-	3800 3800 4350 3800
 Connection ~ 6200 3800
-Connection ~ 4350 3800
 Wire Wire Line
 	6800 3800 7400 3800
-Wire Wire Line
-	3000 3800 3800 3800
-Connection ~ 3800 3800
 $Comp
 L Connector:TestPoint TP?
 U 1 1 60DF0A64
@@ -250,14 +191,13 @@ F 3 "~" H 5600 3800 50  0001 C CNN
 	1    5400 3800
 	1    0    0    -1  
 $EndComp
-Connection ~ 5400 3800
 Wire Wire Line
 	7400 3500 7550 3500
 Connection ~ 7400 3500
 Wire Wire Line
 	7550 3500 7800 3500
 Connection ~ 7550 3500
-Text HLabel 3000 3800 0    50   Input ~ 0
+Text HLabel 2000 3800 0    50   Input ~ 0
 GND
 Text Notes 6900 2250 2    197  ~ 0
 Power source +3V3
@@ -270,8 +210,127 @@ Text HLabel 8500 3500 2    50   Output ~ 0
 Wire Wire Line
 	7800 3500 8500 3500
 Connection ~ 7800 3500
+$Comp
+L Device:C C?
+U 1 1 60FB3F89
+P 3000 3650
+AR Path="/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/609D24C0/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A08E0B/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A46E/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A500/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A922/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60AE5653/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/609FED99/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/60DF1072/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/60DF196E/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/60DF212D/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/60E6F2E9/60FB3F89" Ref="C?"  Part="1" 
+AR Path="/60EE89A9/60FB3F89" Ref="C?"  Part="1" 
+F 0 "C?" H 3115 3696 50  0000 L CNN
+F 1 "1u" H 3115 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3038 3500 50  0001 C CNN
+F 3 "~" H 3000 3650 50  0001 C CNN
+	1    3000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 60FB3F8F
+P 2500 3650
+AR Path="/609FED99/60FB3F8F" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60FB3F8F" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60FB3F8F" Ref="C?"  Part="1" 
+AR Path="/60DF1072/60FB3F8F" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60FB3F8F" Ref="C?"  Part="1" 
+AR Path="/60DF196E/60FB3F8F" Ref="C?"  Part="1" 
+AR Path="/60DF212D/60FB3F8F" Ref="C?"  Part="1" 
+AR Path="/60E6F2E9/60FB3F8F" Ref="C?"  Part="1" 
+AR Path="/60EE89A9/60FB3F8F" Ref="C?"  Part="1" 
+F 0 "C?" H 2618 3696 50  0000 L CNN
+F 1 "100u" H 2618 3605 50  0000 L CNN
+F 2 "" H 2538 3500 50  0001 C CNN
+F 3 "~" H 2500 3650 50  0001 C CNN
+	1    2500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 60FC0F28
+P 5000 3650
+AR Path="/609FED99/60FC0F28" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60FC0F28" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60FC0F28" Ref="C?"  Part="1" 
+AR Path="/60DF1072/60FC0F28" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60FC0F28" Ref="C?"  Part="1" 
+AR Path="/60DF196E/60FC0F28" Ref="C?"  Part="1" 
+AR Path="/60DF212D/60FC0F28" Ref="C?"  Part="1" 
+AR Path="/60E6F2E9/60FC0F28" Ref="C?"  Part="1" 
+AR Path="/60EE89A9/60FC0F28" Ref="C?"  Part="1" 
+F 0 "C?" H 5118 3696 50  0000 L CNN
+F 1 "100u" H 5118 3605 50  0000 L CNN
+F 2 "" H 5038 3500 50  0001 C CNN
+F 3 "~" H 5000 3650 50  0001 C CNN
+	1    5000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 60FC2E70
+P 4250 3500
+AR Path="/60DF1072/60FC2E70" Ref="FB?"  Part="1" 
+AR Path="/60E6F2E9/60FC2E70" Ref="FB?"  Part="1" 
+F 0 "FB?" V 3976 3500 50  0000 C CNN
+F 1 "Ferrite_Bead" V 4067 3500 50  0000 C CNN
+F 2 "" V 4180 3500 50  0001 C CNN
+F 3 "~" H 4250 3500 50  0001 C CNN
+	1    4250 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 60FC380F
+P 3750 3500
+AR Path="/60DF0860/60FC380F" Ref="L?"  Part="1" 
+AR Path="/60DF07DE/60FC380F" Ref="L?"  Part="1" 
+AR Path="/60F1863C/60FC380F" Ref="L?"  Part="1" 
+F 0 "L?" V 3850 3500 50  0000 C CNN
+F 1 "330u" V 3700 3500 50  0000 C CNN
+F 2 "" H 3750 3500 50  0001 C CNN
+F 3 "~" H 3750 3500 50  0001 C CNN
+	1    3750 3500
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	4350 3800 5400 3800
+	2000 3500 2500 3500
+Connection ~ 2500 3500
 Wire Wire Line
-	4350 3500 5400 3500
+	2500 3500 3000 3500
+Connection ~ 3000 3500
+Wire Wire Line
+	3000 3500 3600 3500
+Wire Wire Line
+	3900 3500 4100 3500
+Wire Wire Line
+	4400 3500 5000 3500
+Connection ~ 5400 3500
+Connection ~ 5000 3500
+Wire Wire Line
+	5000 3500 5400 3500
+Wire Wire Line
+	2000 3800 2500 3800
+Connection ~ 5400 3800
+Connection ~ 2500 3800
+Wire Wire Line
+	2500 3800 3000 3800
+Connection ~ 3000 3800
+Wire Wire Line
+	3000 3800 5000 3800
+Connection ~ 5000 3800
+Wire Wire Line
+	5000 3800 5400 3800
 $EndSCHEMATC

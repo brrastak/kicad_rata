@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 23
+Sheet 13 23
 Title ""
 Date ""
 Rev ""
@@ -157,9 +157,6 @@ F 3 "~" H 5500 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 4000 4400 4000
-Connection ~ 4400 4000
-Wire Wire Line
 	4400 4000 5500 4000
 Wire Wire Line
 	4400 4800 4400 5500
@@ -203,8 +200,6 @@ Text HLabel 9000 3000 2    50   Input ~ 0
 +3V3_IN
 Wire Wire Line
 	5500 4000 5500 2500
-Wire Wire Line
-	5500 2500 8500 2500
 Connection ~ 5500 4000
 Wire Wire Line
 	9000 3500 8500 3500
@@ -244,11 +239,10 @@ F 3 "~" H 8700 2500 50  0001 C CNN
 	1    8500 2500
 	1    0    0    -1  
 $EndComp
-Connection ~ 8500 2500
 Wire Wire Line
 	8500 2500 9000 2500
 Wire Wire Line
-	5500 5500 8500 5500
+	5500 5500 7000 5500
 Connection ~ 5500 5500
 $Comp
 L Connector:Conn_01x03_Male J?
@@ -279,4 +273,85 @@ Wire Wire Line
 Connection ~ 8250 4500
 Wire Wire Line
 	8250 4500 9000 4500
+$Comp
+L Device:C C?
+U 1 1 60FAF66E
+P 7000 2650
+AR Path="/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/609D24C0/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A08E0B/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A46E/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A500/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60A0A922/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/609CA6A8/60AE5653/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/609FED99/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/60DF1072/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/60DF196E/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/60DF212D/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/60E6F2E9/60FAF66E" Ref="C?"  Part="1" 
+AR Path="/60EE89A9/60FAF66E" Ref="C?"  Part="1" 
+F 0 "C?" H 7115 2696 50  0000 L CNN
+F 1 "1u" H 7115 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7038 2500 50  0001 C CNN
+F 3 "~" H 7000 2650 50  0001 C CNN
+	1    7000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 60FAF674
+P 6500 2650
+AR Path="/609FED99/60FAF674" Ref="C?"  Part="1" 
+AR Path="/60DF07DE/60FAF674" Ref="C?"  Part="1" 
+AR Path="/60DF0860/60FAF674" Ref="C?"  Part="1" 
+AR Path="/60DF1072/60FAF674" Ref="C?"  Part="1" 
+AR Path="/60DF1160/60FAF674" Ref="C?"  Part="1" 
+AR Path="/60DF196E/60FAF674" Ref="C?"  Part="1" 
+AR Path="/60DF212D/60FAF674" Ref="C?"  Part="1" 
+AR Path="/60E6F2E9/60FAF674" Ref="C?"  Part="1" 
+AR Path="/60EE89A9/60FAF674" Ref="C?"  Part="1" 
+F 0 "C?" H 6618 2696 50  0000 L CNN
+F 1 "100u" H 6618 2605 50  0000 L CNN
+F 2 "" H 6538 2500 50  0001 C CNN
+F 3 "~" H 6500 2650 50  0001 C CNN
+	1    6500 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 2500
+Wire Wire Line
+	6500 2500 7000 2500
+Connection ~ 7000 2500
+Wire Wire Line
+	7000 2500 8500 2500
+Wire Wire Line
+	6500 2800 7000 2800
+Wire Wire Line
+	7000 2800 7000 5500
+Connection ~ 7000 2800
+Connection ~ 7000 5500
+Wire Wire Line
+	7000 5500 8500 5500
+$Comp
+L Device:Fuse F?
+U 1 1 6138D46D
+P 3650 4000
+F 0 "F?" V 3453 4000 50  0000 C CNN
+F 1 "Fuse" V 3544 4000 50  0000 C CNN
+F 2 "" V 3580 4000 50  0001 C CNN
+F 3 "~" H 3650 4000 50  0001 C CNN
+	1    3650 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 2500 6500 2500
+Connection ~ 6500 2500
+Wire Wire Line
+	3800 4000 4400 4000
+Connection ~ 4400 4000
+Wire Wire Line
+	3500 4000 3000 4000
 $EndSCHEMATC

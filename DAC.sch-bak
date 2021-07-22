@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 23
+Sheet 12 23
 Title ""
 Date ""
 Rev ""
@@ -171,7 +171,7 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf" H 5100 3300 
 	1    0    0    -1  
 $EndComp
 Text HLabel 1000 3000 0    50   Input ~ 0
-+3V3
++3V3A
 Text HLabel 1000 5000 0    50   Input ~ 0
 GND
 Text HLabel 1000 4500 0    50   BiDi ~ 0
@@ -420,8 +420,6 @@ Connection ~ 1500 4000
 Wire Wire Line
 	1500 4000 1850 4000
 Wire Wire Line
-	1000 3000 1500 3000
-Wire Wire Line
 	4500 3200 4500 3000
 Connection ~ 4500 3000
 Wire Wire Line
@@ -511,16 +509,6 @@ Wire Wire Line
 Connection ~ 10250 3900
 Wire Wire Line
 	10250 3900 10500 3900
-Wire Wire Line
-	2000 3600 2000 3000
-Connection ~ 2000 3000
-Wire Wire Line
-	2000 3000 2500 3000
-Wire Wire Line
-	1500 3600 1500 3000
-Connection ~ 1500 3000
-Wire Wire Line
-	1500 3000 2000 3000
 $Comp
 L Device:R R?
 U 1 1 60FAA104
@@ -621,4 +609,17 @@ Wire Wire Line
 Connection ~ 1850 4000
 Wire Wire Line
 	1850 4000 3000 4000
+Wire Wire Line
+	1000 3000 2500 3000
+Text HLabel 1000 3500 0    50   Input ~ 0
++3V3
+Wire Wire Line
+	1000 3500 1500 3500
+Wire Wire Line
+	2000 3500 2000 3600
+Wire Wire Line
+	1500 3600 1500 3500
+Connection ~ 1500 3500
+Wire Wire Line
+	1500 3500 2000 3500
 $EndSCHEMATC

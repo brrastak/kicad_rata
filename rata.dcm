@@ -1,13 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ILC4-5_7L
+D Vacuum fluorescent display
+K Vacuum fluorescent display VFD
+$ENDCMP
+#
 $CMP PCF2129T_2,518
 D Realtime Clock/Calendar I2C Interface, SOIC-8
 K I2C RTC Clock Calendar
 $ENDCMP
 #
 $CMP TD62783
-D VLD driver, SOIC18/DIP18
-K VLD driver
+D VFD driver, SOIC18/DIP18
+K VFD driver
 $ENDCMP
 #
 $CMP TPA3110D2
