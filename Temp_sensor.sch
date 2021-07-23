@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 23
+Sheet 16 23
 Title ""
 Date ""
 Rev ""
@@ -20,10 +20,10 @@ GND
 Text Notes 8900 1650 2    197  ~ 0
 BME280 humiduty and temperature sensor
 $Comp
-L Sensor:BME280 U?
+L Sensor:BME280 U12
 U 1 1 60F46B21
 P 4900 4800
-F 0 "U?" H 4471 4846 50  0000 R CNN
+F 0 "U12" H 4471 4846 50  0000 R CNN
 F 1 "BME280" H 4471 4755 50  0000 R CNN
 F 2 "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering" H 6400 4350 50  0001 C CNN
 F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf" H 4900 4600 50  0001 C CNN
@@ -42,8 +42,8 @@ AR Path="/60DF07DE/60FE7830" Ref="R?"  Part="1"
 AR Path="/60EE89A9/60FE7830" Ref="R?"  Part="1" 
 AR Path="/60EF6B1B/60FE7830" Ref="R?"  Part="1" 
 AR Path="/60DF196E/60FE7830" Ref="R?"  Part="1" 
-AR Path="/60F1A0E6/60FE7830" Ref="R?"  Part="1" 
-F 0 "R?" H 7570 4296 50  0000 L CNN
+AR Path="/60F1A0E6/60FE7830" Ref="R53"  Part="1" 
+F 0 "R53" H 7570 4296 50  0000 L CNN
 F 1 "4,7k" H 7570 4205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7430 4250 50  0001 C CNN
 F 3 "~" H 7500 4250 50  0001 C CNN
@@ -62,8 +62,8 @@ AR Path="/60DF07DE/60FE7836" Ref="R?"  Part="1"
 AR Path="/60EE89A9/60FE7836" Ref="R?"  Part="1" 
 AR Path="/60EF6B1B/60FE7836" Ref="R?"  Part="1" 
 AR Path="/60DF196E/60FE7836" Ref="R?"  Part="1" 
-AR Path="/60F1A0E6/60FE7836" Ref="R?"  Part="1" 
-F 0 "R?" H 7070 4296 50  0000 L CNN
+AR Path="/60F1A0E6/60FE7836" Ref="R52"  Part="1" 
+F 0 "R52" H 7070 4296 50  0000 L CNN
 F 1 "4,7k" H 7070 4205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6930 4250 50  0001 C CNN
 F 3 "~" H 7000 4250 50  0001 C CNN
@@ -82,8 +82,8 @@ AR Path="/60F18EC1/60F620C8/60FE8694" Ref="R?"  Part="1"
 AR Path="/60F18EC1/60F77249/60FE8694" Ref="R?"  Part="1" 
 AR Path="/60F18EC1/60F77470/60FE8694" Ref="R?"  Part="1" 
 AR Path="/60F18EC1/60F77508/60FE8694" Ref="R?"  Part="1" 
-AR Path="/60F1A0E6/60FE8694" Ref="R?"  Part="1" 
-F 0 "R?" V 6000 3450 50  0000 L CNN
+AR Path="/60F1A0E6/60FE8694" Ref="R51"  Part="1" 
+F 0 "R51" V 6000 3450 50  0000 L CNN
 F 1 "0" V 5800 3500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5830 3500 50  0001 C CNN
 F 3 "~" H 5900 3500 50  0001 C CNN
@@ -95,8 +95,8 @@ L Connector:Conn_01x03_Male J?
 U 1 1 60FEC4F6
 P 7200 5400
 AR Path="/60EF6B1B/60FEC4F6" Ref="J?"  Part="1" 
-AR Path="/60F1A0E6/60FEC4F6" Ref="J?"  Part="1" 
-F 0 "J?" H 7172 5424 50  0000 R CNN
+AR Path="/60F1A0E6/60FEC4F6" Ref="J10"  Part="1" 
+F 0 "J10" H 7172 5424 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 7172 5333 50  0000 R CNN
 F 2 "" H 7200 5400 50  0001 C CNN
 F 3 "~" H 7200 5400 50  0001 C CNN
@@ -129,8 +129,8 @@ AR Path="/60DF1160/60FF5E30" Ref="C?"  Part="1"
 AR Path="/60DF196E/60FF5E30" Ref="C?"  Part="1" 
 AR Path="/60DF212D/60FF5E30" Ref="C?"  Part="1" 
 AR Path="/60F197D4/60FF5E30" Ref="C?"  Part="1" 
-AR Path="/60F1A0E6/60FF5E30" Ref="C?"  Part="1" 
-F 0 "C?" H 5615 3696 50  0000 L CNN
+AR Path="/60F1A0E6/60FF5E30" Ref="C56"  Part="1" 
+F 0 "C56" H 5615 3696 50  0000 L CNN
 F 1 "0,1" H 5615 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5538 3500 50  0001 C CNN
 F 3 "~" H 5500 3650 50  0001 C CNN
@@ -157,8 +157,8 @@ AR Path="/60DF1160/60FF5F7B" Ref="C?"  Part="1"
 AR Path="/60DF196E/60FF5F7B" Ref="C?"  Part="1" 
 AR Path="/60DF212D/60FF5F7B" Ref="C?"  Part="1" 
 AR Path="/60F197D4/60FF5F7B" Ref="C?"  Part="1" 
-AR Path="/60F1A0E6/60FF5F7B" Ref="C?"  Part="1" 
-F 0 "C?" H 4615 3696 50  0000 L CNN
+AR Path="/60F1A0E6/60FF5F7B" Ref="C55"  Part="1" 
+F 0 "C55" H 4615 3696 50  0000 L CNN
 F 1 "0,1" H 4615 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4538 3500 50  0001 C CNN
 F 3 "~" H 4500 3650 50  0001 C CNN
@@ -177,8 +177,8 @@ AR Path="/60F18EC1/60F620C8/60FF4BFC" Ref="R?"  Part="1"
 AR Path="/60F18EC1/60F77249/60FF4BFC" Ref="R?"  Part="1" 
 AR Path="/60F18EC1/60F77470/60FF4BFC" Ref="R?"  Part="1" 
 AR Path="/60F18EC1/60F77508/60FF4BFC" Ref="R?"  Part="1" 
-AR Path="/60F1A0E6/60FF4BFC" Ref="R?"  Part="1" 
-F 0 "R?" V 5150 3450 50  0000 L CNN
+AR Path="/60F1A0E6/60FF4BFC" Ref="R50"  Part="1" 
+F 0 "R50" V 5150 3450 50  0000 L CNN
 F 1 "0" V 4950 3500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4980 3500 50  0001 C CNN
 F 3 "~" H 5050 3500 50  0001 C CNN

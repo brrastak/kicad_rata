@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 23
+Sheet 11 23
 Title ""
 Date ""
 Rev ""
@@ -30,9 +30,9 @@ AR Path="/60DF07DE/60F186C4" Ref="C?"  Part="1"
 AR Path="/60DF0860/60F186C4" Ref="C?"  Part="1" 
 AR Path="/60DF1072/60F186C4" Ref="C?"  Part="1" 
 AR Path="/60DF1160/60F186C4" Ref="C?"  Part="1" 
-AR Path="/60E72FD7/60F186C4" Ref="C?"  Part="1" 
+AR Path="/60E72FD7/60F186C4" Ref="C40"  Part="1" 
 AR Path="/60EF6B1B/60F186C4" Ref="C?"  Part="1" 
-F 0 "C?" H 2615 3396 50  0000 L CNN
+F 0 "C40" H 2615 3396 50  0000 L CNN
 F 1 "10u" H 2615 3305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2538 3200 50  0001 C CNN
 F 3 "~" H 2500 3350 50  0001 C CNN
@@ -56,9 +56,9 @@ AR Path="/60DF07DE/60DF1217" Ref="C?"  Part="1"
 AR Path="/60DF0860/60DF1217" Ref="C?"  Part="1" 
 AR Path="/60DF1072/60DF1217" Ref="C?"  Part="1" 
 AR Path="/60DF1160/60DF1217" Ref="C?"  Part="1" 
-AR Path="/60E72FD7/60DF1217" Ref="C?"  Part="1" 
+AR Path="/60E72FD7/60DF1217" Ref="C42"  Part="1" 
 AR Path="/60EF6B1B/60DF1217" Ref="C?"  Part="1" 
-F 0 "C?" H 4615 3396 50  0000 L CNN
+F 0 "C42" H 4615 3396 50  0000 L CNN
 F 1 "0,1" H 4615 3305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4538 3200 50  0001 C CNN
 F 3 "~" H 4500 3350 50  0001 C CNN
@@ -75,9 +75,9 @@ AR Path="/60DF07DE/60DF1219" Ref="TP?"  Part="1"
 AR Path="/60DF0860/60DF1219" Ref="TP?"  Part="1" 
 AR Path="/60DF1072/60DF1219" Ref="TP?"  Part="1" 
 AR Path="/60DF1160/60DF1219" Ref="TP?"  Part="1" 
-AR Path="/60E72FD7/60DF1219" Ref="TP?"  Part="1" 
+AR Path="/60E72FD7/60DF1219" Ref="TP15"  Part="1" 
 AR Path="/60EF6B1B/60DF1219" Ref="TP?"  Part="1" 
-F 0 "TP?" H 5558 4218 50  0000 L CNN
+F 0 "TP15" H 5558 4218 50  0000 L CNN
 F 1 "TestPoint" H 5558 4127 50  0001 L CNN
 F 2 "" H 5700 4100 50  0001 C CNN
 F 3 "~" H 5700 4100 50  0001 C CNN
@@ -94,9 +94,9 @@ AR Path="/60DF07DE/60EE8A09" Ref="TP?"  Part="1"
 AR Path="/60DF0860/60EE8A09" Ref="TP?"  Part="1" 
 AR Path="/60DF1072/60EE8A09" Ref="TP?"  Part="1" 
 AR Path="/60DF1160/60EE8A09" Ref="TP?"  Part="1" 
-AR Path="/60E72FD7/60EE8A09" Ref="TP?"  Part="1" 
+AR Path="/60E72FD7/60EE8A09" Ref="TP17"  Part="1" 
 AR Path="/60EF6B1B/60EE8A09" Ref="TP?"  Part="1" 
-F 0 "TP?" H 10558 4018 50  0000 L CNN
+F 0 "TP17" H 10558 4018 50  0000 L CNN
 F 1 "TestPoint" H 10558 3927 50  0001 L CNN
 F 2 "" H 10700 3900 50  0001 C CNN
 F 3 "~" H 10700 3900 50  0001 C CNN
@@ -113,9 +113,9 @@ AR Path="/60DF07DE/60DF121C" Ref="TP?"  Part="1"
 AR Path="/60DF0860/60DF121C" Ref="TP?"  Part="1" 
 AR Path="/60DF1072/60DF121C" Ref="TP?"  Part="1" 
 AR Path="/60DF1160/60DF121C" Ref="TP?"  Part="1" 
-AR Path="/60E72FD7/60DF121C" Ref="TP?"  Part="1" 
+AR Path="/60E72FD7/60DF121C" Ref="TP16"  Part="1" 
 AR Path="/60EF6B1B/60DF121C" Ref="TP?"  Part="1" 
-F 0 "TP?" H 8558 4118 50  0000 L CNN
+F 0 "TP16" H 8558 4118 50  0000 L CNN
 F 1 "TestPoint" H 8558 4027 50  0001 L CNN
 F 2 "" H 8700 4000 50  0001 C CNN
 F 3 "~" H 8700 4000 50  0001 C CNN
@@ -127,10 +127,10 @@ DAC with filter and preamplifier\n
 Text HLabel 11000 3900 2    50   Output ~ 0
 AUD
 $Comp
-L Analog_DAC:MCP4725xxx-xCH U?
+L Analog_DAC:MCP4725xxx-xCH U7
 U 1 1 60EA7615
 P 3400 4100
-F 0 "U?" H 3550 4500 50  0000 L CNN
+F 0 "U7" H 3550 4500 50  0000 L CNN
 F 1 "MCP4725xxx-xCH" H 3550 4400 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3400 3850 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf" H 3400 4100 50  0001 C CNN
@@ -138,10 +138,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf" H 3400 4100 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6022 U?
+L Amplifier_Operational:MCP6022 U8
 U 1 1 60EA87F7
 P 7600 4000
-F 0 "U?" H 7550 3600 50  0000 C CNN
+F 0 "U8" H 7550 3600 50  0000 C CNN
 F 1 "MCP6022" H 7600 3700 50  0000 C CNN
 F 2 "" H 7600 4000 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf" H 7600 4000 50  0001 C CNN
@@ -149,10 +149,10 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf" H 7600 4000 
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6022 U?
+L Amplifier_Operational:MCP6022 U8
 U 2 1 60EA9696
 P 9800 3900
-F 0 "U?" H 9800 3500 50  0000 C CNN
+F 0 "U8" H 9800 3500 50  0000 C CNN
 F 1 "MCP6022" H 9850 3600 50  0000 C CNN
 F 2 "" H 9800 3900 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf" H 9800 3900 50  0001 C CNN
@@ -160,10 +160,10 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf" H 9800 3900 
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6022 U?
+L Amplifier_Operational:MCP6022 U8
 U 3 1 60EAAD02
 P 5100 3300
-F 0 "U?" H 5058 3346 50  0000 L CNN
+F 0 "U8" H 5058 3346 50  0000 L CNN
 F 1 "MCP6022" H 5058 3255 50  0000 L CNN
 F 2 "" H 5100 3300 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf" H 5100 3300 50  0001 C CNN
@@ -195,9 +195,9 @@ AR Path="/60DF07DE/60E84E47" Ref="C?"  Part="1"
 AR Path="/60DF0860/60E84E47" Ref="C?"  Part="1" 
 AR Path="/60DF1072/60E84E47" Ref="C?"  Part="1" 
 AR Path="/60DF1160/60E84E47" Ref="C?"  Part="1" 
-AR Path="/60E72FD7/60E84E47" Ref="C?"  Part="1" 
+AR Path="/60E72FD7/60E84E47" Ref="C41"  Part="1" 
 AR Path="/60EF6B1B/60E84E47" Ref="C?"  Part="1" 
-F 0 "C?" H 3115 3396 50  0000 L CNN
+F 0 "C41" H 3115 3396 50  0000 L CNN
 F 1 "0,1" H 3115 3305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3038 3200 50  0001 C CNN
 F 3 "~" H 3000 3350 50  0001 C CNN
@@ -215,8 +215,8 @@ AR Path="/60DF0860/60E9061F" Ref="R?"  Part="1"
 AR Path="/60DF07DE/60E9061F" Ref="R?"  Part="1" 
 AR Path="/60EE89A9/60E9061F" Ref="R?"  Part="1" 
 AR Path="/60EF6B1B/60E9061F" Ref="R?"  Part="1" 
-AR Path="/60E72FD7/60E9061F" Ref="R?"  Part="1" 
-F 0 "R?" H 2070 3796 50  0000 L CNN
+AR Path="/60E72FD7/60E9061F" Ref="R27"  Part="1" 
+F 0 "R27" H 2070 3796 50  0000 L CNN
 F 1 "4,7k" H 2070 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1930 3750 50  0001 C CNN
 F 3 "~" H 2000 3750 50  0001 C CNN
@@ -234,8 +234,8 @@ AR Path="/60DF0860/60E90625" Ref="R?"  Part="1"
 AR Path="/60DF07DE/60E90625" Ref="R?"  Part="1" 
 AR Path="/60EE89A9/60E90625" Ref="R?"  Part="1" 
 AR Path="/60EF6B1B/60E90625" Ref="R?"  Part="1" 
-AR Path="/60E72FD7/60E90625" Ref="R?"  Part="1" 
-F 0 "R?" H 1570 3796 50  0000 L CNN
+AR Path="/60E72FD7/60E90625" Ref="R26"  Part="1" 
+F 0 "R26" H 1570 3796 50  0000 L CNN
 F 1 "4,7k" H 1570 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1430 3750 50  0001 C CNN
 F 3 "~" H 1500 3750 50  0001 C CNN
@@ -259,9 +259,9 @@ AR Path="/60DF07DE/60E9895D" Ref="C?"  Part="1"
 AR Path="/60DF0860/60E9895D" Ref="C?"  Part="1" 
 AR Path="/60DF1072/60E9895D" Ref="C?"  Part="1" 
 AR Path="/60DF1160/60E9895D" Ref="C?"  Part="1" 
-AR Path="/60E72FD7/60E9895D" Ref="C?"  Part="1" 
+AR Path="/60E72FD7/60E9895D" Ref="C43"  Part="1" 
 AR Path="/60EF6B1B/60E9895D" Ref="C?"  Part="1" 
-F 0 "C?" H 6415 3796 50  0000 L CNN
+F 0 "C43" H 6415 3796 50  0000 L CNN
 F 1 "0,1" H 6415 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6338 3600 50  0001 C CNN
 F 3 "~" H 6300 3750 50  0001 C CNN
@@ -285,9 +285,9 @@ AR Path="/60DF07DE/60E99198" Ref="C?"  Part="1"
 AR Path="/60DF0860/60E99198" Ref="C?"  Part="1" 
 AR Path="/60DF1072/60E99198" Ref="C?"  Part="1" 
 AR Path="/60DF1160/60E99198" Ref="C?"  Part="1" 
-AR Path="/60E72FD7/60E99198" Ref="C?"  Part="1" 
+AR Path="/60E72FD7/60E99198" Ref="C44"  Part="1" 
 AR Path="/60EF6B1B/60E99198" Ref="C?"  Part="1" 
-F 0 "C?" H 6915 4396 50  0000 L CNN
+F 0 "C44" H 6915 4396 50  0000 L CNN
 F 1 "0,1" H 6915 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6838 4200 50  0001 C CNN
 F 3 "~" H 6800 4350 50  0001 C CNN
@@ -302,8 +302,8 @@ AR Path="/60EA0490" Ref="R?"  Part="1"
 AR Path="/60B39FE1/60EA0490" Ref="R?"  Part="1" 
 AR Path="/60EE89A9/60EA0490" Ref="R?"  Part="1" 
 AR Path="/60EF6B1B/60EA0490" Ref="R?"  Part="1" 
-AR Path="/60E72FD7/60EA0490" Ref="R?"  Part="1" 
-F 0 "R?" V 6250 4050 50  0000 L CNN
+AR Path="/60E72FD7/60EA0490" Ref="R28"  Part="1" 
+F 0 "R28" V 6250 4050 50  0000 L CNN
 F 1 "1" V 6050 4050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6080 4100 50  0001 C CNN
 F 3 "~" H 6150 4100 50  0001 C CNN
@@ -318,8 +318,8 @@ AR Path="/60EA04EE" Ref="R?"  Part="1"
 AR Path="/60B39FE1/60EA04EE" Ref="R?"  Part="1" 
 AR Path="/60EE89A9/60EA04EE" Ref="R?"  Part="1" 
 AR Path="/60EF6B1B/60EA04EE" Ref="R?"  Part="1" 
-AR Path="/60E72FD7/60EA04EE" Ref="R?"  Part="1" 
-F 0 "R?" V 6750 4050 50  0000 L CNN
+AR Path="/60E72FD7/60EA04EE" Ref="R29"  Part="1" 
+F 0 "R29" V 6750 4050 50  0000 L CNN
 F 1 "1" V 6550 4050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6580 4100 50  0001 C CNN
 F 3 "~" H 6650 4100 50  0001 C CNN
@@ -334,8 +334,8 @@ AR Path="/60EA070C" Ref="R?"  Part="1"
 AR Path="/60B39FE1/60EA070C" Ref="R?"  Part="1" 
 AR Path="/60EE89A9/60EA070C" Ref="R?"  Part="1" 
 AR Path="/60EF6B1B/60EA070C" Ref="R?"  Part="1" 
-AR Path="/60E72FD7/60EA070C" Ref="R?"  Part="1" 
-F 0 "R?" V 7100 2950 50  0000 L CNN
+AR Path="/60E72FD7/60EA070C" Ref="R30"  Part="1" 
+F 0 "R30" V 7100 2950 50  0000 L CNN
 F 1 "0" V 6900 2950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6930 3000 50  0001 C CNN
 F 3 "~" H 7000 3000 50  0001 C CNN
@@ -353,8 +353,8 @@ AR Path="/60DF0860/60EDC724" Ref="R?"  Part="1"
 AR Path="/60DF07DE/60EDC724" Ref="R?"  Part="1" 
 AR Path="/60EE89A9/60EDC724" Ref="R?"  Part="1" 
 AR Path="/60EF6B1B/60EDC724" Ref="R?"  Part="1" 
-AR Path="/60E72FD7/60EDC724" Ref="R?"  Part="1" 
-F 0 "R?" H 9320 4396 50  0000 L CNN
+AR Path="/60E72FD7/60EDC724" Ref="R33"  Part="1" 
+F 0 "R33" H 9320 4396 50  0000 L CNN
 F 1 "1" H 9320 4305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9180 4350 50  0001 C CNN
 F 3 "~" H 9250 4350 50  0001 C CNN
@@ -369,8 +369,8 @@ AR Path="/60EDC768" Ref="R?"  Part="1"
 AR Path="/60B39FE1/60EDC768" Ref="R?"  Part="1" 
 AR Path="/60EE89A9/60EDC768" Ref="R?"  Part="1" 
 AR Path="/60EF6B1B/60EDC768" Ref="R?"  Part="1" 
-AR Path="/60E72FD7/60EDC768" Ref="R?"  Part="1" 
-F 0 "R?" V 9850 3200 50  0000 L CNN
+AR Path="/60E72FD7/60EDC768" Ref="R34"  Part="1" 
+F 0 "R34" V 9850 3200 50  0000 L CNN
 F 1 "1" V 9650 3200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9680 3250 50  0001 C CNN
 F 3 "~" H 9750 3250 50  0001 C CNN
@@ -520,8 +520,8 @@ AR Path="/60DF0860/60FAA104" Ref="R?"  Part="1"
 AR Path="/60DF07DE/60FAA104" Ref="R?"  Part="1" 
 AR Path="/60EE89A9/60FAA104" Ref="R?"  Part="1" 
 AR Path="/60EF6B1B/60FAA104" Ref="R?"  Part="1" 
-AR Path="/60E72FD7/60FAA104" Ref="R?"  Part="1" 
-F 0 "R?" H 8570 4396 50  0000 L CNN
+AR Path="/60E72FD7/60FAA104" Ref="R31"  Part="1" 
+F 0 "R31" H 8570 4396 50  0000 L CNN
 F 1 "1" H 8570 4305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8430 4350 50  0001 C CNN
 F 3 "~" H 8500 4350 50  0001 C CNN
@@ -539,8 +539,8 @@ AR Path="/60DF0860/60FAA3D3" Ref="R?"  Part="1"
 AR Path="/60DF07DE/60FAA3D3" Ref="R?"  Part="1" 
 AR Path="/60EE89A9/60FAA3D3" Ref="R?"  Part="1" 
 AR Path="/60EF6B1B/60FAA3D3" Ref="R?"  Part="1" 
-AR Path="/60E72FD7/60FAA3D3" Ref="R?"  Part="1" 
-F 0 "R?" H 8570 4796 50  0000 L CNN
+AR Path="/60E72FD7/60FAA3D3" Ref="R32"  Part="1" 
+F 0 "R32" H 8570 4796 50  0000 L CNN
 F 1 "1" H 8570 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8430 4750 50  0001 C CNN
 F 3 "~" H 8500 4750 50  0001 C CNN
@@ -580,8 +580,8 @@ L Connector:Conn_01x03_Male J?
 U 1 1 60FEAD39
 P 2200 5400
 AR Path="/60EF6B1B/60FEAD39" Ref="J?"  Part="1" 
-AR Path="/60E72FD7/60FEAD39" Ref="J?"  Part="1" 
-F 0 "J?" H 2172 5424 50  0000 R CNN
+AR Path="/60E72FD7/60FEAD39" Ref="J7"  Part="1" 
+F 0 "J7" H 2172 5424 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 2172 5333 50  0000 R CNN
 F 2 "" H 2200 5400 50  0001 C CNN
 F 3 "~" H 2200 5400 50  0001 C CNN

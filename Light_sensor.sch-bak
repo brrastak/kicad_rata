@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 23
+Sheet 15 23
 Title ""
 Date ""
 Rev ""
@@ -32,9 +32,9 @@ AR Path="/60DF1072/60F26C9D" Ref="C?"  Part="1"
 AR Path="/60DF1160/60F26C9D" Ref="C?"  Part="1" 
 AR Path="/60DF196E/60F26C9D" Ref="C?"  Part="1" 
 AR Path="/60DF212D/60F26C9D" Ref="C?"  Part="1" 
-AR Path="/60F197D4/60F26C9D" Ref="C?"  Part="1" 
+AR Path="/60F197D4/60F26C9D" Ref="C54"  Part="1" 
 AR Path="/60F1A0E6/60F26C9D" Ref="C?"  Part="1" 
-F 0 "C?" H 6615 4796 50  0000 L CNN
+F 0 "C54" H 6615 4796 50  0000 L CNN
 F 1 "1u" H 6615 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6538 4600 50  0001 C CNN
 F 3 "~" H 6500 4750 50  0001 C CNN
@@ -53,9 +53,9 @@ AR Path="/60DF1072/60F1A12F" Ref="TP?"  Part="1"
 AR Path="/60DF1160/60F1A12F" Ref="TP?"  Part="1" 
 AR Path="/60DF196E/60F1A12F" Ref="TP?"  Part="1" 
 AR Path="/60DF212D/60F1A12F" Ref="TP?"  Part="1" 
-AR Path="/60F197D4/60F1A12F" Ref="TP?"  Part="1" 
+AR Path="/60F197D4/60F1A12F" Ref="TP22"  Part="1" 
 AR Path="/60F1A0E6/60F1A12F" Ref="TP?"  Part="1" 
-F 0 "TP?" H 5558 4618 50  0000 L CNN
+F 0 "TP22" H 5558 4618 50  0000 L CNN
 F 1 "TestPoint" H 5558 4527 50  0001 L CNN
 F 2 "" H 5700 4500 50  0001 C CNN
 F 3 "~" H 5700 4500 50  0001 C CNN
@@ -71,10 +71,10 @@ Light level sensor
 Text HLabel 7500 4500 2    50   Output ~ 0
 VOLT
 $Comp
-L Sensor_Optical:SFH300 Q?
+L Sensor_Optical:SFH300 Q3
 U 1 1 60F482D9
 P 4900 4200
-F 0 "Q?" H 5090 4246 50  0000 L CNN
+F 0 "Q3" H 5090 4246 50  0000 L CNN
 F 1 "SFH3310" H 5090 4155 50  0000 L CNN
 F 2 "LED_THT:LED_D5.0mm_Clear" H 5380 4060 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic2/00101785_0.pdf" H 4900 4200 50  0001 C CNN
@@ -89,8 +89,8 @@ AR Path="/6100D3B1" Ref="R?"  Part="1"
 AR Path="/60B39FE1/6100D3B1" Ref="R?"  Part="1" 
 AR Path="/60DF1160/60F2690B/6100D3B1" Ref="R?"  Part="1" 
 AR Path="/60DF1160/6100D3B1" Ref="R?"  Part="1" 
-AR Path="/60F197D4/6100D3B1" Ref="R?"  Part="1" 
-F 0 "R?" H 5070 4796 50  0000 L CNN
+AR Path="/60F197D4/6100D3B1" Ref="R48"  Part="1" 
+F 0 "R48" H 5070 4796 50  0000 L CNN
 F 1 "1k" H 5070 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4930 4750 50  0001 C CNN
 F 3 "~" H 5000 4750 50  0001 C CNN
@@ -105,9 +105,9 @@ AR Path="/6100EF4A" Ref="R?"  Part="1"
 AR Path="/60B39FE1/6100EF4A" Ref="R?"  Part="1" 
 AR Path="/60DF1160/60F2690B/6100EF4A" Ref="R?"  Part="1" 
 AR Path="/60DF1160/6100EF4A" Ref="R?"  Part="1" 
-AR Path="/60F197D4/6100EF4A" Ref="R?"  Part="1" 
-F 0 "R?" V 6350 4450 50  0000 L CNN
-F 1 "10k" V 6150 4400 50  0000 L CNN
+AR Path="/60F197D4/6100EF4A" Ref="R49"  Part="1" 
+F 0 "R49" V 6350 4450 50  0000 L CNN
+F 1 "4.7k" V 6150 4400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6180 4500 50  0001 C CNN
 F 3 "~" H 6250 4500 50  0001 C CNN
 	1    6250 4500
@@ -125,9 +125,9 @@ AR Path="/60DF1072/61013214" Ref="TP?"  Part="1"
 AR Path="/60DF1160/61013214" Ref="TP?"  Part="1" 
 AR Path="/60DF196E/61013214" Ref="TP?"  Part="1" 
 AR Path="/60DF212D/61013214" Ref="TP?"  Part="1" 
-AR Path="/60F197D4/61013214" Ref="TP?"  Part="1" 
+AR Path="/60F197D4/61013214" Ref="TP23"  Part="1" 
 AR Path="/60F1A0E6/61013214" Ref="TP?"  Part="1" 
-F 0 "TP?" H 7058 4618 50  0000 L CNN
+F 0 "TP23" H 7058 4618 50  0000 L CNN
 F 1 "TestPoint" H 7058 4527 50  0001 L CNN
 F 2 "" H 7200 4500 50  0001 C CNN
 F 3 "~" H 7200 4500 50  0001 C CNN
