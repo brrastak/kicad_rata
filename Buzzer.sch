@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Buzzer BZ?
+L rata-rescue:Buzzer-Device BZ?
 U 1 1 60B3B2EE
 P 6600 3900
 AR Path="/609C9D41/60B3B2EE" Ref="BZ?"  Part="1" 
@@ -27,7 +27,7 @@ F 3 "~" V 6575 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC847 Q?
+L rata-rescue:BC847-Transistor_BJT Q?
 U 1 1 60B3B2F4
 P 6400 4500
 AR Path="/609C9D41/60B3B2F4" Ref="Q?"  Part="1" 
@@ -40,7 +40,7 @@ F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_B
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60B3B65C
 P 6000 4750
 AR Path="/60B3B65C" Ref="R?"  Part="1" 
@@ -57,7 +57,7 @@ Buzzer
 Text HLabel 5000 4500 0    50   Input ~ 0
 EN
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60B3CA8D
 P 5650 4500
 AR Path="/60B3CA8D" Ref="R?"  Part="1" 

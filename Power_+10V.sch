@@ -16,7 +16,7 @@ $EndDescr
 Text Notes 6950 1750 2    197  ~ 0
 Boost converter +10V
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60ED6AC7
 P 3000 3650
 AR Path="/60ED6AC7" Ref="C?"  Part="1" 
@@ -39,7 +39,7 @@ F 3 "~" H 3000 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60ED6ACD
 P 4300 3000
 AR Path="/60ED6ACD" Ref="R?"  Part="1" 
@@ -55,7 +55,7 @@ F 3 "~" H 4300 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60ED6AD3
 P 5250 3150
 AR Path="/60ED6AD3" Ref="R?"  Part="1" 
@@ -71,7 +71,7 @@ F 3 "~" H 5250 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60ED6AD9
 P 7250 3500
 AR Path="/60ED6AD9" Ref="TP?"  Part="1" 
@@ -87,7 +87,7 @@ F 3 "~" H 7450 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60ED6ADF
 P 4600 3000
 AR Path="/60ED6ADF" Ref="TP?"  Part="1" 
@@ -103,7 +103,7 @@ F 3 "~" H 4800 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L rata-rescue:CP-Device C?
 U 1 1 60F18F0E
 P 2500 3650
 AR Path="/60DF0860/60F18F0E" Ref="C?"  Part="1" 
@@ -119,7 +119,7 @@ $EndComp
 Text HLabel 1500 3500 0    50   Input ~ 0
 +5V_IN
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60F18F0F
 P 4000 3000
 AR Path="/60F18F0F" Ref="TP?"  Part="1" 
@@ -137,7 +137,7 @@ $EndComp
 Text HLabel 1500 4500 0    50   Input ~ 0
 GND
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60ED6AF3
 P 7000 4150
 AR Path="/60ED6AF3" Ref="R?"  Part="1" 
@@ -154,7 +154,7 @@ F 3 "~" H 7000 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Switching:MC34063AD U?
+L rata-rescue:MC34063AD-Regulator_Switching U?
 U 1 1 60ED6AF9
 P 4300 3700
 AR Path="/60DF0860/60ED6AF9" Ref="U?"  Part="1" 
@@ -168,7 +168,7 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF" H 4800 3600 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L rata-rescue:CP-Device C?
 U 1 1 60F18F12
 P 7500 3650
 AR Path="/60DF0860/60F18F12" Ref="C?"  Part="1" 
@@ -182,7 +182,7 @@ F 3 "~" H 7500 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F18F13
 P 7000 3650
 AR Path="/60F18F13" Ref="R?"  Part="1" 
@@ -199,7 +199,7 @@ F 3 "~" H 7000 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60ED6B0B
 P 3500 4050
 AR Path="/60ED6B0B" Ref="C?"  Part="1" 
@@ -222,7 +222,7 @@ F 3 "~" H 3500 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L?
+L rata-rescue:L-Device L?
 U 1 1 60F18F15
 P 5650 3000
 AR Path="/60DF0860/60F18F15" Ref="L?"  Part="1" 
@@ -321,7 +321,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 4500 7000 4500
 $Comp
-L Device:D_Schottky D?
+L rata-rescue:D_Schottky-Device D?
 U 1 1 60F18F16
 P 6350 3500
 AR Path="/60DF0860/60F18F16" Ref="D?"  Part="1" 
@@ -351,7 +351,7 @@ Wire Wire Line
 Connection ~ 5000 4500
 Connection ~ 7000 4500
 $Comp
-L Device:L L?
+L rata-rescue:L-Device L?
 U 1 1 60F18F17
 P 7950 3500
 AR Path="/60DF0860/60F18F17" Ref="L?"  Part="1" 
@@ -365,7 +365,7 @@ F 3 "~" H 7950 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:CP C?
+L rata-rescue:CP-Device C?
 U 1 1 60F18F18
 P 9000 3650
 AR Path="/60DF0860/60F18F18" Ref="C?"  Part="1" 
@@ -379,7 +379,7 @@ F 3 "~" H 9000 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F18F19
 P 8500 3650
 AR Path="/60F18F19" Ref="C?"  Part="1" 
@@ -421,7 +421,7 @@ Connection ~ 8500 4500
 Wire Wire Line
 	8500 4500 8100 4500
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60F18F1A
 P 10100 3500
 AR Path="/60F18F1A" Ref="TP?"  Part="1" 
@@ -440,7 +440,7 @@ Connection ~ 10100 3500
 Wire Wire Line
 	10100 3500 10500 3500
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60EE723F
 P 8100 4500
 AR Path="/60EE723F" Ref="TP?"  Part="1" 

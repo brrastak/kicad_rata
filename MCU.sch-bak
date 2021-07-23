@@ -81,7 +81,7 @@ LIGHT
 Wire Wire Line
 	5300 4400 5400 4400
 $Comp
-L Connector:Conn_01x05_Male J3
+L rata-rescue:Conn_01x05_Male-Connector J3
 U 1 1 6101E732
 P 2500 2900
 F 0 "J3" H 2608 3281 50  0000 C CNN
@@ -202,7 +202,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2800 5000 2850
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60A7599F
 P 5000 3050
 AR Path="/60A7599F" Ref="C?"  Part="1" 
@@ -216,7 +216,7 @@ F 3 "~" H 5000 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60A5E844
 P 4250 3700
 AR Path="/60A5E844" Ref="R?"  Part="1" 
@@ -232,7 +232,7 @@ $EndComp
 Wire Wire Line
 	4100 3700 3950 3700
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60A56506
 P 3950 3850
 AR Path="/60A56506" Ref="C?"  Part="1" 
@@ -246,7 +246,7 @@ F 3 "~" H 3950 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60A55C72
 P 3200 3850
 AR Path="/60A55C72" Ref="C?"  Part="1" 
@@ -260,7 +260,7 @@ F 3 "~" H 3200 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y1
+L rata-rescue:Crystal-Device Y1
 U 1 1 60A53D72
 P 3650 3700
 AR Path="/609C9D41/60A53D72" Ref="Y1"  Part="1" 
@@ -273,7 +273,7 @@ F 3 "~" H 3650 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60A4D379
 P 5600 2150
 AR Path="/60A4D379" Ref="C?"  Part="1" 
@@ -287,7 +287,7 @@ F 3 "~" H 5600 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60A4D2CE
 P 6000 2150
 AR Path="/60A4D2CE" Ref="C?"  Part="1" 
@@ -301,7 +301,7 @@ F 3 "~" H 6000 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60A4D090
 P 4700 2150
 AR Path="/60A4D090" Ref="C?"  Part="1" 
@@ -315,7 +315,7 @@ F 3 "~" H 4700 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60A4CF16
 P 4300 2150
 AR Path="/60A4CF16" Ref="C?"  Part="1" 
@@ -329,7 +329,7 @@ F 3 "~" H 4300 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60B4CB8E
 P 3900 2150
 AR Path="/60B4CB8E" Ref="C?"  Part="1" 
@@ -343,7 +343,7 @@ F 3 "~" H 3900 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60B4CB82
 P 5000 2650
 AR Path="/60B4CB82" Ref="R?"  Part="1" 
@@ -357,7 +357,7 @@ F 3 "~" H 5000 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J4
+L rata-rescue:Conn_01x03_Male-Connector J4
 U 1 1 60B5D67E
 P 8200 4500
 AR Path="/609C9D41/60B5D67E" Ref="J4"  Part="1" 
@@ -370,7 +370,7 @@ F 3 "~" H 8200 4500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MCU_ST_STM32F1:STM32F103C6Tx U?
+L rata-rescue:STM32F103C6Tx-MCU_ST_STM32F1 U?
 U 1 1 609CC27B
 P 6100 4400
 AR Path="/609CC27B" Ref="U?"  Part="1" 
@@ -384,7 +384,7 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60B4F8D6
 P 3500 2150
 AR Path="/60B4F8D6" Ref="C?"  Part="1" 

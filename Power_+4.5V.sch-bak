@@ -16,7 +16,7 @@ $EndDescr
 Text Notes 6350 2000 2    197  ~ 0
 LDO +4V5
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60F18F0D
 P 8500 3000
 AR Path="/60F18F0D" Ref="TP?"  Part="1" 
@@ -38,7 +38,7 @@ GND
 Text HLabel 9000 3000 2    50   Output ~ 0
 +4V5_OUT
 $Comp
-L Regulator_Linear:LP2951-5.0_SOIC U11
+L rata-rescue:LP2951-5.0_SOIC-Regulator_Linear U11
 U 1 1 60F560B0
 P 5400 3300
 F 0 "U11" H 5400 3867 50  0000 C CNN
@@ -49,7 +49,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lp2951-n.pdf" H 5400 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F593FA
 P 7500 3150
 AR Path="/60F593FA" Ref="C?"  Part="1" 
@@ -77,7 +77,7 @@ F 3 "~" H 7500 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F59400
 P 4500 3150
 AR Path="/60F59400" Ref="C?"  Part="1" 
@@ -105,7 +105,7 @@ F 3 "~" H 4500 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F5D079
 P 6750 3750
 AR Path="/60F5D079" Ref="R?"  Part="1" 
@@ -122,7 +122,7 @@ F 3 "~" H 6750 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F5D07F
 P 6750 3150
 AR Path="/60F5D07F" Ref="R?"  Part="1" 
@@ -143,7 +143,7 @@ SD
 Text HLabel 9000 3500 2    50   Output ~ 0
 VOLT
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F5ECDF
 P 6250 3150
 AR Path="/60F5ECDF" Ref="C?"  Part="1" 
@@ -218,7 +218,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 3400 6750 3600
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F633BE
 P 8000 3750
 AR Path="/60F633BE" Ref="R?"  Part="1" 
@@ -235,7 +235,7 @@ F 3 "~" H 8000 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F633C4
 P 8000 3150
 AR Path="/60F633C4" Ref="R?"  Part="1" 
@@ -276,7 +276,7 @@ NoConn ~ 5800 3300
 NoConn ~ 5800 3100
 NoConn ~ 5800 3500
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FD8AD9
 P 3900 3000
 AR Path="/60FD8AD9" Ref="R?"  Part="1" 
@@ -296,7 +296,7 @@ Wire Wire Line
 	4050 3000 4250 3000
 Connection ~ 4500 3000
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 611C47E1
 P 4250 3000
 AR Path="/611C47E1" Ref="TP?"  Part="1" 
@@ -315,7 +315,7 @@ Connection ~ 4250 3000
 Wire Wire Line
 	4250 3000 4500 3000
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 611C4C71
 P 3500 3000
 AR Path="/611C4C71" Ref="TP?"  Part="1" 

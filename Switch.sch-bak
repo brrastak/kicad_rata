@@ -22,7 +22,7 @@ Alarm switch
 Text HLabel 8000 4000 2    50   Output ~ 0
 ALARM
 $Comp
-L Switch:SW_DPDT_x2 SW10
+L rata-rescue:SW_DPDT_x2-Switch SW10
 U 1 1 60F712E0
 P 6800 4000
 F 0 "SW10" H 6800 4285 50  0000 C CNN
@@ -33,7 +33,7 @@ F 3 "~" H 6800 4000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW10
+L rata-rescue:SW_DPDT_x2-Switch SW10
 U 2 1 60F71AB8
 P 6800 5000
 F 0 "SW10" H 6800 5285 50  0000 C CNN
@@ -44,7 +44,7 @@ F 3 "~" H 6800 5000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F73202
 P 5750 3500
 AR Path="/60F73202" Ref="R?"  Part="1" 

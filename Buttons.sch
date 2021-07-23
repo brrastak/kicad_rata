@@ -20,7 +20,7 @@ Button matrix
 Text HLabel 8500 2000 2    50   Output ~ 0
 COL0
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FAFC0E
 P 7500 1750
 AR Path="/60FAFC0E" Ref="R?"  Part="1" 
@@ -39,7 +39,7 @@ F 3 "~" H 7500 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FC25F1
 P 6500 1750
 AR Path="/60FC25F1" Ref="R?"  Part="1" 
@@ -58,7 +58,7 @@ F 3 "~" H 6500 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FC27FD
 P 7000 1750
 AR Path="/60FC27FD" Ref="R?"  Part="1" 
@@ -87,7 +87,7 @@ COL1
 Text HLabel 8500 3000 2    50   Output ~ 0
 COL2
 $Comp
-L Switch:SW_Push SW1
+L rata-rescue:SW_Push-Switch SW1
 U 1 1 60FD2C62
 P 5200 3500
 F 0 "SW1" H 5200 3785 50  0000 C CNN
@@ -98,7 +98,7 @@ F 3 "~" H 5200 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW4
+L rata-rescue:SW_Push-Switch SW4
 U 1 1 60FD42DB
 P 6200 3500
 F 0 "SW4" H 6200 3785 50  0000 C CNN
@@ -109,7 +109,7 @@ F 3 "~" H 6200 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW7
+L rata-rescue:SW_Push-Switch SW7
 U 1 1 60FD47DB
 P 7200 3500
 F 0 "SW7" H 7200 3785 50  0000 C CNN
@@ -120,7 +120,7 @@ F 3 "~" H 7200 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW2
+L rata-rescue:SW_Push-Switch SW2
 U 1 1 60FD5B91
 P 5200 4500
 F 0 "SW2" H 5200 4785 50  0000 C CNN
@@ -131,7 +131,7 @@ F 3 "~" H 5200 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW5
+L rata-rescue:SW_Push-Switch SW5
 U 1 1 60FD5B97
 P 6200 4500
 F 0 "SW5" H 6200 4785 50  0000 C CNN
@@ -142,7 +142,7 @@ F 3 "~" H 6200 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW8
+L rata-rescue:SW_Push-Switch SW8
 U 1 1 60FD5B9D
 P 7200 4500
 F 0 "SW8" H 7200 4785 50  0000 C CNN
@@ -153,7 +153,7 @@ F 3 "~" H 7200 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW3
+L rata-rescue:SW_Push-Switch SW3
 U 1 1 60FD6D63
 P 5200 5500
 F 0 "SW3" H 5200 5785 50  0000 C CNN
@@ -164,7 +164,7 @@ F 3 "~" H 5200 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW6
+L rata-rescue:SW_Push-Switch SW6
 U 1 1 60FD6D69
 P 6200 5500
 F 0 "SW6" H 6200 5785 50  0000 C CNN
@@ -175,7 +175,7 @@ F 3 "~" H 6200 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW9
+L rata-rescue:SW_Push-Switch SW9
 U 1 1 60FD6D6F
 P 7200 5500
 F 0 "SW9" H 7200 5785 50  0000 C CNN

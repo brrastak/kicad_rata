@@ -20,7 +20,7 @@ GND
 Text Notes 7100 1700 2    197  ~ 0
 USB in/out circuit
 $Comp
-L Power_Protection:USBLC6-2SC6 U9
+L rata-rescue:USBLC6-2SC6-Power_Protection U9
 U 1 1 60EEDAF6
 P 4400 4400
 F 0 "U9" H 4550 5050 50  0000 C CNN
@@ -31,7 +31,7 @@ F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 4600 4750 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC857 Q2
+L rata-rescue:BC857-Transistor_BJT Q2
 U 1 1 60EEEF4D
 P 7600 3500
 F 0 "Q2" H 7791 3454 50  0000 L CNN
@@ -42,7 +42,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/BC860-D.pdf" H 7600 3500 50  0001 L C
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60EF23B1
 P 7500 4150
 AR Path="/60EF23B1" Ref="R?"  Part="1" 
@@ -59,7 +59,7 @@ F 3 "~" H 7500 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60EF494D
 P 8350 3500
 AR Path="/60EF494D" Ref="R?"  Part="1" 
@@ -73,7 +73,7 @@ F 3 "~" H 8350 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60EF56CE
 P 6650 4500
 AR Path="/60EF56CE" Ref="R?"  Part="1" 
@@ -87,7 +87,7 @@ F 3 "~" H 6650 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60EF5C68
 P 6650 5000
 AR Path="/60EF5C68" Ref="R?"  Part="1" 
@@ -101,7 +101,7 @@ F 3 "~" H 6650 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60EF5F53
 P 8000 3350
 AR Path="/60EF5F53" Ref="R?"  Part="1" 
@@ -188,7 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 3700 7500 4000
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60F04BED
 P 8500 2500
 AR Path="/60F04BED" Ref="TP?"  Part="1" 
@@ -210,7 +210,7 @@ $EndComp
 Wire Wire Line
 	8500 2500 9000 2500
 $Comp
-L Connector:Conn_01x03_Male J8
+L rata-rescue:Conn_01x03_Male-Connector J8
 U 1 1 60E94A96
 P 8700 5400
 F 0 "J8" H 8672 5424 50  0000 R CNN
@@ -239,7 +239,7 @@ Connection ~ 8250 4500
 Wire Wire Line
 	8250 4500 9000 4500
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60FAF66E
 P 7000 2650
 AR Path="/60FAF66E" Ref="C?"  Part="1" 
@@ -267,7 +267,7 @@ F 3 "~" H 7000 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L rata-rescue:CP-Device C?
 U 1 1 60FAF674
 P 6500 2650
 AR Path="/609FED99/60FAF674" Ref="C?"  Part="1" 

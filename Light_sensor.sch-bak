@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F26C9D
 P 6500 4750
 AR Path="/60F26C9D" Ref="C?"  Part="1" 
@@ -42,7 +42,7 @@ F 3 "~" H 6500 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60F1A12F
 P 5500 4500
 AR Path="/60F1A12F" Ref="TP?"  Part="1" 
@@ -71,7 +71,7 @@ Light level sensor
 Text HLabel 7500 4500 2    50   Output ~ 0
 VOLT
 $Comp
-L Sensor_Optical:SFH300 Q3
+L rata-rescue:SFH300-Sensor_Optical Q3
 U 1 1 60F482D9
 P 4900 4200
 F 0 "Q3" H 5090 4246 50  0000 L CNN
@@ -82,7 +82,7 @@ F 3 "http://www.osram-os.com/Graphics/XPic2/00101785_0.pdf" H 4900 4200 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 6100D3B1
 P 5000 4750
 AR Path="/6100D3B1" Ref="R?"  Part="1" 
@@ -98,7 +98,7 @@ F 3 "~" H 5000 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 6100EF4A
 P 6250 4500
 AR Path="/6100EF4A" Ref="R?"  Part="1" 
@@ -114,7 +114,7 @@ F 3 "~" H 6250 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 61013214
 P 7000 4500
 AR Path="/61013214" Ref="TP?"  Part="1" 

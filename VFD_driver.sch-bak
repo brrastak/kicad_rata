@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60DF0A5D
 P 2500 2750
 AR Path="/60DF0A5D" Ref="C?"  Part="1" 
@@ -49,7 +49,7 @@ VFD
 Text HLabel 1000 1500 0    50   Input ~ 0
 +VCC
 $Comp
-L Interface_Expansion:PCF8574 U13
+L rata-rescue:PCF8574-Interface_Expansion U13
 U 1 1 60F6CDCB
 P 3500 3400
 F 0 "U13" H 3700 4200 50  0000 C CNN
@@ -71,7 +71,7 @@ F 3 "" H 8500 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F845F7
 P 1900 2750
 AR Path="/60F845F7" Ref="R?"  Part="1" 
@@ -86,7 +86,7 @@ F 3 "~" H 1900 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F84E12
 P 4500 2750
 AR Path="/60F84E12" Ref="R?"  Part="1" 
@@ -101,7 +101,7 @@ F 3 "~" H 4500 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F858A7
 P 4800 2750
 AR Path="/60F858A7" Ref="R?"  Part="1" 
@@ -116,7 +116,7 @@ F 3 "~" H 4800 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F85DFA
 P 5100 2750
 AR Path="/60F85DFA" Ref="R?"  Part="1" 
@@ -131,7 +131,7 @@ F 3 "~" H 5100 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F860DE
 P 5400 2750
 AR Path="/60F860DE" Ref="R?"  Part="1" 
@@ -146,7 +146,7 @@ F 3 "~" H 5400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F862F9
 P 5700 2750
 AR Path="/60F862F9" Ref="R?"  Part="1" 
@@ -161,7 +161,7 @@ F 3 "~" H 5700 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F86717
 P 6000 2750
 AR Path="/60F86717" Ref="R?"  Part="1" 
@@ -176,7 +176,7 @@ F 3 "~" H 6000 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F86ADC
 P 4800 4750
 AR Path="/60F86ADC" Ref="R?"  Part="1" 
@@ -191,7 +191,7 @@ F 3 "~" H 4800 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F86E0D
 P 5100 4750
 AR Path="/60F86E0D" Ref="R?"  Part="1" 
@@ -206,7 +206,7 @@ F 3 "~" H 5100 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F870C9
 P 5400 4750
 AR Path="/60F870C9" Ref="R?"  Part="1" 
@@ -221,7 +221,7 @@ F 3 "~" H 5400 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F873E2
 P 5700 4750
 AR Path="/60F873E2" Ref="R?"  Part="1" 
@@ -236,7 +236,7 @@ F 3 "~" H 5700 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F877BB
 P 6000 4750
 AR Path="/60F877BB" Ref="R?"  Part="1" 
@@ -251,7 +251,7 @@ F 3 "~" H 6000 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F87A9B
 P 6300 2750
 AR Path="/60F87A9B" Ref="R?"  Part="1" 
@@ -266,7 +266,7 @@ F 3 "~" H 6300 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F87D37
 P 6600 2750
 AR Path="/60F87D37" Ref="R?"  Part="1" 
@@ -281,7 +281,7 @@ F 3 "~" H 6600 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F88070
 P 4500 4750
 AR Path="/60F88070" Ref="R?"  Part="1" 
@@ -296,7 +296,7 @@ F 3 "~" H 4500 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F8C66E
 P 2500 4650
 AR Path="/60F8C66E" Ref="C?"  Part="1" 
@@ -321,7 +321,7 @@ F 3 "~" H 2500 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F8D8C6
 P 1500 2750
 AR Path="/60F8D8C6" Ref="R?"  Part="1" 
@@ -340,7 +340,7 @@ SDA
 Text HLabel 1000 3000 0    50   Input ~ 0
 SCK
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F9F811
 P 7500 2750
 AR Path="/60F9F811" Ref="C?"  Part="1" 
@@ -365,7 +365,7 @@ F 3 "~" H 7500 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_Expansion:PCF8574 U14
+L rata-rescue:PCF8574-Interface_Expansion U14
 U 1 1 60FA2526
 P 3500 5400
 F 0 "U14" H 3700 6200 50  0000 C CNN
@@ -387,7 +387,7 @@ F 3 "" H 8500 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60FAF440
 P 7500 4750
 AR Path="/60FAF440" Ref="C?"  Part="1" 
@@ -412,7 +412,7 @@ F 3 "~" H 7500 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FB19D3
 P 9850 3000
 AR Path="/60FB19D3" Ref="R?"  Part="1" 
@@ -427,7 +427,7 @@ F 3 "~" H 9850 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FB1D57
 P 9850 3250
 AR Path="/60FB1D57" Ref="R?"  Part="1" 
@@ -442,7 +442,7 @@ F 3 "~" H 9850 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FB1FB6
 P 9850 3500
 AR Path="/60FB1FB6" Ref="R?"  Part="1" 
@@ -457,7 +457,7 @@ F 3 "~" H 9850 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FB2169
 P 9850 3750
 AR Path="/60FB2169" Ref="R?"  Part="1" 
@@ -472,7 +472,7 @@ F 3 "~" H 9850 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FB23D2
 P 9850 4000
 AR Path="/60FB23D2" Ref="R?"  Part="1" 
@@ -487,7 +487,7 @@ F 3 "~" H 9850 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FB260C
 P 9850 4250
 AR Path="/60FB260C" Ref="R?"  Part="1" 
@@ -502,7 +502,7 @@ F 3 "~" H 9850 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FB27D9
 P 9850 4500
 AR Path="/60FB27D9" Ref="R?"  Part="1" 
@@ -517,7 +517,7 @@ F 3 "~" H 9850 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FB29A6
 P 9850 4750
 AR Path="/60FB29A6" Ref="R?"  Part="1" 
@@ -532,7 +532,7 @@ F 3 "~" H 9850 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FB2BA3
 P 9850 5000
 AR Path="/60FB2BA3" Ref="R?"  Part="1" 
@@ -547,7 +547,7 @@ F 3 "~" H 9850 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FB2DC0
 P 9850 5250
 AR Path="/60FB2DC0" Ref="R?"  Part="1" 
@@ -562,7 +562,7 @@ F 3 "~" H 9850 5250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FB2FBC
 P 9850 5500
 AR Path="/60FB2FBC" Ref="R?"  Part="1" 
@@ -577,7 +577,7 @@ F 3 "~" H 9850 5500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FB319F
 P 9850 5750
 AR Path="/60FB319F" Ref="R?"  Part="1" 
@@ -592,7 +592,7 @@ F 3 "~" H 9850 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FB17A8
 P 9850 2750
 AR Path="/60FB17A8" Ref="R?"  Part="1" 
@@ -607,7 +607,7 @@ F 3 "~" H 9850 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F421DA
 P 9850 2500
 AR Path="/60F421DA" Ref="R?"  Part="1" 

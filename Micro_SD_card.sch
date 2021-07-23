@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Micro_SD_Card J?
+L rata-rescue:Micro_SD_Card-Connector J?
 U 1 1 60B1D1CB
 P 7200 4600
 AR Path="/60B1D1CB" Ref="J?"  Part="1" 
@@ -28,7 +28,7 @@ F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 7200 4600 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60B1D1D1
 P 5000 3900
 AR Path="/60B1D1D1" Ref="R?"  Part="1" 
@@ -42,7 +42,7 @@ F 3 "~" H 5000 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60B1D1DD
 P 5800 3650
 AR Path="/60B1D1DD" Ref="C?"  Part="1" 
@@ -77,7 +77,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 4050 5000 4900
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60B1D208
 P 4700 3900
 AR Path="/60B1D208" Ref="R?"  Part="1" 
@@ -91,7 +91,7 @@ F 3 "~" H 4700 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60B1D20E
 P 4400 3900
 AR Path="/60B1D20E" Ref="R?"  Part="1" 
@@ -123,7 +123,7 @@ Connection ~ 4700 3400
 Wire Wire Line
 	4700 3400 5000 3400
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60B1D21E
 P 6200 3650
 AR Path="/60B1D21E" Ref="C?"  Part="1" 
@@ -171,7 +171,7 @@ SCK
 Text HLabel 4100 4900 0    50   Output ~ 0
 MISO
 $Comp
-L Connector:Conn_01x05_Male J5
+L rata-rescue:Conn_01x05_Male-Connector J5
 U 1 1 60B35003
 P 5200 5700
 F 0 "J5" H 5172 5724 50  0000 R CNN

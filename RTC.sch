@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60EE8A0B
 P 5000 3250
 AR Path="/60EE8A0B" Ref="C?"  Part="1" 
@@ -40,7 +40,7 @@ F 3 "~" H 5000 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F186C3
 P 7250 3950
 AR Path="/60F186C3" Ref="C?"  Part="1" 
@@ -83,7 +83,7 @@ F 3 "" H 6300 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60E783E4
 P 4000 3250
 AR Path="/60E783E4" Ref="R?"  Part="1" 
@@ -101,7 +101,7 @@ F 3 "~" H 4000 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60E783EA
 P 4500 3000
 AR Path="/60E783EA" Ref="R?"  Part="1" 
@@ -116,7 +116,7 @@ F 3 "~" H 4500 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60E784A4
 P 3500 3250
 AR Path="/60E784A4" Ref="R?"  Part="1" 
@@ -134,7 +134,7 @@ F 3 "~" H 3500 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60E7980C
 P 7500 3250
 AR Path="/60E7980C" Ref="C?"  Part="1" 
@@ -160,7 +160,7 @@ F 3 "~" H 7500 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60E79A99
 P 5500 3250
 AR Path="/60E79A99" Ref="C?"  Part="1" 
@@ -190,7 +190,7 @@ SDA
 Text HLabel 3000 3500 0    50   Input ~ 0
 SCK
 $Comp
-L Device:Battery_Cell BT1
+L rata-rescue:Battery_Cell-Device BT1
 U 1 1 60E7F687
 P 8500 3300
 F 0 "BT1" H 8618 3396 50  0000 L CNN
@@ -311,7 +311,7 @@ NoConn ~ 5900 4200
 NoConn ~ 7000 3700
 NoConn ~ 7000 3600
 $Comp
-L Connector:Conn_01x03_Male J9
+L rata-rescue:Conn_01x03_Male-Connector J9
 U 1 1 60E973C8
 P 4200 4900
 F 0 "J9" H 4172 4924 50  0000 R CNN

@@ -171,15 +171,15 @@ F4 "SDA" B R 6500 6300 50
 F5 "SCK" I R 6500 6200 50 
 $EndSheet
 $Sheet
-S 4000 6500 1000 500 
+S 1000 7000 1000 500 
 U 60F1863C
 F0 "+4V5" 50
 F1 "Power_+4.5V.sch" 50
-F2 "+5V_IN" I L 4000 6600 50 
-F3 "GND" I L 4000 6900 50 
-F4 "+4V5_OUT" O R 5000 6600 50 
-F5 "SD" I L 4000 6750 50 
-F6 "VOLT" O R 5000 6750 50 
+F2 "+5V_IN" I L 1000 7100 50 
+F3 "GND" I L 1000 7400 50 
+F4 "+4V5_OUT" O R 2000 7100 50 
+F5 "SD" I L 1000 7250 50 
+F6 "VOLT" O R 2000 7250 50 
 $EndSheet
 $Sheet
 S 2500 6000 1000 500 
@@ -228,18 +228,7 @@ F8 "BRG1N" I L 7000 1900 50
 F9 "BRG1P" I L 7000 1700 50 
 $EndSheet
 $Comp
-L rata:ILC4-5_7L U1
-U 1 1 60FA6693
-P 8700 2300
-F 0 "U1" H 10200 2850 50  0000 L CNN
-F 1 "ILC4-5_7L" H 10100 2750 50  0000 L CNN
-F 2 "" H 8700 1750 50  0001 C CNN
-F 3 "" V 8850 2900 50  0001 C CNN
-	1    8700 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_B J1
+L rata-rescue:USB_B-Connector J1
 U 1 1 60FC5AE8
 P 1200 1500
 F 0 "J1" H 1257 1967 50  0000 C CNN
@@ -250,7 +239,7 @@ F 3 " ~" H 1350 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J2
+L rata-rescue:Screw_Terminal_01x02-Connector J2
 U 1 1 60FB3338
 P 10200 4600
 F 0 "J2" H 10280 4592 50  0000 L CNN
@@ -261,7 +250,7 @@ F 3 "~" H 10200 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR010
+L rata-rescue:+3V3-power #PWR010
 U 1 1 60FC0590
 P 2100 3100
 F 0 "#PWR010" H 2100 2950 50  0001 C CNN
@@ -272,7 +261,7 @@ F 3 "" H 2100 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+10V #PWR012
+L rata-rescue:+10V-power #PWR012
 U 1 1 60FC0B0A
 P 2100 5100
 F 0 "#PWR012" H 2100 4950 50  0001 C CNN
@@ -283,7 +272,7 @@ F 3 "" H 2100 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L rata-rescue:GND-power #PWR09
 U 1 1 60FC1D65
 P 1500 2100
 F 0 "#PWR09" H 1500 1850 50  0001 C CNN
@@ -310,7 +299,7 @@ Connection ~ 1200 2100
 Wire Wire Line
 	1200 2100 1100 2100
 $Comp
-L power:+5V #PWR021
+L rata-rescue:+5V-power #PWR021
 U 1 1 60FC4261
 P 3100 1300
 F 0 "#PWR021" H 3100 1150 50  0001 C CNN
@@ -334,12 +323,12 @@ $EndComp
 $Comp
 L rata:+4V5 #PWR028
 U 1 1 60FC6F1D
-P 5100 6600
-F 0 "#PWR028" H 5100 6450 50  0001 C CNN
-F 1 "+4V5" H 5050 6800 50  0000 C CNN
-F 2 "" H 5100 6600 50  0001 C CNN
-F 3 "" H 5100 6600 50  0001 C CNN
-	1    5100 6600
+P 2100 7100
+F 0 "#PWR028" H 2100 6950 50  0001 C CNN
+F 1 "+4V5" H 2050 7300 50  0000 C CNN
+F 2 "" H 2100 7100 50  0001 C CNN
+F 3 "" H 2100 7100 50  0001 C CNN
+	1    2100 7100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -354,7 +343,7 @@ F 3 "" H 2100 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR01
+L rata-rescue:+5V-power #PWR01
 U 1 1 60FC86FF
 P 900 3100
 F 0 "#PWR01" H 900 2950 50  0001 C CNN
@@ -365,7 +354,7 @@ F 3 "" H 900 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR03
+L rata-rescue:+5V-power #PWR03
 U 1 1 60FC8CAF
 P 900 4100
 F 0 "#PWR03" H 900 3950 50  0001 C CNN
@@ -376,18 +365,18 @@ F 3 "" H 900 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR023
+L rata-rescue:+5V-power #PWR023
 U 1 1 60FC9068
-P 3900 6600
-F 0 "#PWR023" H 3900 6450 50  0001 C CNN
-F 1 "+5V" H 3915 6773 50  0000 C CNN
-F 2 "" H 3900 6600 50  0001 C CNN
-F 3 "" H 3900 6600 50  0001 C CNN
-	1    3900 6600
+P 900 7100
+F 0 "#PWR023" H 900 6950 50  0001 C CNN
+F 1 "+5V" H 915 7273 50  0000 C CNN
+F 2 "" H 900 7100 50  0001 C CNN
+F 3 "" H 900 7100 50  0001 C CNN
+	1    900  7100
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR05
+L rata-rescue:+5V-power #PWR05
 U 1 1 60FC94EE
 P 900 5100
 F 0 "#PWR05" H 900 4950 50  0001 C CNN
@@ -398,7 +387,7 @@ F 3 "" H 900 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR07
+L rata-rescue:+5V-power #PWR07
 U 1 1 60FC9834
 P 900 6100
 F 0 "#PWR07" H 900 5950 50  0001 C CNN
@@ -409,7 +398,7 @@ F 3 "" H 900 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L rata-rescue:GND-power #PWR02
 U 1 1 60FCCF66
 P 900 3400
 F 0 "#PWR02" H 900 3150 50  0001 C CNN
@@ -420,7 +409,7 @@ F 3 "" H 900 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L rata-rescue:GND-power #PWR04
 U 1 1 60FCD057
 P 900 4400
 F 0 "#PWR04" H 900 4150 50  0001 C CNN
@@ -431,18 +420,18 @@ F 3 "" H 900 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR024
+L rata-rescue:GND-power #PWR024
 U 1 1 60FCD246
-P 3900 6900
-F 0 "#PWR024" H 3900 6650 50  0001 C CNN
-F 1 "GND" H 3905 6727 50  0000 C CNN
-F 2 "" H 3900 6900 50  0001 C CNN
-F 3 "" H 3900 6900 50  0001 C CNN
-	1    3900 6900
+P 900 7400
+F 0 "#PWR024" H 900 7150 50  0001 C CNN
+F 1 "GND" H 905 7227 50  0000 C CNN
+F 2 "" H 900 7400 50  0001 C CNN
+F 3 "" H 900 7400 50  0001 C CNN
+	1    900  7400
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L rata-rescue:GND-power #PWR06
 U 1 1 60FCD683
 P 900 5400
 F 0 "#PWR06" H 900 5150 50  0001 C CNN
@@ -453,7 +442,7 @@ F 3 "" H 900 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L rata-rescue:GND-power #PWR08
 U 1 1 60FCD9BB
 P 900 6400
 F 0 "#PWR08" H 900 6150 50  0001 C CNN
@@ -464,7 +453,7 @@ F 3 "" H 900 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L rata-rescue:GND-power #PWR015
 U 1 1 61052AAE
 P 2400 3400
 F 0 "#PWR015" H 2400 3150 50  0001 C CNN
@@ -475,7 +464,7 @@ F 3 "" H 2400 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L rata-rescue:GND-power #PWR017
 U 1 1 61052DED
 P 2400 5400
 F 0 "#PWR017" H 2400 5150 50  0001 C CNN
@@ -486,7 +475,7 @@ F 3 "" H 2400 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR019
+L rata-rescue:GND-power #PWR019
 U 1 1 61052FE5
 P 2400 6400
 F 0 "#PWR019" H 2400 6150 50  0001 C CNN
@@ -497,7 +486,7 @@ F 3 "" H 2400 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR027
+L rata-rescue:GND-power #PWR027
 U 1 1 610534BB
 P 4400 5400
 F 0 "#PWR027" H 4400 5150 50  0001 C CNN
@@ -508,7 +497,7 @@ F 3 "" H 4400 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR031
+L rata-rescue:GND-power #PWR031
 U 1 1 61053A07
 P 5400 6400
 F 0 "#PWR031" H 5400 6150 50  0001 C CNN
@@ -519,7 +508,7 @@ F 3 "" H 5400 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR033
+L rata-rescue:GND-power #PWR033
 U 1 1 61053E27
 P 5400 7400
 F 0 "#PWR033" H 5400 7150 50  0001 C CNN
@@ -530,7 +519,7 @@ F 3 "" H 5400 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR043
+L rata-rescue:GND-power #PWR043
 U 1 1 61054204
 P 6900 5400
 F 0 "#PWR043" H 6900 5150 50  0001 C CNN
@@ -541,7 +530,7 @@ F 3 "" H 6900 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR045
+L rata-rescue:GND-power #PWR045
 U 1 1 6105454E
 P 8400 4900
 F 0 "#PWR045" H 8400 4650 50  0001 C CNN
@@ -552,7 +541,7 @@ F 3 "" H 8400 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR040
+L rata-rescue:GND-power #PWR040
 U 1 1 61054A0F
 P 6900 3900
 F 0 "#PWR040" H 6900 3650 50  0001 C CNN
@@ -563,7 +552,7 @@ F 3 "" H 6900 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR038
+L rata-rescue:GND-power #PWR038
 U 1 1 61054E40
 P 6900 3150
 F 0 "#PWR038" H 6900 2900 50  0001 C CNN
@@ -574,7 +563,7 @@ F 3 "" H 6900 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR036
+L rata-rescue:GND-power #PWR036
 U 1 1 61055251
 P 6900 2000
 F 0 "#PWR036" H 6900 1750 50  0001 C CNN
@@ -585,7 +574,7 @@ F 3 "" H 6900 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+10V #PWR044
+L rata-rescue:+10V-power #PWR044
 U 1 1 610557C9
 P 8400 4600
 F 0 "#PWR044" H 8400 4450 50  0001 C CNN
@@ -618,7 +607,7 @@ F 3 "" H 6900 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR039
+L rata-rescue:+5V-power #PWR039
 U 1 1 610610A2
 P 6900 3600
 F 0 "#PWR039" H 6900 3450 50  0001 C CNN
@@ -629,7 +618,7 @@ F 3 "" H 6900 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR026
+L rata-rescue:+3V3-power #PWR026
 U 1 1 61062B54
 P 4400 1600
 F 0 "#PWR026" H 4400 1450 50  0001 C CNN
@@ -640,7 +629,7 @@ F 3 "" H 4400 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR014
+L rata-rescue:+3V3-power #PWR014
 U 1 1 61062D2B
 P 2400 2800
 F 0 "#PWR014" H 2400 2650 50  0001 C CNN
@@ -651,7 +640,7 @@ F 3 "" H 2400 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR020
+L rata-rescue:+3V3-power #PWR020
 U 1 1 610632EB
 P 2900 4100
 F 0 "#PWR020" H 2900 3950 50  0001 C CNN
@@ -662,7 +651,7 @@ F 3 "" H 2900 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR016
+L rata-rescue:+3V3-power #PWR016
 U 1 1 610636A7
 P 2400 5100
 F 0 "#PWR016" H 2400 4950 50  0001 C CNN
@@ -673,7 +662,7 @@ F 3 "" H 2400 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR032
+L rata-rescue:+3V3-power #PWR032
 U 1 1 6106424C
 P 5400 7100
 F 0 "#PWR032" H 5400 6950 50  0001 C CNN
@@ -684,7 +673,7 @@ F 3 "" H 5400 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR030
+L rata-rescue:+3V3-power #PWR030
 U 1 1 610647C1
 P 5400 6100
 F 0 "#PWR030" H 5400 5950 50  0001 C CNN
@@ -695,7 +684,7 @@ F 3 "" H 5400 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR041
+L rata-rescue:+3V3-power #PWR041
 U 1 1 61064F08
 P 6900 4600
 F 0 "#PWR041" H 6900 4450 50  0001 C CNN
@@ -717,7 +706,7 @@ F 3 "" H 4300 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR022
+L rata-rescue:+3V3-power #PWR022
 U 1 1 61066C2D
 P 3200 1450
 F 0 "#PWR022" H 3200 1300 50  0001 C CNN
@@ -847,29 +836,19 @@ Wire Wire Line
 Wire Wire Line
 	2400 6400 2500 6400
 Wire Wire Line
-	3500 6100 3600 6100
+	3500 6100 3900 6100
 Wire Wire Line
-	3600 6100 3600 5500
+	3900 5100 4500 5100
 Wire Wire Line
-	3600 5500 4000 5500
+	900  7100 1000 7100
 Wire Wire Line
-	4000 5500 4000 5100
+	900  7400 1000 7400
 Wire Wire Line
-	4000 5100 4500 5100
+	2000 7100 2100 7100
 Wire Wire Line
-	3900 6600 4000 6600
+	800  7250 800  6850
 Wire Wire Line
-	3900 6900 4000 6900
-Wire Wire Line
-	5000 6600 5100 6600
-Wire Wire Line
-	4000 6750 3800 6750
-Wire Wire Line
-	3800 6750 3800 5600
-Wire Wire Line
-	3800 5600 4100 5600
-Wire Wire Line
-	4100 5600 4100 5200
+	4100 6850 4100 5200
 Wire Wire Line
 	4100 5200 4500 5200
 Wire Wire Line
@@ -893,11 +872,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 5200 6250 5750
 Wire Wire Line
-	6250 5750 5200 5750
+	6250 5750 4200 5750
 Wire Wire Line
-	5200 5750 5200 6750
+	4200 5750 4200 7250
 Wire Wire Line
-	5200 6750 5000 6750
+	4200 7250 2000 7250
 Wire Wire Line
 	6500 6200 6600 6200
 Wire Wire Line
@@ -963,7 +942,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 3150 7000 3150
 $Comp
-L power:+3V3 #PWR034
+L rata-rescue:+3V3-power #PWR034
 U 1 1 61120F65
 P 6800 2700
 F 0 "#PWR034" H 6800 2550 50  0001 C CNN
@@ -1099,12 +1078,12 @@ VFD12
 Text Label 8900 1650 1    50   ~ 0
 VFD13
 $Comp
-L Device:Fuse F?
+L rata-rescue:Fuse-Device F?
 U 1 1 611F8C83
 P 1750 1300
 AR Path="/60EE89A9/611F8C83" Ref="F?"  Part="1" 
-AR Path="/611F8C83" Ref="F?"  Part="1" 
-F 0 "F?" V 1553 1300 50  0000 C CNN
+AR Path="/611F8C83" Ref="F1"  Part="1" 
+F 0 "F1" V 1553 1300 50  0000 C CNN
 F 1 "Fuse" V 1644 1300 50  0000 C CNN
 F 2 "" V 1680 1300 50  0001 C CNN
 F 3 "~" H 1750 1300 50  0001 C CNN
@@ -1115,8 +1094,25 @@ Wire Wire Line
 	1900 1300 2000 1300
 Wire Wire Line
 	1600 1300 1500 1300
+Wire Wire Line
+	800  6850 4100 6850
+Wire Wire Line
+	3900 5100 3900 6100
+Wire Wire Line
+	800  7250 1000 7250
 Wire Bus Line
 	8000 3000 10500 3000
 Wire Bus Line
 	8350 1300 10000 1300
+$Comp
+L rata:ILC4-5_7L U1
+U 1 1 60FA6693
+P 8700 2300
+F 0 "U1" H 10200 2850 50  0000 L CNN
+F 1 "ILC4-5_7L" H 10100 2750 50  0000 L CNN
+F 2 "" H 8700 1750 50  0001 C CNN
+F 3 "" V 8850 2900 50  0001 C CNN
+	1    8700 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

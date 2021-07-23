@@ -16,7 +16,7 @@ $EndDescr
 Text Notes 7000 2250 2    197  ~ 0
 Boost converter +25V
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60A0DAB2
 P 4000 4150
 AR Path="/60A0DAB2" Ref="C?"  Part="1" 
@@ -37,7 +37,7 @@ F 3 "~" H 4000 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60A440E9
 P 5300 3500
 AR Path="/60A440E9" Ref="R?"  Part="1" 
@@ -51,7 +51,7 @@ F 3 "~" H 5300 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60DF11BE
 P 6250 3650
 AR Path="/60DF11BE" Ref="R?"  Part="1" 
@@ -65,7 +65,7 @@ F 3 "~" H 6250 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60DF11BF
 P 8250 4000
 AR Path="/60DF11BF" Ref="TP?"  Part="1" 
@@ -79,7 +79,7 @@ F 3 "~" H 8450 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60F5917B
 P 5600 3500
 AR Path="/60F5917B" Ref="TP?"  Part="1" 
@@ -93,7 +93,7 @@ F 3 "~" H 5800 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C22
+L rata-rescue:CP-Device C22
 U 1 1 60F5917D
 P 3500 4150
 F 0 "C22" H 3618 4196 50  0000 L CNN
@@ -106,7 +106,7 @@ $EndComp
 Text HLabel 2500 4000 0    50   Input ~ 0
 +5V_IN
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60AFF250
 P 5000 3500
 AR Path="/60AFF250" Ref="TP?"  Part="1" 
@@ -122,7 +122,7 @@ $EndComp
 Text HLabel 2500 5000 0    50   Input ~ 0
 GND
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60DF11CA
 P 8000 4650
 AR Path="/60DF11CA" Ref="R?"  Part="1" 
@@ -137,7 +137,7 @@ F 3 "~" H 8000 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Switching:MC34063AD U5
+L rata-rescue:MC34063AD-Regulator_Switching U5
 U 1 1 60DF4135
 P 5300 4200
 F 0 "U5" H 5300 4667 50  0000 C CNN
@@ -148,7 +148,7 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF" H 5800 4100 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C25
+L rata-rescue:CP-Device C25
 U 1 1 60E7FC90
 P 8500 4150
 F 0 "C25" H 8618 4196 50  0000 L CNN
@@ -159,7 +159,7 @@ F 3 "~" H 8500 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60E80DA1
 P 8000 4150
 AR Path="/60E80DA1" Ref="R?"  Part="1" 
@@ -174,7 +174,7 @@ F 3 "~" H 8000 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60E81588
 P 4500 4550
 AR Path="/60E81588" Ref="C?"  Part="1" 
@@ -195,7 +195,7 @@ F 3 "~" H 4500 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L3
+L rata-rescue:L-Device L3
 U 1 1 60E8569C
 P 6650 3500
 F 0 "L3" V 6750 3500 50  0000 C CNN
@@ -294,7 +294,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 5000 8000 5000
 $Comp
-L Device:D_Schottky D2
+L rata-rescue:D_Schottky-Device D2
 U 1 1 60EBDE25
 P 7350 4000
 F 0 "D2" H 7350 3900 50  0000 C CNN

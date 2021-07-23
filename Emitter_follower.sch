@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_BJT:BC847 Q?
+L rata-rescue:BC847-Transistor_BJT Q?
 U 1 1 60F64272
 P 6900 3750
 AR Path="/609C9D41/60F64272" Ref="Q?"  Part="1" 
@@ -33,7 +33,7 @@ F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_B
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F64278
 P 5500 4750
 AR Path="/60F64278" Ref="R?"  Part="1" 
@@ -52,7 +52,7 @@ F 3 "~" H 5500 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F6427E
 P 5250 4500
 AR Path="/60F6427E" Ref="R?"  Part="1" 
@@ -71,7 +71,7 @@ F 3 "~" H 5250 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_BJT:BC857 Q?
+L rata-rescue:BC857-Transistor_BJT Q?
 U 1 1 60F64284
 P 6900 4250
 AR Path="/60F18EC1/60F64284" Ref="Q?"  Part="1" 
@@ -89,7 +89,7 @@ $EndComp
 Text Notes 7700 2500 2    197  ~ 0
 Double emitter follower
 $Comp
-L Transistor_BJT:BC847 Q?
+L rata-rescue:BC847-Transistor_BJT Q?
 U 1 1 60F64A50
 P 5900 4500
 AR Path="/609C9D41/60F64A50" Ref="Q?"  Part="1" 
@@ -108,7 +108,7 @@ F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_B
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F68AA3
 P 6350 4000
 AR Path="/60F68AA3" Ref="R?"  Part="1" 
@@ -127,7 +127,7 @@ F 3 "~" H 6350 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F6906A
 P 6000 3750
 AR Path="/60F6906A" Ref="R?"  Part="1" 

@@ -20,7 +20,7 @@ GND
 Text Notes 8900 1650 2    197  ~ 0
 BME280 humiduty and temperature sensor
 $Comp
-L Sensor:BME280 U12
+L rata-rescue:BME280-Sensor U12
 U 1 1 60F46B21
 P 4900 4800
 F 0 "U12" H 4471 4846 50  0000 R CNN
@@ -31,7 +31,7 @@ F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-D
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FE7830
 P 7500 4250
 AR Path="/60FE7830" Ref="R?"  Part="1" 
@@ -51,7 +51,7 @@ F 3 "~" H 7500 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FE7836
 P 7000 4250
 AR Path="/60FE7836" Ref="R?"  Part="1" 
@@ -71,7 +71,7 @@ F 3 "~" H 7000 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FE8694
 P 5900 3500
 AR Path="/60FE8694" Ref="R?"  Part="1" 
@@ -91,7 +91,7 @@ F 3 "~" H 5900 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J?
+L rata-rescue:Conn_01x03_Male-Connector J?
 U 1 1 60FEC4F6
 P 7200 5400
 AR Path="/60EF6B1B/60FEC4F6" Ref="J?"  Part="1" 
@@ -110,7 +110,7 @@ SDA
 Text HLabel 8500 4500 2    50   Input ~ 0
 SCK
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60FF5E30
 P 5500 3650
 AR Path="/60FF5E30" Ref="C?"  Part="1" 
@@ -138,7 +138,7 @@ F 3 "~" H 5500 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60FF5F7B
 P 4500 3650
 AR Path="/60FF5F7B" Ref="C?"  Part="1" 
@@ -166,7 +166,7 @@ F 3 "~" H 4500 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60FF4BFC
 P 5050 3500
 AR Path="/60FF4BFC" Ref="R?"  Part="1" 

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60EE8A0E
 P 10000 3000
 AR Path="/60EE8A0E" Ref="TP?"  Part="1" 
@@ -32,7 +32,7 @@ F 3 "~" H 10200 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60DF1213
 P 5500 3600
 AR Path="/60DF1213" Ref="TP?"  Part="1" 
@@ -50,7 +50,7 @@ F 3 "~" H 5700 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F5917C
 P 3000 3550
 AR Path="/60F5917C" Ref="C?"  Part="1" 
@@ -75,7 +75,7 @@ F 3 "~" H 3000 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L rata-rescue:CP-Device C?
 U 1 1 60DF121B
 P 3500 2850
 AR Path="/609FED99/60DF121B" Ref="C?"  Part="1" 
@@ -94,7 +94,7 @@ $EndComp
 Text HLabel 1000 2500 0    50   Input ~ 0
 +VCC
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60EE8A10
 P 9750 3000
 AR Path="/60EE8A10" Ref="TP?"  Part="1" 
@@ -129,7 +129,7 @@ F 3 "" H 7200 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F0668E
 P 8000 4150
 AR Path="/60F0668E" Ref="C?"  Part="1" 
@@ -154,7 +154,7 @@ F 3 "~" H 8000 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F06990
 P 4500 2850
 AR Path="/60F06990" Ref="C?"  Part="1" 
@@ -183,7 +183,7 @@ AUD
 Text HLabel 1000 4500 0    50   Input ~ 0
 ~DIS~
 $Comp
-L Device:Ferrite_Bead FB3
+L rata-rescue:Ferrite_Bead-Device FB3
 U 1 1 60F08F65
 P 9150 4000
 F 0 "FB3" V 8876 4000 50  0000 C CNN
@@ -194,7 +194,7 @@ F 3 "~" H 9150 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead FB2
+L rata-rescue:Ferrite_Bead-Device FB2
 U 1 1 60F09757
 P 9150 3500
 F 0 "FB2" V 8876 3500 50  0000 C CNN
@@ -207,7 +207,7 @@ $EndComp
 Text HLabel 10500 4000 2    50   Output ~ 0
 SPK1
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F0D5C7
 P 2350 3000
 AR Path="/60F0D5C7" Ref="R?"  Part="1" 
@@ -224,7 +224,7 @@ F 3 "~" H 2350 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F0D5D3
 P 2000 3650
 AR Path="/60F0D5D3" Ref="R?"  Part="1" 
@@ -244,7 +244,7 @@ F 3 "~" H 2000 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F17998
 P 4000 2850
 AR Path="/60F17998" Ref="C?"  Part="1" 
@@ -269,7 +269,7 @@ F 3 "~" H 4000 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L rata-rescue:CP-Device C?
 U 1 1 60F1ACEF
 P 5500 2850
 AR Path="/609FED99/60F1ACEF" Ref="C?"  Part="1" 
@@ -286,7 +286,7 @@ F 3 "~" H 5500 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F1ACF5
 P 6500 2850
 AR Path="/60F1ACF5" Ref="C?"  Part="1" 
@@ -311,7 +311,7 @@ F 3 "~" H 6500 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F1ACFB
 P 6000 2850
 AR Path="/60F1ACFB" Ref="C?"  Part="1" 
@@ -336,7 +336,7 @@ F 3 "~" H 6000 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead FB1
+L rata-rescue:Ferrite_Bead-Device FB1
 U 1 1 60F1C637
 P 1850 3000
 F 0 "FB1" V 1576 3000 50  0000 C CNN
@@ -347,7 +347,7 @@ F 3 "~" H 1850 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F23E88
 P 5000 4850
 AR Path="/60F23E88" Ref="C?"  Part="1" 
@@ -372,7 +372,7 @@ F 3 "~" H 5000 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F25535
 P 4500 3850
 AR Path="/60F25535" Ref="C?"  Part="1" 
@@ -397,7 +397,7 @@ F 3 "~" H 4500 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F25FF4
 P 3850 3600
 AR Path="/60F25FF4" Ref="C?"  Part="1" 
@@ -422,7 +422,7 @@ F 3 "~" H 3850 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F27980
 P 2500 3650
 AR Path="/60F27980" Ref="R?"  Part="1" 
@@ -442,7 +442,7 @@ F 3 "~" H 2500 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F2BAB9
 P 8500 4150
 AR Path="/60F2BAB9" Ref="C?"  Part="1" 
@@ -467,7 +467,7 @@ F 3 "~" H 8500 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F2BCC3
 P 9500 4650
 AR Path="/60F2BCC3" Ref="C?"  Part="1" 
@@ -492,7 +492,7 @@ F 3 "~" H 9500 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L rata-rescue:C-Device C?
 U 1 1 60F2BF71
 P 10000 4650
 AR Path="/60F2BF71" Ref="C?"  Part="1" 
@@ -671,7 +671,7 @@ Connection ~ 3500 5500
 Wire Wire Line
 	3500 5500 4500 5500
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F43768
 P 5500 4850
 AR Path="/60F43768" Ref="R?"  Part="1" 
@@ -691,7 +691,7 @@ F 3 "~" H 5500 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F43A7E
 P 5500 5250
 AR Path="/60F43A7E" Ref="R?"  Part="1" 
@@ -765,7 +765,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 4200 5900 4200
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F5E510
 P 1650 4500
 AR Path="/60F5E510" Ref="R?"  Part="1" 

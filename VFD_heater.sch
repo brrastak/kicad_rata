@@ -22,7 +22,7 @@ Heater power H-bridge
 Text HLabel 9500 2750 2    50   Output ~ 0
 OUT0
 $Comp
-L Transistor_FET:IRLML6402 Q4
+L rata-rescue:IRLML6402-Transistor_FET Q4
 U 1 1 60A19F59
 P 5400 2250
 F 0 "Q4" H 5604 2204 50  0000 L CNN
@@ -33,7 +33,7 @@ F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_FET:IRLML2060 Q5
+L rata-rescue:IRLML2060-Transistor_FET Q5
 U 1 1 60A1C2D8
 P 5400 3250
 F 0 "Q5" H 5604 3296 50  0000 L CNN
@@ -44,7 +44,7 @@ F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60B13DFF
 P 5000 3500
 AR Path="/60B13DFF" Ref="R?"  Part="1" 
@@ -59,7 +59,7 @@ F 3 "~" H 5000 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60B1B4E2
 P 5000 2000
 AR Path="/60B1B4E2" Ref="R?"  Part="1" 
@@ -124,7 +124,7 @@ F4 "OUT" O R 7500 5250 50
 F5 "IN" I L 6500 5250 50 
 $EndSheet
 $Comp
-L Transistor_FET:IRLML6402 Q6
+L rata-rescue:IRLML6402-Transistor_FET Q6
 U 1 1 60F84C82
 P 8400 4250
 F 0 "Q6" H 8604 4204 50  0000 L CNN
@@ -135,7 +135,7 @@ F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_FET:IRLML2060 Q7
+L rata-rescue:IRLML2060-Transistor_FET Q7
 U 1 1 60F84C88
 P 8400 5250
 F 0 "Q7" H 8604 5296 50  0000 L CNN
@@ -146,7 +146,7 @@ F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F84C8E
 P 8000 5500
 AR Path="/60F84C8E" Ref="R?"  Part="1" 
@@ -161,7 +161,7 @@ F 3 "~" H 8000 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L rata-rescue:R-Device R?
 U 1 1 60F84C94
 P 8000 4000
 AR Path="/60F84C94" Ref="R?"  Part="1" 
@@ -290,7 +290,7 @@ Connection ~ 3000 3400
 Wire Wire Line
 	3000 3400 3000 6000
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60FB0EC1
 P 4750 2250
 AR Path="/60FB0EC1" Ref="TP?"  Part="1" 
@@ -310,7 +310,7 @@ F 3 "~" H 4950 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60FB22C8
 P 4750 3250
 AR Path="/60FB22C8" Ref="TP?"  Part="1" 
@@ -330,7 +330,7 @@ F 3 "~" H 4950 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60FB376C
 P 7750 4250
 AR Path="/60FB376C" Ref="TP?"  Part="1" 
@@ -350,7 +350,7 @@ F 3 "~" H 7950 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60FB4B71
 P 7750 5250
 AR Path="/60FB4B71" Ref="TP?"  Part="1" 
@@ -370,7 +370,7 @@ F 3 "~" H 7950 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60FB684B
 P 9000 4750
 AR Path="/60FB684B" Ref="TP?"  Part="1" 
@@ -390,7 +390,7 @@ F 3 "~" H 9200 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L rata-rescue:TestPoint-Connector TP?
 U 1 1 60FB7BCC
 P 9000 2750
 AR Path="/60FB7BCC" Ref="TP?"  Part="1" 
