@@ -1,6 +1,5 @@
 (sym_lib_table
-  (lib (name furnace_controller-rescue)(type Legacy)(uri ${KIPRJMOD}/furnace_controller-rescue.lib)(options "")(descr ""))
+  (lib (name furnace_controller-rescue)(type Legacy)(uri ${KIPRJMOD}/furnace_controller-rescue.lib)(options "")(descr "")(disabled))
   (lib (name rata)(type Legacy)(uri ${KIPRJMOD}/rata.lib)(options "")(descr ""))
-  (lib (name vfd)(type Legacy)(uri D:/Files/schematic/KiCad/Kicad-VFD-Nixies-master/vfd.lib)(options "")(descr ""))
   (lib (name rata-rescue)(type Legacy)(uri ${KIPRJMOD}/rata-rescue.lib)(options "")(descr ""))
 )

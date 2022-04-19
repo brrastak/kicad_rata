@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 13 23
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "rata"
+Date "2021-09-25"
+Rev "1.0"
+Comp "Yuriy Volkov"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -77,7 +77,7 @@ U 1 1 60E75075
 P 6400 3800
 F 0 "U10" H 6600 3250 50  0000 C CNN
 F 1 "PCF2129T_2,518" H 6850 3150 50  0000 C CNN
-F 2 "" H 6300 3800 50  0001 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 6300 3800 50  0001 C CNN
 F 3 "" H 6300 3800 50  0001 C CNN
 	1    6400 3800
 	1    0    0    -1  
@@ -92,8 +92,8 @@ AR Path="/609FED99/60E783E4" Ref="R?"  Part="1"
 AR Path="/60DF0860/60E783E4" Ref="R?"  Part="1" 
 AR Path="/60DF07DE/60E783E4" Ref="R?"  Part="1" 
 AR Path="/60EE89A9/60E783E4" Ref="R?"  Part="1" 
-AR Path="/60EF6B1B/60E783E4" Ref="R41"  Part="1" 
-F 0 "R41" H 4070 3296 50  0000 L CNN
+AR Path="/60EF6B1B/60E783E4" Ref="R42"  Part="1" 
+F 0 "R42" H 4070 3296 50  0000 L CNN
 F 1 "4,7k" H 4070 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3930 3250 50  0001 C CNN
 F 3 "~" H 4000 3250 50  0001 C CNN
@@ -107,8 +107,8 @@ P 4500 3000
 AR Path="/60E783EA" Ref="R?"  Part="1" 
 AR Path="/60B39FE1/60E783EA" Ref="R?"  Part="1" 
 AR Path="/60EE89A9/60E783EA" Ref="R?"  Part="1" 
-AR Path="/60EF6B1B/60E783EA" Ref="R42"  Part="1" 
-F 0 "R42" V 4600 2950 50  0000 L CNN
+AR Path="/60EF6B1B/60E783EA" Ref="R43"  Part="1" 
+F 0 "R43" V 4600 2950 50  0000 L CNN
 F 1 "330" V 4400 2950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4430 3000 50  0001 C CNN
 F 3 "~" H 4500 3000 50  0001 C CNN
@@ -125,8 +125,8 @@ AR Path="/609FED99/60E784A4" Ref="R?"  Part="1"
 AR Path="/60DF0860/60E784A4" Ref="R?"  Part="1" 
 AR Path="/60DF07DE/60E784A4" Ref="R?"  Part="1" 
 AR Path="/60EE89A9/60E784A4" Ref="R?"  Part="1" 
-AR Path="/60EF6B1B/60E784A4" Ref="R40"  Part="1" 
-F 0 "R40" H 3570 3296 50  0000 L CNN
+AR Path="/60EF6B1B/60E784A4" Ref="R41"  Part="1" 
+F 0 "R41" H 3570 3296 50  0000 L CNN
 F 1 "4,7k" H 3570 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3430 3250 50  0001 C CNN
 F 3 "~" H 3500 3250 50  0001 C CNN
@@ -194,8 +194,8 @@ L rata-rescue:Battery_Cell-Device BT1
 U 1 1 60E7F687
 P 8500 3300
 F 0 "BT1" H 8618 3396 50  0000 L CNN
-F 1 "Battery_Cell" H 8618 3305 50  0000 L CNN
-F 2 "" V 8500 3360 50  0001 C CNN
+F 1 "CR2032" H 8618 3305 50  0000 L CNN
+F 2 "rata:BatteryHolder_CR2032" V 8500 3360 50  0001 C CNN
 F 3 "~" V 8500 3360 50  0001 C CNN
 	1    8500 3300
 	1    0    0    -1  
@@ -234,7 +234,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 3400 6500 3000
 Wire Wire Line
-	6500 3000 7500 3000
+	6500 3000 7000 3000
 Wire Wire Line
 	8500 3000 8500 3100
 Wire Wire Line
@@ -245,7 +245,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3400 6400 3000
 Wire Wire Line
-	6400 3000 5500 3000
+	6400 3000 6000 3000
 Wire Wire Line
 	5000 3100 5000 3000
 Connection ~ 5000 3000
@@ -315,8 +315,8 @@ L rata-rescue:Conn_01x03_Male-Connector J9
 U 1 1 60E973C8
 P 4200 4900
 F 0 "J9" H 4172 4924 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 4172 4833 50  0000 R CNN
-F 2 "" H 4200 4900 50  0001 C CNN
+F 1 "PLS-3" H 4172 4833 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4200 4900 50  0001 C CNN
 F 3 "~" H 4200 4900 50  0001 C CNN
 	1    4200 4900
 	-1   0    0    -1  
@@ -342,4 +342,32 @@ Wire Wire Line
 Connection ~ 3700 3500
 Wire Wire Line
 	3700 3500 4500 3500
+$Comp
+L power:PWR_FLAG #FLG06
+U 1 1 615B5B5C
+P 7000 3000
+F 0 "#FLG06" H 7000 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 7000 3173 50  0000 C CNN
+F 2 "" H 7000 3000 50  0001 C CNN
+F 3 "~" H 7000 3000 50  0001 C CNN
+	1    7000 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 3000
+Wire Wire Line
+	7000 3000 7500 3000
+$Comp
+L power:PWR_FLAG #FLG05
+U 1 1 615B6DFE
+P 6000 3000
+F 0 "#FLG05" H 6000 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 6000 3173 50  0000 C CNN
+F 2 "" H 6000 3000 50  0001 C CNN
+F 3 "~" H 6000 3000 50  0001 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6000 3000
+Wire Wire Line
+	6000 3000 5500 3000
 $EndSCHEMATC

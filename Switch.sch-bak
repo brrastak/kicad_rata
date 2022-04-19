@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 23
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "rata"
+Date "2021-09-25"
+Rev "1.0"
+Comp "Yuriy Volkov"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -26,8 +26,8 @@ L rata-rescue:SW_DPDT_x2-Switch SW10
 U 1 1 60F712E0
 P 6800 4000
 F 0 "SW10" H 6800 4285 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 6800 4194 50  0000 C CNN
-F 2 "" H 6800 4000 50  0001 C CNN
+F 1 "PKN-61" H 6800 4194 50  0000 C CNN
+F 2 "rata:PKN-61" H 6800 4000 50  0001 C CNN
 F 3 "~" H 6800 4000 50  0001 C CNN
 	1    6800 4000
 	-1   0    0    -1  
@@ -37,8 +37,8 @@ L rata-rescue:SW_DPDT_x2-Switch SW10
 U 2 1 60F71AB8
 P 6800 5000
 F 0 "SW10" H 6800 5285 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 6800 5194 50  0000 C CNN
-F 2 "" H 6800 5000 50  0001 C CNN
+F 1 "PKN-61" H 6800 5194 50  0000 C CNN
+F 2 "rata:PKN-61" H 6800 5000 50  0001 C CNN
 F 3 "~" H 6800 5000 50  0001 C CNN
 	2    6800 5000
 	-1   0    0    -1  
@@ -51,8 +51,8 @@ AR Path="/60F73202" Ref="R?"  Part="1"
 AR Path="/60B39FE1/60F73202" Ref="R?"  Part="1" 
 AR Path="/60DF1160/60F2690B/60F73202" Ref="R?"  Part="1" 
 AR Path="/60DF1160/60F73202" Ref="R?"  Part="1" 
-AR Path="/60DF212D/60F73202" Ref="R25"  Part="1" 
-F 0 "R25" V 5850 3450 50  0000 L CNN
+AR Path="/60DF212D/60F73202" Ref="R26"  Part="1" 
+F 0 "R26" V 5850 3450 50  0000 L CNN
 F 1 "4.7k" V 5650 3400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5680 3500 50  0001 C CNN
 F 3 "~" H 5750 3500 50  0001 C CNN

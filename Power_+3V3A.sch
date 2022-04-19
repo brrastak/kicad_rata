@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 23 23
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 22 23
+Title "rata"
+Date "2021-09-25"
+Rev "1.0"
+Comp "Yuriy Volkov"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -26,8 +26,8 @@ AR Path="/60DF1072/611C22D7" Ref="U?"  Part="1"
 AR Path="/60DF1160/611C22D7" Ref="U?"  Part="1" 
 AR Path="/60DF196E/611C22D7" Ref="U?"  Part="1" 
 AR Path="/60DF212D/611C22D7" Ref="U?"  Part="1" 
-AR Path="/60E6F2E9/611C22D7" Ref="U17"  Part="1" 
-F 0 "U17" H 6800 3742 50  0000 C CNN
+AR Path="/60E6F2E9/611C22D7" Ref="U13"  Part="1" 
+F 0 "U13" H 6800 3742 50  0000 C CNN
 F 1 "AMS1117-3.3" H 6800 3651 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6800 3700 50  0001 C CNN
 F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 6900 3250 50  0001 C CNN
@@ -53,8 +53,8 @@ AR Path="/60DF1072/60E73024" Ref="C?"  Part="1"
 AR Path="/60DF1160/60E73024" Ref="C?"  Part="1" 
 AR Path="/60DF196E/60E73024" Ref="C?"  Part="1" 
 AR Path="/60DF212D/60E73024" Ref="C?"  Part="1" 
-AR Path="/60E6F2E9/60E73024" Ref="C65"  Part="1" 
-F 0 "C65" H 7515 3796 50  0000 L CNN
+AR Path="/60E6F2E9/60E73024" Ref="C62"  Part="1" 
+F 0 "C62" H 7515 3796 50  0000 L CNN
 F 1 "10u" H 7515 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7438 3600 50  0001 C CNN
 F 3 "~" H 7400 3750 50  0001 C CNN
@@ -80,8 +80,8 @@ AR Path="/60DF1072/611C22D9" Ref="C?"  Part="1"
 AR Path="/60DF1160/611C22D9" Ref="C?"  Part="1" 
 AR Path="/60DF196E/611C22D9" Ref="C?"  Part="1" 
 AR Path="/60DF212D/611C22D9" Ref="C?"  Part="1" 
-AR Path="/60E6F2E9/611C22D9" Ref="C64"  Part="1" 
-F 0 "C64" H 6315 3796 50  0000 L CNN
+AR Path="/60E6F2E9/611C22D9" Ref="C61"  Part="1" 
+F 0 "C61" H 6315 3796 50  0000 L CNN
 F 1 "0,1" H 6315 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6238 3600 50  0001 C CNN
 F 3 "~" H 6200 3750 50  0001 C CNN
@@ -107,8 +107,8 @@ AR Path="/60DF1072/60E7301F" Ref="C?"  Part="1"
 AR Path="/60DF1160/60E7301F" Ref="C?"  Part="1" 
 AR Path="/60DF196E/60E7301F" Ref="C?"  Part="1" 
 AR Path="/60DF212D/60E7301F" Ref="C?"  Part="1" 
-AR Path="/60E6F2E9/60E7301F" Ref="C66"  Part="1" 
-F 0 "C66" H 7915 3796 50  0000 L CNN
+AR Path="/60E6F2E9/60E7301F" Ref="C63"  Part="1" 
+F 0 "C63" H 7915 3796 50  0000 L CNN
 F 1 "10u" H 7915 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7838 3600 50  0001 C CNN
 F 3 "~" H 7800 3750 50  0001 C CNN
@@ -130,7 +130,7 @@ AR Path="/60DF212D/60DF19BA" Ref="TP?"  Part="1"
 AR Path="/60E6F2E9/60DF19BA" Ref="TP32"  Part="1" 
 F 0 "TP32" H 7608 3618 50  0000 L CNN
 F 1 "TestPoint" H 7608 3527 50  0001 L CNN
-F 2 "" H 7750 3500 50  0001 C CNN
+F 2 "rata:TP" H 7750 3500 50  0001 C CNN
 F 3 "~" H 7750 3500 50  0001 C CNN
 	1    7550 3500
 	1    0    0    -1  
@@ -150,7 +150,7 @@ AR Path="/60DF212D/60E73021" Ref="TP?"  Part="1"
 AR Path="/60E6F2E9/60E73021" Ref="TP30"  Part="1" 
 F 0 "TP30" H 5458 3618 50  0000 L CNN
 F 1 "TestPoint" H 5458 3527 50  0001 L CNN
-F 2 "" H 5600 3500 50  0001 C CNN
+F 2 "rata:TP" H 5600 3500 50  0001 C CNN
 F 3 "~" H 5600 3500 50  0001 C CNN
 	1    5400 3500
 	1    0    0    -1  
@@ -172,7 +172,7 @@ AR Path="/60DF212D/611C22D3" Ref="TP?"  Part="1"
 AR Path="/60E6F2E9/611C22D3" Ref="TP31"  Part="1" 
 F 0 "TP31" H 5458 4118 50  0000 L CNN
 F 1 "TestPoint" H 5458 4027 50  0001 L CNN
-F 2 "" H 5600 4000 50  0001 C CNN
+F 2 "rata:TP" H 5600 4000 50  0001 C CNN
 F 3 "~" H 5600 4000 50  0001 C CNN
 	1    5400 4000
 	1    0    0    -1  
@@ -203,9 +203,9 @@ AR Path="/60DF1072/60FB3F89" Ref="C?"  Part="1"
 AR Path="/60DF1160/60FB3F89" Ref="C?"  Part="1" 
 AR Path="/60DF196E/60FB3F89" Ref="C?"  Part="1" 
 AR Path="/60DF212D/60FB3F89" Ref="C?"  Part="1" 
-AR Path="/60E6F2E9/60FB3F89" Ref="C62"  Part="1" 
+AR Path="/60E6F2E9/60FB3F89" Ref="C59"  Part="1" 
 AR Path="/60EE89A9/60FB3F89" Ref="C?"  Part="1" 
-F 0 "C62" H 3115 3796 50  0000 L CNN
+F 0 "C59" H 3115 3796 50  0000 L CNN
 F 1 "1u" H 3115 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3038 3600 50  0001 C CNN
 F 3 "~" H 3000 3750 50  0001 C CNN
@@ -223,11 +223,11 @@ AR Path="/60DF1072/60FB3F8F" Ref="C?"  Part="1"
 AR Path="/60DF1160/60FB3F8F" Ref="C?"  Part="1" 
 AR Path="/60DF196E/60FB3F8F" Ref="C?"  Part="1" 
 AR Path="/60DF212D/60FB3F8F" Ref="C?"  Part="1" 
-AR Path="/60E6F2E9/60FB3F8F" Ref="C61"  Part="1" 
+AR Path="/60E6F2E9/60FB3F8F" Ref="C58"  Part="1" 
 AR Path="/60EE89A9/60FB3F8F" Ref="C?"  Part="1" 
-F 0 "C61" H 2618 3796 50  0000 L CNN
+F 0 "C58" H 2618 3796 50  0000 L CNN
 F 1 "100u" H 2618 3705 50  0000 L CNN
-F 2 "" H 2538 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 2538 3600 50  0001 C CNN
 F 3 "~" H 2500 3750 50  0001 C CNN
 	1    2500 3750
 	1    0    0    -1  
@@ -243,11 +243,11 @@ AR Path="/60DF1072/60FC0F28" Ref="C?"  Part="1"
 AR Path="/60DF1160/60FC0F28" Ref="C?"  Part="1" 
 AR Path="/60DF196E/60FC0F28" Ref="C?"  Part="1" 
 AR Path="/60DF212D/60FC0F28" Ref="C?"  Part="1" 
-AR Path="/60E6F2E9/60FC0F28" Ref="C63"  Part="1" 
+AR Path="/60E6F2E9/60FC0F28" Ref="C60"  Part="1" 
 AR Path="/60EE89A9/60FC0F28" Ref="C?"  Part="1" 
-F 0 "C63" H 5118 3796 50  0000 L CNN
+F 0 "C60" H 5118 3796 50  0000 L CNN
 F 1 "100u" H 5118 3705 50  0000 L CNN
-F 2 "" H 5038 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 5038 3600 50  0001 C CNN
 F 3 "~" H 5000 3750 50  0001 C CNN
 	1    5000 3750
 	1    0    0    -1  
@@ -261,7 +261,7 @@ AR Path="/60E6F2E9/60FC2E70" Ref="FB4"  Part="1"
 AR Path="/609FED99/60FC2E70" Ref="FB?"  Part="1" 
 F 0 "FB4" V 3976 3500 50  0000 C CNN
 F 1 "Ferrite_Bead" V 4067 3500 50  0000 C CNN
-F 2 "" V 4180 3500 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" V 4180 3500 50  0001 C CNN
 F 3 "~" H 4250 3500 50  0001 C CNN
 	1    4250 3500
 	0    1    1    0   
@@ -277,7 +277,7 @@ AR Path="/609FED99/60FC380F" Ref="L?"  Part="1"
 AR Path="/60E6F2E9/60FC380F" Ref="L4"  Part="1" 
 F 0 "L4" V 3850 3500 50  0000 C CNN
 F 1 "330u" V 3700 3500 50  0000 C CNN
-F 2 "" H 3750 3500 50  0001 C CNN
+F 2 "rata:L_12x12mm_H8mm" H 3750 3500 50  0001 C CNN
 F 3 "~" H 3750 3500 50  0001 C CNN
 	1    3750 3500
 	0    -1   -1   0   
@@ -290,7 +290,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 3500 7400 3500
 Wire Wire Line
-	5400 3500 6200 3500
+	5400 3500 6000 3500
 Wire Wire Line
 	4400 3500 5000 3500
 Wire Wire Line
@@ -362,4 +362,18 @@ Wire Wire Line
 Connection ~ 2500 4000
 Wire Wire Line
 	2500 4000 3000 4000
+$Comp
+L power:PWR_FLAG #FLG09
+U 1 1 615BF45A
+P 6000 3500
+F 0 "#FLG09" H 6000 3575 50  0001 C CNN
+F 1 "PWR_FLAG" H 6000 3673 50  0000 C CNN
+F 2 "" H 6000 3500 50  0001 C CNN
+F 3 "~" H 6000 3500 50  0001 C CNN
+	1    6000 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6000 3500
+Wire Wire Line
+	6000 3500 6200 3500
 $EndSCHEMATC

@@ -15,6 +15,11 @@ D Power symbol creates a global label with name "+4V5"
 K power-flag
 $ENDCMP
 #
+$CMP CTF-11081-P
+D Micro SD Card Socket
+K connector SD microsd
+$ENDCMP
+#
 $CMP ILC4-5_7L
 D Vacuum fluorescent display
 K Vacuum fluorescent display VFD

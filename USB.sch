@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 23
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "rata"
+Date "2021-09-25"
+Rev "1.0"
+Comp "Yuriy Volkov"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -50,8 +50,8 @@ AR Path="/60B39FE1/60EF23B1" Ref="R?"  Part="1"
 AR Path="/609FED99/60EF23B1" Ref="R?"  Part="1" 
 AR Path="/60DF0860/60EF23B1" Ref="R?"  Part="1" 
 AR Path="/60DF07DE/60EF23B1" Ref="R?"  Part="1" 
-AR Path="/60EE89A9/60EF23B1" Ref="R37"  Part="1" 
-F 0 "R37" H 7570 4196 50  0000 L CNN
+AR Path="/60EE89A9/60EF23B1" Ref="R38"  Part="1" 
+F 0 "R38" H 7570 4196 50  0000 L CNN
 F 1 "1,5k" H 7570 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7430 4150 50  0001 C CNN
 F 3 "~" H 7500 4150 50  0001 C CNN
@@ -64,8 +64,8 @@ U 1 1 60EF494D
 P 8350 3500
 AR Path="/60EF494D" Ref="R?"  Part="1" 
 AR Path="/60B39FE1/60EF494D" Ref="R?"  Part="1" 
-AR Path="/60EE89A9/60EF494D" Ref="R39"  Part="1" 
-F 0 "R39" V 8450 3450 50  0000 L CNN
+AR Path="/60EE89A9/60EF494D" Ref="R40"  Part="1" 
+F 0 "R40" V 8450 3450 50  0000 L CNN
 F 1 "3,3k" V 8250 3400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8280 3500 50  0001 C CNN
 F 3 "~" H 8350 3500 50  0001 C CNN
@@ -78,8 +78,8 @@ U 1 1 60EF56CE
 P 6650 4500
 AR Path="/60EF56CE" Ref="R?"  Part="1" 
 AR Path="/60B39FE1/60EF56CE" Ref="R?"  Part="1" 
-AR Path="/60EE89A9/60EF56CE" Ref="R35"  Part="1" 
-F 0 "R35" V 6750 4450 50  0000 L CNN
+AR Path="/60EE89A9/60EF56CE" Ref="R36"  Part="1" 
+F 0 "R36" V 6750 4450 50  0000 L CNN
 F 1 "22" V 6550 4450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6580 4500 50  0001 C CNN
 F 3 "~" H 6650 4500 50  0001 C CNN
@@ -92,8 +92,8 @@ U 1 1 60EF5C68
 P 6650 5000
 AR Path="/60EF5C68" Ref="R?"  Part="1" 
 AR Path="/60B39FE1/60EF5C68" Ref="R?"  Part="1" 
-AR Path="/60EE89A9/60EF5C68" Ref="R36"  Part="1" 
-F 0 "R36" V 6750 4950 50  0000 L CNN
+AR Path="/60EE89A9/60EF5C68" Ref="R37"  Part="1" 
+F 0 "R37" V 6750 4950 50  0000 L CNN
 F 1 "22" V 6550 4950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6580 5000 50  0001 C CNN
 F 3 "~" H 6650 5000 50  0001 C CNN
@@ -109,8 +109,8 @@ AR Path="/60B39FE1/60EF5F53" Ref="R?"  Part="1"
 AR Path="/609FED99/60EF5F53" Ref="R?"  Part="1" 
 AR Path="/60DF0860/60EF5F53" Ref="R?"  Part="1" 
 AR Path="/60DF07DE/60EF5F53" Ref="R?"  Part="1" 
-AR Path="/60EE89A9/60EF5F53" Ref="R38"  Part="1" 
-F 0 "R38" H 8070 3396 50  0000 L CNN
+AR Path="/60EE89A9/60EF5F53" Ref="R39"  Part="1" 
+F 0 "R39" H 8070 3396 50  0000 L CNN
 F 1 "56k" H 8070 3305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7930 3350 50  0001 C CNN
 F 3 "~" H 8000 3350 50  0001 C CNN
@@ -153,13 +153,13 @@ Wire Wire Line
 Wire Wire Line
 	6000 4850 6000 4500
 Wire Wire Line
-	6000 4500 6500 4500
+	6000 4500 6200 4500
 Wire Wire Line
 	4800 4300 5250 4300
 Wire Wire Line
 	5250 4300 5250 5000
 Wire Wire Line
-	5250 5000 6500 5000
+	5250 5000 6100 5000
 Wire Wire Line
 	6800 5000 7500 5000
 Wire Wire Line
@@ -202,7 +202,7 @@ AR Path="/60EF6B1B/60F04BED" Ref="TP?"  Part="1"
 AR Path="/60EE89A9/60F04BED" Ref="TP18"  Part="1" 
 F 0 "TP18" H 8558 2618 50  0000 L CNN
 F 1 "TestPoint" H 8558 2527 50  0001 L CNN
-F 2 "" H 8700 2500 50  0001 C CNN
+F 2 "rata:TP" H 8700 2500 50  0001 C CNN
 F 3 "~" H 8700 2500 50  0001 C CNN
 	1    8500 2500
 	1    0    0    -1  
@@ -212,32 +212,18 @@ Wire Wire Line
 $Comp
 L rata-rescue:Conn_01x03_Male-Connector J8
 U 1 1 60E94A96
-P 8700 5400
-F 0 "J8" H 8672 5424 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 8672 5333 50  0000 R CNN
-F 2 "" H 8700 5400 50  0001 C CNN
-F 3 "~" H 8700 5400 50  0001 C CNN
-	1    8700 5400
+P 7450 5400
+F 0 "J8" H 7422 5424 50  0000 R CNN
+F 1 "PLS-3" H 7422 5333 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7450 5400 50  0001 C CNN
+F 3 "~" H 7450 5400 50  0001 C CNN
+	1    7450 5400
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7500 5000 8000 5000
+	7250 5400 6100 5400
 Wire Wire Line
-	6800 4500 8250 4500
-Wire Wire Line
-	8500 5400 8000 5400
-Wire Wire Line
-	8000 5400 8000 5000
-Connection ~ 8000 5000
-Wire Wire Line
-	8000 5000 9000 5000
-Wire Wire Line
-	8500 5300 8250 5300
-Wire Wire Line
-	8250 5300 8250 4500
-Connection ~ 8250 4500
-Wire Wire Line
-	8250 4500 9000 4500
+	7250 5300 6200 5300
 $Comp
 L rata-rescue:C-Device C?
 U 1 1 60FAF66E
@@ -281,7 +267,7 @@ AR Path="/60E6F2E9/60FAF674" Ref="C?"  Part="1"
 AR Path="/60EE89A9/60FAF674" Ref="C45"  Part="1" 
 F 0 "C45" H 6618 2696 50  0000 L CNN
 F 1 "100u" H 6618 2605 50  0000 L CNN
-F 2 "" H 6538 2500 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 6538 2500 50  0001 C CNN
 F 3 "~" H 6500 2650 50  0001 C CNN
 	1    6500 2650
 	1    0    0    -1  
@@ -291,7 +277,7 @@ Wire Wire Line
 	6500 2500 7000 2500
 Connection ~ 7000 2500
 Wire Wire Line
-	7000 2500 8500 2500
+	7000 2500 8000 2500
 Wire Wire Line
 	6500 2800 7000 2800
 Wire Wire Line
@@ -299,7 +285,7 @@ Wire Wire Line
 Connection ~ 7000 2800
 Connection ~ 7000 5500
 Wire Wire Line
-	7000 5500 8500 5500
+	7000 5500 7250 5500
 Wire Wire Line
 	5500 2500 6500 2500
 Connection ~ 6500 2500
@@ -308,4 +294,32 @@ Wire Wire Line
 Connection ~ 4400 4000
 Wire Wire Line
 	4400 5500 7000 5500
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 6162F1B9
+P 8000 2500
+F 0 "#FLG04" H 8000 2575 50  0001 C CNN
+F 1 "PWR_FLAG" H 8000 2673 50  0000 C CNN
+F 2 "" H 8000 2500 50  0001 C CNN
+F 3 "~" H 8000 2500 50  0001 C CNN
+	1    8000 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8000 2500
+Wire Wire Line
+	8000 2500 8500 2500
+Wire Wire Line
+	7500 5000 9000 5000
+Wire Wire Line
+	6800 4500 9000 4500
+Wire Wire Line
+	6100 5400 6100 5000
+Connection ~ 6100 5000
+Wire Wire Line
+	6100 5000 6500 5000
+Wire Wire Line
+	6200 5300 6200 4500
+Connection ~ 6200 4500
+Wire Wire Line
+	6200 4500 6500 4500
 $EndSCHEMATC

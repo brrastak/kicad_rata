@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 14 23
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "rata"
+Date "2021-09-25"
+Rev "1.0"
+Comp "Yuriy Volkov"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -26,7 +26,7 @@ AR Path="/60DF07DE/60F18F0D" Ref="TP?"  Part="1"
 AR Path="/60F1863C/60F18F0D" Ref="TP21"  Part="1" 
 F 0 "TP21" H 8558 3118 50  0000 L CNN
 F 1 "TestPoint" H 8558 3027 50  0001 L CNN
-F 2 "" H 8700 3000 50  0001 C CNN
+F 2 "rata:TP" H 8700 3000 50  0001 C CNN
 F 3 "~" H 8700 3000 50  0001 C CNN
 	1    8500 3000
 	1    0    0    -1  
@@ -113,8 +113,8 @@ AR Path="/60B39FE1/60F5D079" Ref="R?"  Part="1"
 AR Path="/609FED99/60F5D079" Ref="R?"  Part="1" 
 AR Path="/60DF0860/60F5D079" Ref="R?"  Part="1" 
 AR Path="/60DF07DE/60F5D079" Ref="R?"  Part="1" 
-AR Path="/60F1863C/60F5D079" Ref="R45"  Part="1" 
-F 0 "R45" H 6820 3796 50  0000 L CNN
+AR Path="/60F1863C/60F5D079" Ref="R46"  Part="1" 
+F 0 "R46" H 6820 3796 50  0000 L CNN
 F 1 "1k 1%" H 6820 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6680 3750 50  0001 C CNN
 F 3 "~" H 6750 3750 50  0001 C CNN
@@ -130,8 +130,8 @@ AR Path="/60B39FE1/60F5D07F" Ref="R?"  Part="1"
 AR Path="/609FED99/60F5D07F" Ref="R?"  Part="1" 
 AR Path="/60DF0860/60F5D07F" Ref="R?"  Part="1" 
 AR Path="/60DF07DE/60F5D07F" Ref="R?"  Part="1" 
-AR Path="/60F1863C/60F5D07F" Ref="R44"  Part="1" 
-F 0 "R44" H 6820 3196 50  0000 L CNN
+AR Path="/60F1863C/60F5D07F" Ref="R45"  Part="1" 
+F 0 "R45" H 6820 3196 50  0000 L CNN
 F 1 "2.7k 1%" H 6820 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6680 3150 50  0001 C CNN
 F 3 "~" H 6750 3150 50  0001 C CNN
@@ -196,7 +196,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3500 3000 3500
 Wire Wire Line
-	4500 3000 5000 3000
+	4500 3000 4800 3000
 Wire Wire Line
 	5800 3000 6250 3000
 Connection ~ 6250 3000
@@ -226,8 +226,8 @@ AR Path="/60B39FE1/60F633BE" Ref="R?"  Part="1"
 AR Path="/609FED99/60F633BE" Ref="R?"  Part="1" 
 AR Path="/60DF0860/60F633BE" Ref="R?"  Part="1" 
 AR Path="/60DF07DE/60F633BE" Ref="R?"  Part="1" 
-AR Path="/60F1863C/60F633BE" Ref="R47"  Part="1" 
-F 0 "R47" H 8070 3796 50  0000 L CNN
+AR Path="/60F1863C/60F633BE" Ref="R48"  Part="1" 
+F 0 "R48" H 8070 3796 50  0000 L CNN
 F 1 "1k 1%" H 8070 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7930 3750 50  0001 C CNN
 F 3 "~" H 8000 3750 50  0001 C CNN
@@ -243,8 +243,8 @@ AR Path="/60B39FE1/60F633C4" Ref="R?"  Part="1"
 AR Path="/609FED99/60F633C4" Ref="R?"  Part="1" 
 AR Path="/60DF0860/60F633C4" Ref="R?"  Part="1" 
 AR Path="/60DF07DE/60F633C4" Ref="R?"  Part="1" 
-AR Path="/60F1863C/60F633C4" Ref="R46"  Part="1" 
-F 0 "R46" H 8070 3196 50  0000 L CNN
+AR Path="/60F1863C/60F633C4" Ref="R47"  Part="1" 
+F 0 "R47" H 8070 3196 50  0000 L CNN
 F 1 "2.7k 1%" H 8070 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7930 3150 50  0001 C CNN
 F 3 "~" H 8000 3150 50  0001 C CNN
@@ -284,10 +284,10 @@ AR Path="/60B39FE1/60FD8AD9" Ref="R?"  Part="1"
 AR Path="/60DF1160/60F2690B/60FD8AD9" Ref="R?"  Part="1" 
 AR Path="/60DF1160/60FD8AD9" Ref="R?"  Part="1" 
 AR Path="/60DF212D/60FD8AD9" Ref="R?"  Part="1" 
-AR Path="/60F1863C/60FD8AD9" Ref="R43"  Part="1" 
-F 0 "R43" V 4000 2900 50  0000 L CNN
+AR Path="/60F1863C/60FD8AD9" Ref="R44"  Part="1" 
+F 0 "R44" V 4000 2900 50  0000 L CNN
 F 1 "0" V 3800 2950 50  0000 L CNN
-F 2 "" V 3830 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3830 3000 50  0001 C CNN
 F 3 "~" H 3900 3000 50  0001 C CNN
 	1    3900 3000
 	0    -1   -1   0   
@@ -306,7 +306,7 @@ AR Path="/60DF07DE/611C47E1" Ref="TP?"  Part="1"
 AR Path="/60F1863C/611C47E1" Ref="TP20"  Part="1" 
 F 0 "TP20" H 4308 3118 50  0000 L CNN
 F 1 "TestPoint" H 4308 3027 50  0001 L CNN
-F 2 "" H 4450 3000 50  0001 C CNN
+F 2 "rata:TP" H 4450 3000 50  0001 C CNN
 F 3 "~" H 4450 3000 50  0001 C CNN
 	1    4250 3000
 	1    0    0    -1  
@@ -325,7 +325,7 @@ AR Path="/60DF07DE/611C4C71" Ref="TP?"  Part="1"
 AR Path="/60F1863C/611C4C71" Ref="TP19"  Part="1" 
 F 0 "TP19" H 3558 3118 50  0000 L CNN
 F 1 "TestPoint" H 3558 3027 50  0001 L CNN
-F 2 "" H 3700 3000 50  0001 C CNN
+F 2 "rata:TP" H 3700 3000 50  0001 C CNN
 F 3 "~" H 3700 3000 50  0001 C CNN
 	1    3500 3000
 	1    0    0    -1  
@@ -335,4 +335,18 @@ Wire Wire Line
 	3500 3000 3000 3000
 Wire Wire Line
 	3500 3000 3750 3000
+$Comp
+L power:PWR_FLAG #FLG07
+U 1 1 615BADF8
+P 4800 3000
+F 0 "#FLG07" H 4800 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 4800 3173 50  0000 C CNN
+F 2 "" H 4800 3000 50  0001 C CNN
+F 3 "~" H 4800 3000 50  0001 C CNN
+	1    4800 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4800 3000
+Wire Wire Line
+	4800 3000 5000 3000
 $EndSCHEMATC

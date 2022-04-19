@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 23
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "rata"
+Date "2021-09-25"
+Rev "1.0"
+Comp "Yuriy Volkov"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -130,7 +130,7 @@ AR Path="/60DF212D/611C22D4" Ref="TP?"  Part="1"
 AR Path="/60E6F2E9/611C22D4" Ref="TP?"  Part="1" 
 F 0 "TP3" H 7608 3618 50  0000 L CNN
 F 1 "TestPoint" H 7608 3527 50  0001 L CNN
-F 2 "" H 7750 3500 50  0001 C CNN
+F 2 "rata:TP" H 7750 3500 50  0001 C CNN
 F 3 "~" H 7750 3500 50  0001 C CNN
 	1    7550 3500
 	1    0    0    -1  
@@ -150,7 +150,7 @@ AR Path="/60DF212D/611C22D6" Ref="TP?"  Part="1"
 AR Path="/60E6F2E9/611C22D6" Ref="TP?"  Part="1" 
 F 0 "TP1" H 5458 3618 50  0000 L CNN
 F 1 "TestPoint" H 5458 3527 50  0001 L CNN
-F 2 "" H 5600 3500 50  0001 C CNN
+F 2 "rata:TP" H 5600 3500 50  0001 C CNN
 F 3 "~" H 5600 3500 50  0001 C CNN
 	1    5400 3500
 	1    0    0    -1  
@@ -172,7 +172,7 @@ AR Path="/60DF212D/60DF0A64" Ref="TP?"  Part="1"
 AR Path="/60E6F2E9/60DF0A64" Ref="TP?"  Part="1" 
 F 0 "TP2" H 5458 4118 50  0000 L CNN
 F 1 "TestPoint" H 5458 4027 50  0001 L CNN
-F 2 "" H 5600 4000 50  0001 C CNN
+F 2 "rata:TP" H 5600 4000 50  0001 C CNN
 F 3 "~" H 5600 4000 50  0001 C CNN
 	1    5400 4000
 	1    0    0    -1  
@@ -200,7 +200,7 @@ AR Path="/60E6F2E9/611C22DA" Ref="C?"  Part="1"
 AR Path="/60EE89A9/611C22DA" Ref="C?"  Part="1" 
 F 0 "C12" H 4518 3796 50  0000 L CNN
 F 1 "100u" H 4518 3705 50  0000 L CNN
-F 2 "" H 4438 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4438 3600 50  0001 C CNN
 F 3 "~" H 4400 3750 50  0001 C CNN
 	1    4400 3750
 	1    0    0    -1  
