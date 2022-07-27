@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 23
+Sheet 23 23
 Title "rata"
 Date "2021-09-25"
 Rev "1.0"
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 7000 2250 2    197  ~ 0
-Boost converter +25V
+Boost converter +15V
 $Comp
 L rata-rescue:C-Device C?
 U 1 1 60A0DAB2
@@ -167,7 +167,7 @@ AR Path="/60B39FE1/60E80DA1" Ref="R?"  Part="1"
 AR Path="/609FED99/60E80DA1" Ref="R?"  Part="1" 
 AR Path="/60DF0860/60E80DA1" Ref="R15"  Part="1" 
 F 0 "R15" H 8070 4196 50  0000 L CNN
-F 1 "47k 1%" H 8070 4105 50  0000 L CNN
+F 1 "27k 1%" H 8070 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7930 4150 50  0001 C CNN
 F 3 "~" H 8000 4150 50  0001 C CNN
 	1    8000 4150
@@ -206,7 +206,7 @@ F 3 "~" H 6650 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text HLabel 9500 4000 2    50   Output ~ 0
-+25V_OUT
++15V_OUT
 Wire Wire Line
 	2500 4000 3500 4000
 Connection ~ 3500 4000
